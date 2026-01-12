@@ -19,7 +19,8 @@ let state = {
         religion: '',
         country: '',
         search: ''
-    }
+    },
+    sortBy: 'type' // 'type', 'strength-desc', 'strength-asc', 'name'
 };
 
 // Age order for comparison
@@ -118,10 +119,10 @@ function populateFilters() {
         relSelect.appendChild(optgroup);
     });
 
-    // Country filter - sorted alphabetically
+    // Country filter - sorted alphabetically by tag
     const countrySelect = document.getElementById('country-select');
     const countryList = Object.entries(data.countries)
-        .map(([tag, c]) => ({ tag, name: c.name || tag }))
+        .map(([tag, c]) => ({ tag, name: c.name || prettifyId(tag) }))
         .sort((a, b) => a.tag.localeCompare(b.tag));
 
     countryList.forEach(c => {
@@ -301,41 +302,84 @@ function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
     `;
 }
 
+// Get strength for sorting
+function getStrengthForSort(mover, direction) {
+    const effect = mover.value_effects.find(e =>
+        e.value_pair === state.selectedValue && e.direction === direction
+    );
+    return effect && effect.strength !== null ? effect.strength : 0;
+}
+
 // Render items for a panel
 function renderItems(movers, direction) {
     if (movers.length === 0) {
         return '<p class="placeholder">No matching items</p>';
     }
 
-    // Sort by type, then by name
-    const sorted = [...movers].sort((a, b) => {
-        if (a.type !== b.type) return a.type.localeCompare(b.type);
-        return a.name.localeCompare(b.name);
-    });
+    let sorted = [...movers];
 
-    // Group by type
-    const groups = {};
-    sorted.forEach(mover => {
-        const type = mover.type;
-        if (!groups[type]) groups[type] = [];
-        groups[type].push(mover);
-    });
+    // Apply sorting
+    switch (state.sortBy) {
+        case 'strength-desc':
+            sorted.sort((a, b) => getStrengthForSort(b, direction) - getStrengthForSort(a, direction));
+            break;
+        case 'strength-asc':
+            sorted.sort((a, b) => getStrengthForSort(a, direction) - getStrengthForSort(b, direction));
+            break;
+        case 'name':
+            sorted.sort((a, b) => a.name.localeCompare(b.name));
+            break;
+        case 'type':
+        default:
+            sorted.sort((a, b) => {
+                if (a.type !== b.type) return a.type.localeCompare(b.type);
+                return a.name.localeCompare(b.name);
+            });
+            break;
+    }
 
-    let html = '';
-    Object.entries(groups).forEach(([type, items]) => {
-        html += `<div class="item-group">
-            <div class="item-type-header">
-                ${prettifyId(type)}s (${items.length})
-            </div>`;
-
-        items.forEach(mover => {
-            html += renderItemCard(mover, direction);
+    // Group by type only if sorting by type
+    if (state.sortBy === 'type') {
+        const groups = {};
+        sorted.forEach(mover => {
+            const type = mover.type;
+            if (!groups[type]) groups[type] = [];
+            groups[type].push(mover);
         });
 
-        html += '</div>';
-    });
+        let html = '';
+        Object.entries(groups).forEach(([type, items]) => {
+            html += `<div class="item-group">
+                <div class="item-type-header">
+                    ${prettifyId(type)}s (${items.length})
+                </div>`;
 
-    return html;
+            items.forEach(mover => {
+                html += renderItemCard(mover, direction);
+            });
+
+            html += '</div>';
+        });
+
+        return html;
+    } else {
+        // Flat list for other sort modes
+        let html = '<div class="item-group">';
+        sorted.forEach(mover => {
+            html += renderItemCard(mover, direction);
+        });
+        html += '</div>';
+        return html;
+    }
+}
+
+// Get strength class for color coding
+function getStrengthClass(strength) {
+    if (strength === null) return 'strength-unknown';
+    if (strength >= 0.20) return 'strength-large';
+    if (strength >= 0.10) return 'strength-normal';
+    if (strength >= 0.05) return 'strength-minor';
+    return 'strength-tiny';
 }
 
 // Render a single item card
@@ -345,6 +389,7 @@ function renderItemCard(mover, direction) {
     );
 
     let strengthDisplay = effect.strength !== null ? effect.strength.toFixed(2) : effect.strength_raw;
+    const strengthClass = getStrengthClass(effect.strength);
 
     // Build requirements/source display
     const reqs = mover.requirements || {};
@@ -421,7 +466,7 @@ function renderItemCard(mover, direction) {
     }
 
     return `
-        <div class="item-card">
+        <div class="item-card ${strengthClass}">
             <div class="item-header">
                 <span class="item-name">${mover.name}</span>
                 <span class="item-strength">${strengthDisplay}/mo</span>
@@ -475,6 +520,12 @@ function setupEventListeners() {
             state.filters.search = e.target.value;
             updateItems();
         }, 200);
+    });
+
+    // Sort dropdown
+    document.getElementById('sort-select').addEventListener('change', (e) => {
+        state.sortBy = e.target.value;
+        updateItems();
     });
 }
 
