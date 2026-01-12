@@ -18,6 +18,8 @@ let state = {
         government: '',
         religion: '',
         country: '',
+        estate: '',
+        culture: '',
         search: ''
     },
     sortBy: 'type' // 'type', 'strength-desc', 'strength-asc', 'name'
@@ -96,6 +98,30 @@ function populateFilters() {
         option.value = id;
         option.textContent = gov.name;
         govSelect.appendChild(option);
+    });
+
+    // Estate filter
+    const estateSelect = document.getElementById('estate-select');
+    Object.entries(data.estates).forEach(([id, estate]) => {
+        const option = document.createElement('option');
+        option.value = id;
+        option.textContent = estate.name;
+        estateSelect.appendChild(option);
+    });
+
+    // Culture filter - extract unique cultures from movers
+    const cultureSelect = document.getElementById('culture-select');
+    const cultures = new Set();
+    data.movers.forEach(m => {
+        if (m.requirements && m.requirements.culture) {
+            m.requirements.culture.forEach(c => cultures.add(c));
+        }
+    });
+    [...cultures].sort().forEach(culture => {
+        const option = document.createElement('option');
+        option.value = culture;
+        option.textContent = prettifyId(culture);
+        cultureSelect.appendChild(option);
     });
 
     // Religion filter - group by religion group
@@ -216,6 +242,25 @@ function passesFilters(mover) {
         }
     }
 
+    // Estate check - only show privileges for selected estate
+    if (state.filters.estate) {
+        // If item is a privilege, it must match the selected estate
+        if (mover.type === 'privilege') {
+            if (mover.estate !== state.filters.estate) {
+                return false;
+            }
+        }
+        // Non-privilege items are hidden when estate filter is active
+        // (user is specifically looking for estate privileges)
+    }
+
+    // Culture check - hide if requires a DIFFERENT culture
+    if (state.filters.culture && reqs.culture && reqs.culture.length > 0) {
+        if (!reqs.culture.includes(state.filters.culture)) {
+            return false;
+        }
+    }
+
     return true;
 }
 
@@ -264,7 +309,8 @@ function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
     const value = data.values[state.selectedValue];
 
     const hasFilters = state.filters.age || state.filters.government ||
-                       state.filters.religion || state.filters.country;
+                       state.filters.religion || state.filters.country ||
+                       state.filters.estate || state.filters.culture;
 
     container.innerHTML = `
         <div class="value-info-section">
@@ -296,7 +342,27 @@ function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
                 ${state.filters.government ? `<span class="filter-tag">Gov: ${prettifyId(state.filters.government)}</span>` : ''}
                 ${state.filters.religion ? `<span class="filter-tag">Religion: ${prettifyId(state.filters.religion)}</span>` : ''}
                 ${state.filters.country ? `<span class="filter-tag">Country: ${state.filters.country}</span>` : ''}
+                ${state.filters.estate ? `<span class="filter-tag">Estate: ${prettifyId(state.filters.estate.replace('_estate', ''))}</span>` : ''}
+                ${state.filters.culture ? `<span class="filter-tag">Culture: ${prettifyId(state.filters.culture)}</span>` : ''}
                 ${!hasFilters ? '<span class="no-filters">None - showing all items</span>' : ''}
+            </div>
+        </div>
+
+        <div class="value-info-section">
+            <h3>Legend</h3>
+            <div class="legend">
+                <div class="legend-row"><span class="legend-bar strength-large"></span> 0.20/mo (large)</div>
+                <div class="legend-row"><span class="legend-bar strength-normal"></span> 0.10/mo (normal)</div>
+                <div class="legend-row"><span class="legend-bar strength-minor"></span> 0.05/mo (minor)</div>
+                <div class="legend-row"><span class="legend-bar strength-tiny"></span> 0.02/mo (tiny)</div>
+            </div>
+            <div class="tag-legend">
+                <span class="source-tag source-gov">Gov</span>
+                <span class="source-tag source-age">Age</span>
+                <span class="source-tag source-country">Country</span>
+                <span class="source-tag source-religion">Religion</span>
+                <span class="source-tag source-culture">Culture</span>
+                <span class="source-tag source-exclude">NOT:</span>
             </div>
         </div>
     `;
@@ -417,10 +483,6 @@ function renderItemCard(mover, direction) {
         sourceParts.push(`<span class="source-tag source-type">Building</span>`);
     } else if (mover.type === 'religious_aspect') {
         sourceParts.push(`<span class="source-tag source-type">Religious Aspect</span>`);
-        if (reqs.religion && reqs.religion.length > 0) {
-            const relNames = reqs.religion.slice(0, 3).map(prettifyId).join(', ');
-            sourceParts.push(`<span class="source-tag source-religion">${relNames}${reqs.religion.length > 3 ? '...' : ''}</span>`);
-        }
     } else if (mover.type === 'parliament_issue') {
         sourceParts.push(`<span class="source-tag source-type">Parliament</span>`);
     } else {
@@ -436,6 +498,29 @@ function renderItemCard(mover, direction) {
     if (reqs.country && reqs.country.length > 0) {
         const tags = [...new Set(reqs.country)].slice(0, 3);
         sourceParts.push(`<span class="source-tag source-country">${tags.join('/')}${reqs.country.length > 3 ? '...' : ''}</span>`);
+    }
+
+    // Religion requirement (for non-religious-aspect items)
+    if (mover.type !== 'religious_aspect' && reqs.religion && reqs.religion.length > 0) {
+        const relNames = reqs.religion.slice(0, 2).map(prettifyId).join('/');
+        sourceParts.push(`<span class="source-tag source-religion">${relNames}${reqs.religion.length > 2 ? '...' : ''}</span>`);
+    }
+
+    // Culture requirement
+    if (reqs.culture && reqs.culture.length > 0) {
+        const cultures = reqs.culture.slice(0, 2).map(prettifyId).join('/');
+        sourceParts.push(`<span class="source-tag source-culture">${cultures}${reqs.culture.length > 2 ? '...' : ''}</span>`);
+    }
+
+    // Excluded reforms (blocking conditions)
+    if (reqs.excluded_reforms && reqs.excluded_reforms.length > 0) {
+        const excluded = reqs.excluded_reforms.slice(0, 2).map(r => prettifyId(r.replace('government_reform:', '')));
+        sourceParts.push(`<span class="source-tag source-exclude">NOT: ${excluded.join('/')}${reqs.excluded_reforms.length > 2 ? '...' : ''}</span>`);
+    }
+
+    // Excluded countries
+    if (reqs.excluded_countries && reqs.excluded_countries.length > 0) {
+        sourceParts.push(`<span class="source-tag source-exclude">NOT: ${reqs.excluded_countries.join('/')}</span>`);
     }
 
     // Other effects this item has
@@ -509,6 +594,16 @@ function setupEventListeners() {
                 state.filters.religion = country.religion;
             }
         }
+        updateItems();
+    });
+
+    document.getElementById('estate-select').addEventListener('change', (e) => {
+        state.filters.estate = e.target.value;
+        updateItems();
+    });
+
+    document.getElementById('culture-select').addEventListener('change', (e) => {
+        state.filters.culture = e.target.value;
         updateItems();
     });
 

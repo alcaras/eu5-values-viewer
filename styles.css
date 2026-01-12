@@ -166,6 +166,28 @@ main { padding: 8px; max-width: 1800px; margin: 0 auto; }
 }
 .no-filters { font-size: 11px; color: var(--text-muted); }
 
+/* Legend */
+.legend { margin-bottom: 8px; }
+.legend-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    color: var(--text-dim);
+    margin-bottom: 2px;
+}
+.legend-bar {
+    width: 12px;
+    height: 8px;
+    border-radius: 1px;
+    border-left: 3px solid;
+}
+.legend-bar.strength-large { border-left-color: #f0883e; background: rgba(240,136,62,0.2); }
+.legend-bar.strength-normal { border-left-color: #79c0ff; background: rgba(121,192,255,0.15); }
+.legend-bar.strength-minor { border-left-color: #8b949e; background: rgba(139,148,158,0.1); }
+.legend-bar.strength-tiny { border-left-color: #484f58; background: rgba(72,79,88,0.1); }
+.tag-legend { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+
 /* Item groups */
 .item-group { margin-bottom: 8px; }
 .item-type-header {
@@ -238,6 +260,8 @@ main { padding: 8px; max-width: 1800px; margin: 0 auto; }
 .source-religion { color: #ffa657; }
 .source-age { color: var(--accent); }
 .source-country { color: #7ee787; }
+.source-culture { color: #58d1eb; }
+.source-exclude { color: #f85149; background: rgba(248,81,73,0.1); }
 
 /* Other effects */
 .other-effects {
