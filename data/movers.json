@@ -16457,6 +16457,1632 @@
     }
   },
   {
+    "id": "army_tradition",
+    "name": "Army Tradition",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "navy_tradition",
+    "name": "Navy Tradition",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "high_legitimacy",
+    "name": "High Legitimacy",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "high_republican_tradition",
+    "name": "High Republican Tradition",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "positive_self_control",
+    "name": "Positive Self Control",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "negative_self_control",
+    "name": "Negative Self Control",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "state_religion_clergy_ratio",
+    "name": "State Religion Clergy Ratio",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "proper_culture_nobles_ratio",
+    "name": "Proper Culture Nobles Ratio",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "left",
+        "target": "aristocracy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "soldier_percentage_in_country",
+    "name": "Soldier Percentage in Country",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "quality_vs_quantity",
+        "direction": "right",
+        "target": "quantity",
+        "strength": 0.5,
+        "strength_raw": "societal_value_huge_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "burghers_percentage_in_country",
+    "name": "Burghers Percentage in Country",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.5,
+        "strength_raw": "societal_value_huge_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "peasants_percentage_in_country",
+    "name": "Peasants Percentage in Country",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "larger_than_expected_army",
+    "name": "Larger Than Expected Army",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "at_war",
+    "name": "At War",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "at_peace",
+    "name": "At Peace",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "ruler_has_general_trait",
+    "name": "Ruler Has General Trait",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "ruler_has_admiral_trait",
+    "name": "Ruler Has Admiral Trait",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "attacker_in_war",
+    "name": "Attacker in War",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "defender_in_war",
+    "name": "Defender in War",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "right",
+        "target": "defensive",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "ruler_is_general",
+    "name": "Ruler Is General",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "ruler_is_admiral",
+    "name": "Ruler Is Admiral",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.1,
+        "strength_raw": "societal_value_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "heir_is_general",
+    "name": "Heir Is General",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "heir_is_admiral",
+    "name": "Heir Is Admiral",
+    "type": "auto_modifier",
+    "source": "auto_modifiers",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_monthly_move"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_monthly_move"
+      }
+    ],
+    "requirements": {}
+  },
+  {
+    "id": "pa_push_towards_decentralized_nobles",
+    "name": "Pa Push Towards Decentralized Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "right",
+        "target": "decentralization",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_decentralized_nobles",
+    "name": "Pa Move Towards Decentralized Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "right",
+        "target": "decentralization",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_aristocracy",
+    "name": "Pa Push Towards Aristocracy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "left",
+        "target": "aristocracy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_aristocracy",
+    "name": "Pa Move Towards Aristocracy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "left",
+        "target": "aristocracy",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_serfdom",
+    "name": "Pa Push Towards Serfdom",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "left",
+        "target": "serfdom",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_serfdom",
+    "name": "Pa Move Towards Serfdom",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "left",
+        "target": "serfdom",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_belligerent",
+    "name": "Pa Push Towards Belligerent",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_belligerent",
+    "name": "Pa Move Towards Belligerent",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_land",
+    "name": "Pa Push Towards Land",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_land",
+    "name": "Pa Move Towards Land",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_traditional_economy_nobles",
+    "name": "Pa Push Towards Traditional Economy Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_traditional_economy_nobles",
+    "name": "Pa Move Towards Traditional Economy Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_outward_nobles",
+    "name": "Pa Push Towards Outward Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_outward_nobles",
+    "name": "Pa Move Towards Outward Nobles",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "nobles_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "nobles_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_traditionalist",
+    "name": "Pa Push Towards Traditionalist",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "left",
+        "target": "traditionalist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_traditionalist",
+    "name": "Pa Move Towards Traditionalist",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "left",
+        "target": "traditionalist",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_spiritualist_clergy",
+    "name": "Pa Push Towards Spiritualist Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_spiritualist_clergy",
+    "name": "Pa Move Towards Spiritualist Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_communalism_clergy",
+    "name": "Pa Push Towards Communalism Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "right",
+        "target": "communalism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_communalism_clergy",
+    "name": "Pa Move Towards Communalism Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "right",
+        "target": "communalism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_inward_clergy",
+    "name": "Pa Push Towards Inward Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "right",
+        "target": "inward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_inward_clergy",
+    "name": "Pa Move Towards Inward Clergy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "clergy_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "right",
+        "target": "inward",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "clergy_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_innovative",
+    "name": "Pa Push Towards Innovative",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_innovative",
+    "name": "Pa Move Towards Innovative",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_humanist",
+    "name": "Pa Push Towards Humanist",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "right",
+        "target": "humanist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_humanist",
+    "name": "Pa Move Towards Humanist",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "right",
+        "target": "humanist",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_plutocracy",
+    "name": "Pa Push Towards Plutocracy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "right",
+        "target": "plutocracy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_plutocracy",
+    "name": "Pa Move Towards Plutocracy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "right",
+        "target": "plutocracy",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_free_subjects_burghers",
+    "name": "Pa Push Towards Free Subjects Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_free_subjects_burghers",
+    "name": "Pa Move Towards Free Subjects Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_conciliatory_burghers",
+    "name": "Pa Push Towards Conciliatory Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_conciliatory_burghers",
+    "name": "Pa Move Towards Conciliatory Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_naval",
+    "name": "Pa Push Towards Naval",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_naval",
+    "name": "Pa Move Towards Naval",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_capital_economy",
+    "name": "Pa Push Towards Capital Economy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_capital_economy",
+    "name": "Pa Move Towards Capital Economy",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_individualism",
+    "name": "Pa Push Towards Individualism",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "left",
+        "target": "individualism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_individualism",
+    "name": "Pa Move Towards Individualism",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "left",
+        "target": "individualism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_outward_burghers",
+    "name": "Pa Push Towards Outward Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_outward_burghers",
+    "name": "Pa Move Towards Outward Burghers",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "burghers_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "burghers_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_decentralized_peasants",
+    "name": "Pa Push Towards Decentralized Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "right",
+        "target": "decentralization",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_decentralized_peasants",
+    "name": "Pa Move Towards Decentralized Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "right",
+        "target": "decentralization",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_spiritualist_peasants",
+    "name": "Pa Push Towards Spiritualist Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_spiritualist_peasants",
+    "name": "Pa Move Towards Spiritualist Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_free_subjects_peasants",
+    "name": "Pa Push Towards Free Subjects Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_free_subjects_peasants",
+    "name": "Pa Move Towards Free Subjects Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_mercantilism",
+    "name": "Pa Push Towards Mercantilism",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "left",
+        "target": "mercantilism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_mercantilism",
+    "name": "Pa Move Towards Mercantilism",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "left",
+        "target": "mercantilism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_conciliatory_peasants",
+    "name": "Pa Push Towards Conciliatory Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_conciliatory_peasants",
+    "name": "Pa Move Towards Conciliatory Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_traditional_economy_peasants",
+    "name": "Pa Push Towards Traditional Economy Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_traditional_economy_peasants",
+    "name": "Pa Move Towards Traditional Economy Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_communalism_peasants",
+    "name": "Pa Push Towards Communalism Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "right",
+        "target": "communalism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_communalism_peasants",
+    "name": "Pa Move Towards Communalism Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "right",
+        "target": "communalism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_push_towards_inward_peasants",
+    "name": "Pa Push Towards Inward Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "right",
+        "target": "inward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "pa_move_towards_inward_peasants",
+    "name": "Pa Move Towards Inward Peasants",
+    "type": "parliament_agenda",
+    "source": "01_societal_values",
+    "estate": "peasants_estate",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "right",
+        "target": "inward",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "estate": [
+        "peasants_estate"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
     "id": "equality",
     "name": "Equality",
     "type": "employment_system",
