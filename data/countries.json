@@ -1,85 +1,85 @@
 {
   "YEM": {
     "tag": "YEM",
-    "name": "Yem",
+    "name": "Yemen",
     "religion": "sunni",
     "culture": "yemeni_culture"
   },
   "JRW": {
     "tag": "JRW",
-    "name": "Jrw",
+    "name": "Jarwanids",
     "religion": "shia",
     "culture": "bahrani_culture"
   },
   "OMA": {
     "tag": "OMA",
-    "name": "Oma",
+    "name": "Oman",
     "religion": "ibadi",
     "culture": "omani_culture"
   },
   "MEC": {
     "tag": "MEC",
-    "name": "Mec",
+    "name": "Mecca",
     "religion": "shia",
     "culture": "hijazi_culture"
   },
   "SHM": {
     "tag": "SHM",
-    "name": "Shm",
+    "name": "Shammar",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "ANZ": {
     "tag": "ANZ",
-    "name": "Anz",
+    "name": "Anizah",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "HUT": {
     "tag": "HUT",
-    "name": "Hut",
+    "name": "Hutaym",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "HRB": {
     "tag": "HRB",
-    "name": "Hrb",
+    "name": "Harb",
     "religion": "sunni",
     "culture": "hijazi_culture"
   },
   "MUT": {
     "tag": "MUT",
-    "name": "Mut",
+    "name": "Mutayr",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "UTB": {
     "tag": "UTB",
-    "name": "Utb",
+    "name": "Utaybah",
     "religion": "sunni",
     "culture": "hijazi_culture"
   },
   "DWS": {
     "tag": "DWS",
-    "name": "Dws",
+    "name": "Dawasir",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "QHT": {
     "tag": "QHT",
-    "name": "Qht",
+    "name": "Qahtan",
     "religion": "shia",
     "culture": "yemeni_culture"
   },
   "SBY": {
     "tag": "SBY",
-    "name": "Sby",
+    "name": "Subay",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "MRH": {
     "tag": "MRH",
-    "name": "Mrh",
+    "name": "Al Murrah",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
@@ -97,43 +97,43 @@
   },
   "MDA": {
     "tag": "MDA",
-    "name": "Mda",
+    "name": "Medina",
     "religion": "shia",
     "culture": "hijazi_culture"
   },
   "KLB": {
     "tag": "KLB",
-    "name": "Klb",
+    "name": "Banu Kilab",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "AAD": {
     "tag": "AAD",
-    "name": "Aad",
+    "name": "Al A'idh",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "BNL": {
     "tag": "BNL",
-    "name": "Bnl",
+    "name": "Banu Lam",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "AZF": {
     "tag": "AZF",
-    "name": "Azf",
+    "name": "Al-Zafir",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "ZIB": {
     "tag": "ZIB",
-    "name": "Zib",
+    "name": "Zi'b",
     "religion": "sunni",
     "culture": "najdi_culture"
   },
   "DHF": {
     "tag": "DHF",
-    "name": "Dhf",
+    "name": "Dhofar",
     "religion": "sunni",
     "culture": "dhofari_culture"
   },
@@ -4219,163 +4219,163 @@
   },
   "SGN": {
     "tag": "SGN",
-    "name": "Sgn",
+    "name": "Sonargaon",
     "religion": "sunni",
     "culture": "bengali"
   },
   "GAU": {
     "tag": "GAU",
-    "name": "Gau",
+    "name": "Gaur",
     "religion": "sunni",
     "culture": "bengali"
   },
   "STN": {
     "tag": "STN",
-    "name": "Stn",
+    "name": "Saptagram",
     "religion": "sunni",
     "culture": "bengali"
   },
   "AHO": {
     "tag": "AHO",
-    "name": "Aho",
+    "name": "Ahom",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "KMA": {
     "tag": "KMA",
-    "name": "Kma",
+    "name": "Kamata",
     "religion": "hindu",
     "culture": "kamarupi"
   },
   "DIM": {
     "tag": "DIM",
-    "name": "Dim",
+    "name": "Dimasa",
     "religion": "dimasa_religion",
     "culture": "dimasa_culture"
   },
   "TWI": {
     "tag": "TWI",
-    "name": "Twi",
+    "name": "Twipra",
     "religion": "hindu",
     "culture": "tripuri_culture"
   },
   "CUT": {
     "tag": "CUT",
-    "name": "Cut",
+    "name": "Chutia",
     "religion": "chutia_religion",
     "culture": "chutia_culture"
   },
   "JNT": {
     "tag": "JNT",
-    "name": "Jnt",
+    "name": "Jaintia",
     "religion": "hindu",
     "culture": "khasi_culture"
   },
   "TRF": {
     "tag": "TRF",
-    "name": "Trf",
+    "name": "Taraf",
     "religion": "sunni",
     "culture": "bengali"
   },
   "LUR": {
     "tag": "LUR",
-    "name": "Lur",
+    "name": "Laur",
     "religion": "hindu",
     "culture": "bengali"
   },
   "BHP": {
     "tag": "BHP",
-    "name": "Bhp",
+    "name": "Mallabhum/Bishnupur",
     "religion": "hindu",
     "culture": "bengali"
   },
   "CER": {
     "tag": "CER",
-    "name": "Cer",
+    "name": "Chero",
     "religion": "hindu",
     "culture": "bhojpuri_culture"
   },
   "UJJ": {
     "tag": "UJJ",
-    "name": "Ujj",
+    "name": "Ujjainiya",
     "religion": "hindu",
     "culture": "malvi"
   },
   "RKS": {
     "tag": "RKS",
-    "name": "Rks",
+    "name": "Raksel",
     "religion": "hindu",
     "culture": "nagpuri_culture"
   },
   "ONW": {
     "tag": "ONW",
-    "name": "Onw",
+    "name": "Oiniwar",
     "religion": "hindu",
     "culture": "maithili_culture"
   },
   "KKR": {
     "tag": "KKR",
-    "name": "Kkr",
+    "name": "Khokhra",
     "religion": "hindu",
     "culture": "nagpuri_culture"
   },
   "GWL": {
     "tag": "GWL",
-    "name": "Gwl",
+    "name": "Garhwal",
     "religion": "hindu",
     "culture": "garhwali"
   },
   "KHS": {
     "tag": "KHS",
-    "name": "Khs",
+    "name": "Khasa",
     "religion": "hindu",
     "culture": "khas_culture"
   },
   "KMN": {
     "tag": "KMN",
-    "name": "Kmn",
+    "name": "Kumaon",
     "religion": "hindu",
     "culture": "kumaoni"
   },
   "KTU": {
     "tag": "KTU",
-    "name": "Ktu",
+    "name": "Kathmandu",
     "religion": "tibetan_buddhism",
     "culture": "newar_culture"
   },
   "DTI": {
     "tag": "DTI",
-    "name": "Dti",
+    "name": "Doti",
     "religion": "hindu",
     "culture": "kumaoni"
   },
   "SRM": {
     "tag": "SRM",
-    "name": "Srm",
+    "name": "Nahan/Sirmur",
     "religion": "hindu",
     "culture": "garhwali"
   },
   "JBL": {
     "tag": "JBL",
-    "name": "Jbl",
+    "name": "Jubbal",
     "religion": "hindu",
     "culture": "kangri"
   },
   "LWA": {
     "tag": "LWA",
-    "name": "Lwa",
+    "name": "Limbuwan",
     "religion": "hindu",
     "culture": "limbu_culture"
   },
   "CDD": {
     "tag": "CDD",
-    "name": "Cdd",
+    "name": "Chaundandi",
     "religion": "hindu",
     "culture": "newar_culture"
   },
   "DGL": {
     "tag": "DGL",
-    "name": "Dgl",
+    "name": "Maldives",
     "religion": "sunni",
     "culture": "dhivehi_culture"
   },
@@ -4693,25 +4693,25 @@
   },
   "ORD": {
     "tag": "ORD",
-    "name": "Ord",
+    "name": "Ormond",
     "religion": "catholic",
     "culture": "anglo_irish"
   },
   "DMS": {
     "tag": "DMS",
-    "name": "Dms",
+    "name": "Desmond",
     "religion": "catholic",
     "culture": "anglo_irish"
   },
   "KID": {
     "tag": "KID",
-    "name": "Kid",
+    "name": "Kildare",
     "religion": "catholic",
     "culture": "anglo_irish"
   },
   "BEA": {
     "tag": "BEA",
-    "name": "Bea",
+    "name": "Beare",
     "religion": "catholic",
     "culture": "irish"
   },
@@ -4867,7 +4867,7 @@
   },
   "TGH": {
     "tag": "TGH",
-    "name": "Tgh",
+    "name": "Tireragh",
     "religion": "catholic",
     "culture": "irish"
   },
@@ -4879,7 +4879,7 @@
   },
   "FCL": {
     "tag": "FCL",
-    "name": "Fcl",
+    "name": "Firceall",
     "religion": "catholic",
     "culture": "irish"
   },
@@ -5071,163 +5071,163 @@
   },
   "GEO": {
     "tag": "GEO",
-    "name": "Geo",
+    "name": "Georgia",
     "religion": "orthodox",
     "culture": "georgian_culture"
   },
   "AAI": {
     "tag": "AAI",
-    "name": "Aai",
+    "name": "Alastani",
     "religion": "orthodox",
     "culture": "georgian_culture"
   },
   "IME": {
     "tag": "IME",
-    "name": "Ime",
+    "name": "Imereti",
     "religion": "orthodox",
     "culture": "georgian_culture"
   },
   "SME": {
     "tag": "SME",
-    "name": "Sme",
+    "name": "Samtskhe",
     "religion": "orthodox",
     "culture": "georgian_culture"
   },
   "SRV": {
     "tag": "SRV",
-    "name": "Srv",
+    "name": "Shirvan",
     "religion": "sunni",
     "culture": "adhari_culture"
   },
   "AVR": {
     "tag": "AVR",
-    "name": "Avr",
+    "name": "Avaria",
     "religion": "sunni",
     "culture": "avar_culture"
   },
   "TRK": {
     "tag": "TRK",
-    "name": "Trk",
+    "name": "Shamkhalate of Tarki",
     "religion": "sunni",
     "culture": "kumyk_culture"
   },
   "ARM": {
     "tag": "ARM",
-    "name": "Arm",
+    "name": "Armenia",
     "religion": "miaphysite",
     "culture": "armenian_culture"
   },
   "AMB": {
     "tag": "AMB",
-    "name": "Amb",
+    "name": "Amberd",
     "religion": "miaphysite",
     "culture": "armenian_culture"
   },
   "VDZ": {
     "tag": "VDZ",
-    "name": "Vdz",
+    "name": "Vayots Dzor",
     "religion": "miaphysite",
     "culture": "armenian_culture"
   },
   "CIR": {
     "tag": "CIR",
-    "name": "Cir",
+    "name": "Circassia",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "CPA": {
     "tag": "CPA",
-    "name": "Cpa",
+    "name": "Copa",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "HTY": {
     "tag": "HTY",
-    "name": "Hty",
+    "name": "Hatukay",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "HYT": {
     "tag": "HYT",
-    "name": "Hyt",
+    "name": "Hytuk",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "KDA": {
     "tag": "KDA",
-    "name": "Kda",
+    "name": "Kabardia",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "KIP": {
     "tag": "KIP",
-    "name": "Kip",
+    "name": "Kipike",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "TEM": {
     "tag": "TEM",
-    "name": "Tem",
+    "name": "Temirgoy",
     "religion": "orthodox",
     "culture": "circassian_culture"
   },
   "SKI": {
     "tag": "SKI",
-    "name": "Ski",
+    "name": "Shaki",
     "religion": "sunni",
     "culture": "adhari_culture"
   },
   "KCN": {
     "tag": "KCN",
-    "name": "Kcn",
+    "name": "Khachen",
     "religion": "miaphysite",
     "culture": "armenian_culture"
   },
   "SYU": {
     "tag": "SYU",
-    "name": "Syu",
+    "name": "Syunik",
     "religion": "miaphysite",
     "culture": "armenian_culture"
   },
   "ALN": {
     "tag": "ALN",
-    "name": "Aln",
+    "name": "Alania",
     "religion": "orthodox",
     "culture": "alan_culture"
   },
   "DZK": {
     "tag": "DZK",
-    "name": "Dzk",
+    "name": "Durdzuketia",
     "religion": "vainakh_paganism",
     "culture": "nakh_culture"
   },
   "SMS": {
     "tag": "SMS",
-    "name": "Sms",
+    "name": "Simsir",
     "religion": "orthodox",
     "culture": "nakh_culture"
   },
   "KAI": {
     "tag": "KAI",
-    "name": "Kai",
+    "name": "Kaitag",
     "religion": "orthodox",
     "culture": "dargin_culture"
   },
   "LEK": {
     "tag": "LEK",
-    "name": "Lek",
+    "name": "Lekhia",
     "religion": "lezgin_paganism",
     "culture": "lezgin_culture"
   },
   "RUT": {
     "tag": "RUT",
-    "name": "Rut",
+    "name": "Rutul",
     "religion": "lezgin_paganism",
     "culture": "lezgin_culture"
   },
   "TBA": {
     "tag": "TBA",
-    "name": "Tba",
+    "name": "Tabasaran",
     "religion": "lezgin_paganism",
     "culture": "lezgin_culture"
   },
@@ -5323,457 +5323,457 @@
   },
   "ABA": {
     "tag": "ABA",
-    "name": "Aba",
+    "name": "alba",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "ANC": {
     "tag": "ANC",
-    "name": "Anc",
+    "name": "ancona",
     "religion": "catholic",
     "culture": "median"
   },
   "AQU": {
     "tag": "AQU",
-    "name": "Aqu",
+    "name": "aquileia",
     "religion": "catholic",
     "culture": "friulian"
   },
   "ARB": {
     "tag": "ARB",
-    "name": "Arb",
+    "name": "arborea",
     "religion": "catholic",
     "culture": "sardinian"
   },
   "ARZ": {
     "tag": "ARZ",
-    "name": "Arz",
+    "name": "arezzo",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "ASC": {
     "tag": "ASC",
-    "name": "Asc",
+    "name": "ascoli",
     "religion": "catholic",
     "culture": "neapolitan"
   },
   "ASD": {
     "tag": "ASD",
-    "name": "Asd",
+    "name": "alessandria",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "ATI": {
     "tag": "ATI",
-    "name": "Ati",
+    "name": "asti",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "BLG": {
     "tag": "BLG",
-    "name": "Blg",
+    "name": "bologna",
     "religion": "catholic",
     "culture": "emilian"
   },
   "BRS": {
     "tag": "BRS",
-    "name": "Brs",
+    "name": "brescia",
     "religion": "catholic",
     "culture": "lombard"
   },
   "CAG": {
     "tag": "CAG",
-    "name": "Cag",
+    "name": "cagliari",
     "religion": "catholic",
     "culture": "sardinian"
   },
   "CDC": {
     "tag": "CDC",
-    "name": "Cdc",
+    "name": "cittadicastello",
     "religion": "catholic",
     "culture": "median"
   },
   "CEN": {
     "tag": "CEN",
-    "name": "Cen",
+    "name": "ceneda",
     "religion": "catholic",
     "culture": "venetian"
   },
   "CES": {
     "tag": "CES",
-    "name": "Ces",
+    "name": "cesena",
     "religion": "catholic",
     "culture": "emilian"
   },
   "CEV": {
     "tag": "CEV",
-    "name": "Cev",
+    "name": "ceva",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "CHX": {
     "tag": "CHX",
-    "name": "Chx",
+    "name": "chieri",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "CMR": {
     "tag": "CMR",
-    "name": "Cmr",
+    "name": "camerino",
     "religion": "catholic",
     "culture": "median"
   },
   "CNV": {
     "tag": "CNV",
-    "name": "Cnv",
+    "name": "canavese",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "COR": {
     "tag": "COR",
-    "name": "Cor",
+    "name": "corsica",
     "religion": "catholic",
     "culture": "corsican"
   },
   "COT": {
     "tag": "COT",
-    "name": "Cot",
+    "name": "cortona",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "CRM": {
     "tag": "CRM",
-    "name": "Crm",
+    "name": "cremona",
     "religion": "catholic",
     "culture": "lombard"
   },
   "CRR": {
     "tag": "CRR",
-    "name": "Crr",
+    "name": "Finale",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "FAB": {
     "tag": "FAB",
-    "name": "Fab",
+    "name": "fabriano",
     "religion": "catholic",
     "culture": "median"
   },
   "FAE": {
     "tag": "FAE",
-    "name": "Fae",
+    "name": "faenza",
     "religion": "catholic",
     "culture": "emilian"
   },
   "FEL": {
     "tag": "FEL",
-    "name": "Fel",
+    "name": "feltre",
     "religion": "catholic",
     "culture": "venetian"
   },
   "FER": {
     "tag": "FER",
-    "name": "Fer",
+    "name": "ferrara",
     "religion": "catholic",
     "culture": "emilian"
   },
   "FLO": {
     "tag": "FLO",
-    "name": "Flo",
+    "name": "florence",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "FRM": {
     "tag": "FRM",
-    "name": "Frm",
+    "name": "fermo",
     "religion": "catholic",
     "culture": "median"
   },
   "GAL": {
     "tag": "GAL",
-    "name": "Gal",
+    "name": "gallura",
     "religion": "catholic",
     "culture": "sardinian"
   },
   "GEN": {
     "tag": "GEN",
-    "name": "Gen",
+    "name": "genoa",
     "religion": "catholic",
     "culture": "ligurian"
   },
   "GUB": {
     "tag": "GUB",
-    "name": "Gub",
+    "name": "gubbio",
     "religion": "catholic",
     "culture": "median"
   },
   "IMO": {
     "tag": "IMO",
-    "name": "Imo",
+    "name": "imola",
     "religion": "catholic",
     "culture": "emilian"
   },
   "LUC": {
     "tag": "LUC",
-    "name": "Luc",
+    "name": "lucca",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "MAN": {
     "tag": "MAN",
-    "name": "Man",
+    "name": "mantua",
     "religion": "catholic",
     "culture": "emilian"
   },
   "MFA": {
     "tag": "MFA",
-    "name": "Mfa",
+    "name": "montferrat",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "MLO": {
     "tag": "MLO",
-    "name": "Mlo",
+    "name": "milan",
     "religion": "catholic",
     "culture": "lombard"
   },
   "MND": {
     "tag": "MND",
-    "name": "Mnd",
+    "name": "mondovi",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "MOD": {
     "tag": "MOD",
-    "name": "Mod",
+    "name": "modena",
     "religion": "catholic",
     "culture": "emilian"
   },
   "MSP": {
     "tag": "MSP",
-    "name": "Msp",
+    "name": "malaspina",
     "religion": "catholic",
     "culture": "emilian"
   },
   "MTA": {
     "tag": "MTA",
-    "name": "Mta",
+    "name": "macerata",
     "religion": "catholic",
     "culture": "median"
   },
   "NAP": {
     "tag": "NAP",
-    "name": "Nap",
+    "name": "naples",
     "religion": "catholic",
     "culture": "neapolitan"
   },
   "PAD": {
     "tag": "PAD",
-    "name": "Pad",
+    "name": "padua",
     "religion": "catholic",
     "culture": "venetian"
   },
   "PAP": {
     "tag": "PAP",
-    "name": "Pap",
+    "name": "papalstates",
     "religion": "catholic",
     "culture": "median"
   },
   "PAR": {
     "tag": "PAR",
-    "name": "Par",
+    "name": "parma",
     "religion": "catholic",
     "culture": "emilian"
   },
   "PAV": {
     "tag": "PAV",
-    "name": "Pav",
+    "name": "pavia",
     "religion": "catholic",
     "culture": "lombard"
   },
   "PEA": {
     "tag": "PEA",
-    "name": "Pea",
+    "name": "perugia",
     "religion": "catholic",
     "culture": "median"
   },
   "PES": {
     "tag": "PES",
-    "name": "Pes",
+    "name": "pesaro",
     "religion": "catholic",
     "culture": "emilian"
   },
   "PIE": {
     "tag": "PIE",
-    "name": "Pie",
+    "name": "Piedmont",
     "religion": "catholic",
     "culture": "piedmontese"
   },
   "PIO": {
     "tag": "PIO",
-    "name": "Pio",
+    "name": "piombino",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "PIS": {
     "tag": "PIS",
-    "name": "Pis",
+    "name": "pisa",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "PRA": {
     "tag": "PRA",
-    "name": "Pra",
+    "name": "prato",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "RAV": {
     "tag": "RAV",
-    "name": "Rav",
+    "name": "ravenna",
     "religion": "catholic",
     "culture": "emilian"
   },
   "RGG": {
     "tag": "RGG",
-    "name": "Rgg",
+    "name": "reggio",
     "religion": "catholic",
     "culture": "emilian"
   },
   "RIM": {
     "tag": "RIM",
-    "name": "Rim",
+    "name": "rimini",
     "religion": "catholic",
     "culture": "emilian"
   },
   "SAL": {
     "tag": "SAL",
-    "name": "Sal",
+    "name": "saluzzo",
     "religion": "catholic",
     "culture": "vivaro_alpine"
   },
   "SAV": {
     "tag": "SAV",
-    "name": "Sav",
+    "name": "savoy",
     "religion": "catholic",
     "culture": "arpitan"
   },
   "SCL": {
     "tag": "SCL",
-    "name": "Scl",
+    "name": "Saint-Claude Abbey",
     "religion": "catholic",
     "culture": "arpitan"
   },
   "GNV": {
     "tag": "GNV",
-    "name": "Gnv",
+    "name": "Geneve",
     "religion": "catholic",
     "culture": "arpitan"
   },
   "SIC": {
     "tag": "SIC",
-    "name": "Sic",
+    "name": "sicily",
     "religion": "catholic",
     "culture": "sicilian"
   },
   "SIE": {
     "tag": "SIE",
-    "name": "Sie",
+    "name": "siena",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "SPL": {
     "tag": "SPL",
-    "name": "Spl",
+    "name": "spoleto",
     "religion": "catholic",
     "culture": "median"
   },
   "PTG": {
     "tag": "PTG",
-    "name": "Ptg",
+    "name": "pitigliano",
     "religion": "catholic",
     "culture": "median"
   },
   "SSP": {
     "tag": "SSP",
-    "name": "Ssp",
+    "name": "sansepolcro",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "TNT": {
     "tag": "TNT",
-    "name": "Tnt",
+    "name": "trento",
     "religion": "catholic",
     "culture": "southern_bavarian"
   },
   "TOR": {
     "tag": "TOR",
-    "name": "Tor",
+    "name": "torres",
     "religion": "catholic",
     "culture": "sardinian"
   },
   "TRV": {
     "tag": "TRV",
-    "name": "Trv",
+    "name": "treviso",
     "religion": "catholic",
     "culture": "venetian"
   },
   "TTE": {
     "tag": "TTE",
-    "name": "Tte",
+    "name": "trieste",
     "religion": "catholic",
     "culture": "venetian"
   },
   "TTN": {
     "tag": "TTN",
-    "name": "Ttn",
+    "name": "tortona",
     "religion": "catholic",
     "culture": "emilian"
   },
   "URB": {
     "tag": "URB",
-    "name": "Urb",
+    "name": "urbino",
     "religion": "catholic",
     "culture": "emilian"
   },
   "VEN": {
     "tag": "VEN",
-    "name": "Ven",
+    "name": "venice",
     "religion": "catholic",
     "culture": "venetian"
   },
   "VER": {
     "tag": "VER",
-    "name": "Ver",
+    "name": "verona",
     "religion": "catholic",
     "culture": "venetian"
   },
   "VIN": {
     "tag": "VIN",
-    "name": "Vin",
+    "name": "vicenza",
     "religion": "catholic",
     "culture": "venetian"
   },
   "VLT": {
     "tag": "VLT",
-    "name": "Vlt",
+    "name": "volterra",
     "religion": "catholic",
     "culture": "tuscan"
   },
   "PRZ": {
     "tag": "PRZ",
-    "name": "Prz",
+    "name": "Peruzzi",
     "religion": "catholic",
     "culture": "peruzzi_bank_culture"
   },
   "BRD": {
     "tag": "BRD",
-    "name": "Brd",
+    "name": "Bardi",
     "religion": "catholic",
     "culture": "bardi_bank_culture"
   },
   "PST": {
     "tag": "PST",
-    "name": "Pst",
+    "name": "Pistoia",
     "religion": "catholic",
     "culture": "tuscan"
   },
@@ -6445,91 +6445,91 @@
   },
   "CHB": {
     "tag": "CHB",
-    "name": "Chb",
+    "name": "Chobanids",
     "religion": "shia",
     "culture": "mongolian_culture"
   },
   "MZF": {
     "tag": "MZF",
-    "name": "Mzf",
+    "name": "Muzaffarids",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "KRM": {
     "tag": "KRM",
-    "name": "Krm",
+    "name": "Kerman",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "INJ": {
     "tag": "INJ",
-    "name": "Inj",
+    "name": "Injuids",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "KHU": {
     "tag": "KHU",
-    "name": "Khu",
+    "name": "Khunj",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "KRT": {
     "tag": "KRT",
-    "name": "Krt",
+    "name": "Kartids",
     "religion": "sunni",
     "culture": "khorasani_culture"
   },
   "SRB": {
     "tag": "SRB",
-    "name": "Srb",
+    "name": "Sarbadars",
     "religion": "shia",
     "culture": "khorasani_culture"
   },
   "GRG": {
     "tag": "GRG",
-    "name": "Grg",
+    "name": "Gurgan  (Togha Temur)",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "MIH": {
     "tag": "MIH",
-    "name": "Mih",
+    "name": "Mihrabanids",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "KHN": {
     "tag": "KHN",
-    "name": "Khn",
+    "name": "Kharan",
     "religion": "sunni",
     "culture": "baloch_culture"
   },
   "SHB": {
     "tag": "SHB",
-    "name": "Shb",
+    "name": "Shabankara",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "JUR": {
     "tag": "JUR",
-    "name": "Jur",
+    "name": "Jurmanids",
     "religion": "tengri",
     "culture": "mongolian_culture"
   },
   "UGH": {
     "tag": "UGH",
-    "name": "Ugh",
+    "name": "Ughanids",
     "religion": "tengri",
     "culture": "mongolian_culture"
   },
   "HZP": {
     "tag": "HZP",
-    "name": "Hzp",
+    "name": "Hazaraspids",
     "religion": "sunni",
     "culture": "lur_culture"
   },
   "ORM": {
     "tag": "ORM",
-    "name": "Orm",
+    "name": "Ormus",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
@@ -6541,79 +6541,79 @@
   },
   "JSK": {
     "tag": "JSK",
-    "name": "Jsk",
+    "name": "Jask",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "MZN": {
     "tag": "MZN",
-    "name": "Mzn",
+    "name": "Tabaristan",
     "religion": "shia",
     "culture": "mazanderani_culture"
   },
   "BDS": {
     "tag": "BDS",
-    "name": "Bds",
+    "name": "Baduspanids",
     "religion": "shia",
     "culture": "mazanderani_culture"
   },
   "MKR": {
     "tag": "MKR",
-    "name": "Mkr",
+    "name": "Makran",
     "religion": "sunni",
     "culture": "baloch_culture"
   },
   "BMP": {
     "tag": "BMP",
-    "name": "Bmp",
+    "name": "Bampur",
     "religion": "sunni",
     "culture": "baloch_culture"
   },
   "BLA": {
     "tag": "BLA",
-    "name": "Bla",
+    "name": "Buleda",
     "religion": "sunni",
     "culture": "baloch_culture"
   },
   "KLW": {
     "tag": "KLW",
-    "name": "Klw",
+    "name": "Kolwa",
     "religion": "sunni",
     "culture": "baloch_culture"
   },
   "KHZ": {
     "tag": "KHZ",
-    "name": "Khz",
+    "name": "Khuzdar",
     "religion": "sunni",
     "culture": "sindhi"
   },
   "KLA": {
     "tag": "KLA",
-    "name": "Kla",
+    "name": "Kalat",
     "religion": "sunni",
     "culture": "brahui_culture"
   },
   "LCK": {
     "tag": "LCK",
-    "name": "Lck",
+    "name": "Khorshidi",
     "religion": "shia",
     "culture": "lur_culture"
   },
   "LST": {
     "tag": "LST",
-    "name": "Lst",
+    "name": "Larestan",
     "religion": "sunni",
     "culture": "achomi_culture"
   },
   "ERA": {
     "tag": "ERA",
-    "name": "Era",
+    "name": "Sasanian Empire / Eranshahr",
     "religion": "zoroastrian",
     "culture": "farsi_culture"
   },
   "HDN": {
     "tag": "HDN",
-    "name": "Hdn",
+    "name": "Hamadan",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
@@ -6625,151 +6625,151 @@
   },
   "KSA": {
     "tag": "KSA",
-    "name": "Ksa",
+    "name": "Kashan",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "ASR": {
     "tag": "ASR",
-    "name": "Asr",
+    "name": "Astarabad",
     "religion": "shia",
     "culture": "mazanderani_culture"
   },
   "JKR": {
     "tag": "JKR",
-    "name": "Jkr",
+    "name": "Jauni Kurban",
     "religion": "sunni",
     "culture": "oirat_culture"
   },
   "SFR": {
     "tag": "SFR",
-    "name": "Sfr",
+    "name": "Esfarayen",
     "religion": "sunni",
     "culture": "khorasani_culture"
   },
   "SBZ": {
     "tag": "SBZ",
-    "name": "Sbz",
+    "name": "Sabzevar",
     "religion": "sunni",
     "culture": "khorasani_culture"
   },
   "KHT": {
     "tag": "KHT",
-    "name": "Kht",
+    "name": "Kuhistan",
     "religion": "sunni",
     "culture": "khorasani_culture"
   },
   "MRV": {
     "tag": "MRV",
-    "name": "Mrv",
+    "name": "Merv",
     "religion": "sunni",
     "culture": "tajik_culture"
   },
   "KHF": {
     "tag": "KHF",
-    "name": "Khf",
+    "name": "Khaf",
     "religion": "sunni",
     "culture": "farsi_culture"
   },
   "HLG": {
     "tag": "HLG",
-    "name": "Hlg",
+    "name": "Huleguids",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "NGD": {
     "tag": "NGD",
-    "name": "Ngd",
+    "name": "Neguderi",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "QUN": {
     "tag": "QUN",
-    "name": "Qun",
+    "name": "Qara'unas",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "BSD": {
     "tag": "BSD",
-    "name": "Bsd",
+    "name": "Besüd",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "ART": {
     "tag": "ART",
-    "name": "Art",
+    "name": "Arlat",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "APD": {
     "tag": "APD",
-    "name": "Apd",
+    "name": "Apardi",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "SLD": {
     "tag": "SLD",
-    "name": "Sld",
+    "name": "Suldus",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "BRL": {
     "tag": "BRL",
-    "name": "Brl",
+    "name": "Barlas",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "YSU": {
     "tag": "YSU",
-    "name": "Ysu",
+    "name": "Yasa'uri",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "KTT": {
     "tag": "KTT",
-    "name": "Ktt",
+    "name": "Khuttal",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "JLY": {
     "tag": "JLY",
-    "name": "Jly",
+    "name": "Jalayirs",
     "religion": "sunni",
     "culture": "mongolian_culture"
   },
   "LHJ": {
     "tag": "LHJ",
-    "name": "Lhj",
+    "name": "Lahijan",
     "religion": "sunni",
     "culture": "gilak_culture"
   },
   "RNK": {
     "tag": "RNK",
-    "name": "Rnk",
+    "name": "Ranekouh",
     "religion": "sunni",
     "culture": "gilak_culture"
   },
   "FMN": {
     "tag": "FMN",
-    "name": "Fmn",
+    "name": "Fuman",
     "religion": "sunni",
     "culture": "gilak_culture"
   },
   "RSH": {
     "tag": "RSH",
-    "name": "Rsh",
+    "name": "Rasht",
     "religion": "sunni",
     "culture": "gilak_culture"
   },
   "TLM": {
     "tag": "TLM",
-    "name": "Tlm",
+    "name": "Tulam",
     "religion": "shia",
     "culture": "gilak_culture"
   },
   "ABL": {
     "tag": "ABL",
-    "name": "Abl",
+    "name": "Ardabil",
     "religion": "shia",
     "culture": "farsi_culture"
   },
@@ -7141,7 +7141,7 @@
   },
   "PNA": {
     "tag": "PNA",
-    "name": "Pna",
+    "name": "Punia in Jangladesh",
     "religion": "hindu",
     "culture": "bagri"
   },
@@ -7633,325 +7633,325 @@
   },
   "KHM": {
     "tag": "KHM",
-    "name": "Khm",
+    "name": "Khmer",
     "religion": "theravada",
     "culture": "khmer_culture"
   },
   "CHA": {
     "tag": "CHA",
-    "name": "Cha",
+    "name": "Champa",
     "religion": "hindu",
     "culture": "cham_culture"
   },
   "DAI": {
     "tag": "DAI",
-    "name": "Dai",
+    "name": "Dai Viet",
     "religion": "mahayana",
     "culture": "vietnamese_culture"
   },
   "SUK": {
     "tag": "SUK",
-    "name": "Suk",
+    "name": "Sukhothai",
     "religion": "theravada",
     "culture": "thai_culture"
   },
   "LNA": {
     "tag": "LNA",
-    "name": "Lna",
+    "name": "Lan Na",
     "religion": "theravada",
     "culture": "khon_muang_culture"
   },
   "LAV": {
     "tag": "LAV",
-    "name": "Lav",
+    "name": "Lavo",
     "religion": "theravada",
     "culture": "thai_culture"
   },
   "ADH": {
     "tag": "ADH",
-    "name": "Adh",
+    "name": "Ayodhya",
     "religion": "theravada",
     "culture": "thai_culture"
   },
   "PEG": {
     "tag": "PEG",
-    "name": "Peg",
+    "name": "Pegu / Hanthawaddy",
     "religion": "theravada",
     "culture": "mon_culture"
   },
   "SNG": {
     "tag": "SNG",
-    "name": "Sng",
+    "name": "Singapura",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "LIG": {
     "tag": "LIG",
-    "name": "Lig",
+    "name": "Ligor",
     "religion": "theravada",
     "culture": "dambro_culture"
   },
   "LGK": {
     "tag": "LGK",
-    "name": "Lgk",
+    "name": "Langkasuka",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "KED": {
     "tag": "KED",
-    "name": "Ked",
+    "name": "Kedah",
     "religion": "sunni",
     "culture": "malay_culture"
   },
   "PAH": {
     "tag": "PAH",
-    "name": "Pah",
+    "name": "Pahang",
     "religion": "mahayana",
     "culture": "malay_culture"
   },
   "SPN": {
     "tag": "SPN",
-    "name": "Spn",
+    "name": "Suphanburi",
     "religion": "theravada",
     "culture": "thai_culture"
   },
   "ARK": {
     "tag": "ARK",
-    "name": "Ark",
+    "name": "Arakan / Launggyet",
     "religion": "theravada",
     "culture": "rakhine_culture"
   },
   "PIN": {
     "tag": "PIN",
-    "name": "Pin",
+    "name": "Pinya",
     "religion": "theravada",
     "culture": "burmese_culture"
   },
   "SAG": {
     "tag": "SAG",
-    "name": "Sag",
+    "name": "Sagaing",
     "religion": "theravada",
     "culture": "burmese_culture"
   },
   "TNG": {
     "tag": "TNG",
-    "name": "Tng",
+    "name": "Toungoo",
     "religion": "theravada",
     "culture": "burmese_culture"
   },
   "BPR": {
     "tag": "BPR",
-    "name": "Bpr",
+    "name": "Prome",
     "religion": "theravada",
     "culture": "burmese_culture"
   },
   "PHY": {
     "tag": "PHY",
-    "name": "Phy",
+    "name": "Phayao",
     "religion": "theravada",
     "culture": "khon_muang_culture"
   },
   "PUA": {
     "tag": "PUA",
-    "name": "Pua",
+    "name": "Pua (Nan)",
     "religion": "theravada",
     "culture": "khon_muang_culture"
   },
   "MUA": {
     "tag": "MUA",
-    "name": "Mua",
+    "name": "Muang Sua",
     "religion": "mahayana",
     "culture": "lao_culture"
   },
   "VTN": {
     "tag": "VTN",
-    "name": "Vtn",
+    "name": "Vientiane",
     "religion": "mahayana",
     "culture": "lao_culture"
   },
   "CBK": {
     "tag": "CBK",
-    "name": "Cbk",
+    "name": "Nguu Hong (Cobra Kingdom) https://en.wikipedia.org/wiki/Ng%C6%B0u_H%E1%BB%91ng",
     "religion": "satsana_phi",
     "culture": "dai_culture"
   },
   "MYA": {
     "tag": "MYA",
-    "name": "Mya",
+    "name": "Mongyang",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MKA": {
     "tag": "MKA",
-    "name": "Mka",
+    "name": "Mongkawng",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "HKM": {
     "tag": "HKM",
-    "name": "Hkm",
+    "name": "Hkamti",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MKN": {
     "tag": "MKN",
-    "name": "Mkn",
+    "name": "Mong Kong",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "HHP": {
     "tag": "HHP",
-    "name": "Hhp",
+    "name": "Hsawng Hsup",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "HSE": {
     "tag": "HSE",
-    "name": "Hse",
+    "name": "Hsenwi",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "HSI": {
     "tag": "HSI",
-    "name": "Hsi",
+    "name": "Hsipaw",
     "religion": "satsana_phi",
     "culture": "tai_long_culture"
   },
   "MNI": {
     "tag": "MNI",
-    "name": "Mni",
+    "name": "Mongnai",
     "religion": "satsana_phi",
     "culture": "tai_long_culture"
   },
   "MGT": {
     "tag": "MGT",
-    "name": "Mgt",
+    "name": "Mongmit",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "KAL": {
     "tag": "KAL",
-    "name": "Kal",
+    "name": "Kale",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "WNT": {
     "tag": "WNT",
-    "name": "Wnt",
+    "name": "Wuntho",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "BHM": {
     "tag": "BHM",
-    "name": "Bhm",
+    "name": "Bhamo",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "KTG": {
     "tag": "KTG",
-    "name": "Ktg",
+    "name": "Kengtung",
     "religion": "satsana_phi",
     "culture": "tai_lu_culture"
   },
   "MLM": {
     "tag": "MLM",
-    "name": "Mlm",
+    "name": "Mong Lem",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "WAS": {
     "tag": "WAS",
-    "name": "Was",
+    "name": "Wa",
     "religion": "wa_religion",
     "culture": "wa_culture"
   },
   "JGP": {
     "tag": "JGP",
-    "name": "Jgp",
+    "name": "Jingpo / Jinghpaw / Kachin",
     "religion": "jingpo_religion",
     "culture": "jingpo_culture"
   },
   "KRN": {
     "tag": "KRN",
-    "name": "Krn",
+    "name": "Karen",
     "religion": "karen_religion",
     "culture": "karen_culture"
   },
   "MUO": {
     "tag": "MUO",
-    "name": "Muo",
+    "name": "Muong",
     "religion": "muong_religion",
     "culture": "muong_culture"
   },
   "ASL": {
     "tag": "ASL",
-    "name": "Asl",
+    "name": "Orang Asli",
     "religion": "orang_asli_religion",
     "culture": "orang_asli_culture"
   },
   "ZOO": {
     "tag": "ZOO",
-    "name": "Zoo",
+    "name": "Zo",
     "religion": "mizo_religion",
     "culture": "zo_culture"
   },
   "ZHU": {
     "tag": "ZHU",
-    "name": "Zhu",
+    "name": "Zhuang",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "MLB": {
     "tag": "MLB",
-    "name": "Mlb",
+    "name": "Kangleipak (Manipur)",
     "religion": "sanamahism",
     "culture": "meitei_culture"
   },
   "BES": {
     "tag": "BES",
-    "name": "Bes",
+    "name": "Beruas",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "MNJ": {
     "tag": "MNJ",
-    "name": "Mnj",
+    "name": "Manjung",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "PTC": {
     "tag": "PTC",
-    "name": "Ptc",
+    "name": "Petchaburi",
     "religion": "theravada",
     "culture": "thai_culture"
   },
   "TSM": {
     "tag": "TSM",
-    "name": "Tsm",
+    "name": "Tenasserim",
     "religion": "theravada",
     "culture": "mon_culture"
   },
   "DEG": {
     "tag": "DEG",
-    "name": "Deg",
+    "name": "Degar",
     "religion": "degar_religion",
     "culture": "degar_culture"
   },
   "BHN": {
     "tag": "BHN",
-    "name": "Bhn",
+    "name": "Bahnar",
     "religion": "bahnar_religion",
     "culture": "bahnar_culture"
   },
   "SED": {
     "tag": "SED",
-    "name": "Sed",
+    "name": "Bahnar",
     "religion": "sedang_religion",
     "culture": "sedang_culture"
   },
   "BVK": {
     "tag": "BVK",
-    "name": "Bvk",
+    "name": "Bru",
     "religion": "bru_religion",
     "culture": "bru_culture"
   },
@@ -7963,49 +7963,49 @@
   },
   "KMU": {
     "tag": "KMU",
-    "name": "Kmu",
+    "name": "Khmu",
     "religion": "satsana_phi",
     "culture": "khmu_culture"
   },
   "NAA": {
     "tag": "NAA",
-    "name": "Naa",
+    "name": "Naga",
     "religion": "naga_religion",
     "culture": "naga_culture"
   },
   "MAJ": {
     "tag": "MAJ",
-    "name": "Maj",
+    "name": "Majapahit",
     "religion": "hindu",
     "culture": "javanese_culture"
   },
   "BLI": {
     "tag": "BLI",
-    "name": "Bli",
+    "name": "Bali",
     "religion": "hindu",
     "culture": "balinese_culture"
   },
   "SUN": {
     "tag": "SUN",
-    "name": "Sun",
+    "name": "Sunda",
     "religion": "hindu",
     "culture": "sundanese_culture"
   },
   "JMB": {
     "tag": "JMB",
-    "name": "Jmb",
+    "name": "Jambi/Melayu/Dharmasraya",
     "religion": "mahayana",
     "culture": "malay_culture"
   },
   "ATJ": {
     "tag": "ATJ",
-    "name": "Atj",
+    "name": "Lambri/Lamuri/Aceh",
     "religion": "sunni",
     "culture": "acehnese_culture"
   },
   "PSA": {
     "tag": "PSA",
-    "name": "Psa",
+    "name": "Pasai",
     "religion": "sunni",
     "culture": "acehnese_culture"
   },
@@ -8017,445 +8017,445 @@
   },
   "PNI": {
     "tag": "PNI",
-    "name": "Pni",
+    "name": "Pannai",
     "religion": "mahayana",
     "culture": "malay_culture"
   },
   "BUS": {
     "tag": "BUS",
-    "name": "Bus",
+    "name": "Barus",
     "religion": "mahayana",
     "culture": "batak_culture"
   },
   "INR": {
     "tag": "INR",
-    "name": "Inr",
+    "name": "Indragiri",
     "religion": "mahayana",
     "culture": "malay_culture"
   },
   "SGT": {
     "tag": "SGT",
-    "name": "Sgt",
+    "name": "Siguntur",
     "religion": "mahayana",
     "culture": "minangkabau_culture"
   },
   "PLB": {
     "tag": "PLB",
-    "name": "Plb",
+    "name": "Palembang",
     "religion": "mahayana",
     "culture": "malay_culture"
   },
   "LGE": {
     "tag": "LGE",
-    "name": "Lge",
+    "name": "Linge",
     "religion": "sunni",
     "culture": "gayo_culture"
   },
   "TJP": {
     "tag": "TJP",
-    "name": "Tjp",
+    "name": "Tanjungpura",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "NSR": {
     "tag": "NSR",
-    "name": "Nsr",
+    "name": "Nan Sarunai",
     "religion": "kaharingan_religion",
     "culture": "maanyan_culture"
   },
   "KRP": {
     "tag": "KRP",
-    "name": "Krp",
+    "name": "Kuripan",
     "religion": "hindu",
     "culture": "banjar_culture"
   },
   "MRP": {
     "tag": "MRP",
-    "name": "Mrp",
+    "name": "Kutai Martapura",
     "religion": "hindu",
     "culture": "kutai_culture"
   },
   "KKG": {
     "tag": "KKG",
-    "name": "Kkg",
+    "name": "Kutai Kartanegara",
     "religion": "hindu",
     "culture": "kutai_culture"
   },
   "SMB": {
     "tag": "SMB",
-    "name": "Smb",
+    "name": "Sambas",
     "religion": "hindu",
     "culture": "bidayuh_culture"
   },
   "TDG": {
     "tag": "TDG",
-    "name": "Tdg",
+    "name": "Tidung",
     "religion": "kaharingan_religion",
     "culture": "tidung_culture"
   },
   "BEI": {
     "tag": "BEI",
-    "name": "Bei",
+    "name": "Brunei",
     "religion": "hindu",
     "culture": "malay_culture"
   },
   "MNU": {
     "tag": "MNU",
-    "name": "Mnu",
+    "name": "Melanau",
     "religion": "ipok_religion",
     "culture": "melanau_culture"
   },
   "SBG": {
     "tag": "SBG",
-    "name": "Sbg",
+    "name": "Santubong",
     "religion": "hindu",
     "culture": "iban_culture"
   },
   "SGU": {
     "tag": "SGU",
-    "name": "Sgu",
+    "name": "Sanggau",
     "religion": "hindu",
     "culture": "bidayuh_culture"
   },
   "LNK": {
     "tag": "LNK",
-    "name": "Lnk",
+    "name": "Landak",
     "religion": "hindu",
     "culture": "bidayuh_culture"
   },
   "SBU": {
     "tag": "SBU",
-    "name": "Sbu",
+    "name": "Selimbau",
     "religion": "hindu",
     "culture": "iban_culture"
   },
   "SLA": {
     "tag": "SLA",
-    "name": "Sla",
+    "name": "Silat",
     "religion": "kaharingan_religion",
     "culture": "bidayuh_culture"
   },
   "BLN": {
     "tag": "BLN",
-    "name": "Bln",
+    "name": "Bolaang",
     "religion": "malesung_religion",
     "culture": "mongondow_culture"
   },
   "GRT": {
     "tag": "GRT",
-    "name": "Grt",
+    "name": "Gorontalo",
     "religion": "gorontalo_religion",
     "culture": "gorontalo_culture"
   },
   "PJT": {
     "tag": "PJT",
-    "name": "Pjt",
+    "name": "Pudjananti",
     "religion": "tomanuru_religion",
     "culture": "kaili_culture"
   },
   "BGG": {
     "tag": "BGG",
-    "name": "Bgg",
+    "name": "Bangga",
     "religion": "tomanuru_religion",
     "culture": "kaili_culture"
   },
   "LUW": {
     "tag": "LUW",
-    "name": "Luw",
+    "name": "Luwu",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "BAI": {
     "tag": "BAI",
-    "name": "Bai",
+    "name": "Banggai",
     "religion": "banunut_religion",
     "culture": "banggai_culture"
   },
   "BTE": {
     "tag": "BTE",
-    "name": "Bte",
+    "name": "Bantaeng",
     "religion": "tolotang_religion",
     "culture": "makassarese_culture"
   },
   "GOW": {
     "tag": "GOW",
-    "name": "Gow",
+    "name": "Gowa",
     "religion": "tolotang_religion",
     "culture": "makassarese_culture"
   },
   "BOW": {
     "tag": "BOW",
-    "name": "Bow",
+    "name": "Bowontehu",
     "religion": "malesung_religion",
     "culture": "minahasan_culture"
   },
   "BTN": {
     "tag": "BTN",
-    "name": "Btn",
+    "name": "Buton",
     "religion": "buton_religion",
     "culture": "buton_culture"
   },
   "MKG": {
     "tag": "MKG",
-    "name": "Mkg",
+    "name": "Mekongga",
     "religion": "tolaki_religion",
     "culture": "tolaki_culture"
   },
   "KNW": {
     "tag": "KNW",
-    "name": "Knw",
+    "name": "Konawe",
     "religion": "tolaki_religion",
     "culture": "tolaki_culture"
   },
   "MRN": {
     "tag": "MRN",
-    "name": "Mrn",
+    "name": "Moronene",
     "religion": "tolaki_religion",
     "culture": "moronene_culture"
   },
   "CIN": {
     "tag": "CIN",
-    "name": "Cin",
+    "name": "Cina",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "KLS": {
     "tag": "KLS",
-    "name": "Kls",
+    "name": "Kalisusu",
     "religion": "buton_religion",
     "culture": "buton_culture"
   },
   "WUN": {
     "tag": "WUN",
-    "name": "Wun",
+    "name": "Muna",
     "religion": "buton_religion",
     "culture": "muna_culture"
   },
   "BNE": {
     "tag": "BNE",
-    "name": "Bne",
+    "name": "Bone",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "SDR": {
     "tag": "SDR",
-    "name": "Sdr",
+    "name": "Sidenreng",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "RRU": {
     "tag": "RRU",
-    "name": "Rru",
+    "name": "Barru",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "SIG": {
     "tag": "SIG",
-    "name": "Sig",
+    "name": "Siang",
     "religion": "tolotang_religion",
     "culture": "buginese_culture"
   },
   "PKR": {
     "tag": "PKR",
-    "name": "Pkr",
+    "name": "Passokkorang",
     "religion": "aluk_religion",
     "culture": "mandarese_culture"
   },
   "SLP": {
     "tag": "SLP",
-    "name": "Slp",
+    "name": "Selaparang",
     "religion": "hindu",
     "culture": "sasak_culture"
   },
   "BIM": {
     "tag": "BIM",
-    "name": "Bim",
+    "name": "Bima",
     "religion": "hindu",
     "culture": "bima_culture"
   },
   "DOM": {
     "tag": "DOM",
-    "name": "Dom",
+    "name": "Dompu",
     "religion": "hindu",
     "culture": "dompu_culture"
   },
   "NGL": {
     "tag": "NGL",
-    "name": "Ngl",
+    "name": "Ngali",
     "religion": "hindu",
     "culture": "sumbawa_culture"
   },
   "TLW": {
     "tag": "TLW",
-    "name": "Tlw",
+    "name": "Taliwang",
     "religion": "hindu",
     "culture": "sumbawa_culture"
   },
   "LRT": {
     "tag": "LRT",
-    "name": "Lrt",
+    "name": "Larantuka",
     "religion": "kirin_koda_religion",
     "culture": "lamaholot_culture"
   },
   "WHL": {
     "tag": "WHL",
-    "name": "Whl",
+    "name": "Wehale",
     "religion": "mahayana",
     "culture": "tetum_culture"
   },
   "BAC": {
     "tag": "BAC",
-    "name": "Bac",
+    "name": "Bacan",
     "religion": "kolano_religion",
     "culture": "bacan_culture"
   },
   "TER": {
     "tag": "TER",
-    "name": "Ter",
+    "name": "Ternate",
     "religion": "kolano_religion",
     "culture": "ternate_culture"
   },
   "TID": {
     "tag": "TID",
-    "name": "Tid",
+    "name": "Tidore",
     "religion": "kolano_religion",
     "culture": "tidore_culture"
   },
   "LOL": {
     "tag": "LOL",
-    "name": "Lol",
+    "name": "Loloda",
     "religion": "imunu_religion",
     "culture": "galela_culture"
   },
   "JLO": {
     "tag": "JLO",
-    "name": "Jlo",
+    "name": "Jailolo",
     "religion": "goma_religion",
     "culture": "tobelo_culture"
   },
   "MOO": {
     "tag": "MOO",
-    "name": "Moo",
+    "name": "Moro",
     "religion": "imunu_religion",
     "culture": "galela_culture"
   },
   "SUL": {
     "tag": "SUL",
-    "name": "Sul",
+    "name": "Lupah Sug",
     "religion": "hindu",
     "culture": "tausug_culture"
   },
   "MYI": {
     "tag": "MYI",
-    "name": "Myi",
+    "name": "Ma-i",
     "religion": "mahayana",
     "culture": "tagalog_culture"
   },
   "CEB": {
     "tag": "CEB",
-    "name": "Ceb",
+    "name": "Cebu",
     "religion": "hindu",
     "culture": "cebuano_culture"
   },
   "TDO": {
     "tag": "TDO",
-    "name": "Tdo",
+    "name": "Tondo",
     "religion": "hindu",
     "culture": "tagalog_culture"
   },
   "MNA": {
     "tag": "MNA",
-    "name": "Mna",
+    "name": "Maynila",
     "religion": "hindu",
     "culture": "tagalog_culture"
   },
   "MDY": {
     "tag": "MDY",
-    "name": "Mdy",
+    "name": "Madya-as",
     "religion": "anitism_religion",
     "culture": "hiligaynon_culture"
   },
   "PGS": {
     "tag": "PGS",
-    "name": "Pgs",
+    "name": "Caboloan (Pangasinan)",
     "religion": "mahayana",
     "culture": "pangasinan_culture"
   },
   "BTU": {
     "tag": "BTU",
-    "name": "Btu",
+    "name": "Butuan",
     "religion": "hindu",
     "culture": "butuanon_culture"
   },
   "MGD": {
     "tag": "MGD",
-    "name": "Mgd",
+    "name": "Wenduling (Maguindanao)",
     "religion": "anitism_religion",
     "culture": "maguindanao_culture"
   },
   "KIM": {
     "tag": "KIM",
-    "name": "Kim",
+    "name": "Kiliman (Buayan)",
     "religion": "anitism_religion",
     "culture": "tagakaulo_culture"
   },
   "LNO": {
     "tag": "LNO",
-    "name": "Lno",
+    "name": "Lanao",
     "religion": "anitism_religion",
     "culture": "iranun_culture"
   },
   "IBL": {
     "tag": "IBL",
-    "name": "Ibl",
+    "name": "Ibalon (Bikol)",
     "religion": "anitism_religion",
     "culture": "bicolano_culture"
   },
   "PLL": {
     "tag": "PLL",
-    "name": "Pll",
+    "name": "Pulilu",
     "religion": "anitism_religion",
     "culture": "tagalog_culture"
   },
   "TYY": {
     "tag": "TYY",
-    "name": "Tyy",
+    "name": "Taytay",
     "religion": "anitism_religion",
     "culture": "cuyonon_culture"
   },
   "KML": {
     "tag": "KML",
-    "name": "Kml",
+    "name": "Kumalarang",
     "religion": "anitism_religion",
     "culture": "sama_culture"
   },
   "CNT": {
     "tag": "CNT",
-    "name": "Cnt",
+    "name": "Cainta",
     "religion": "anitism_religion",
     "culture": "tagalog_culture"
   },
   "KAM": {
     "tag": "KAM",
-    "name": "Kam",
+    "name": "Kaimana",
     "religion": "imunu_religion",
     "culture": "buruwai_culture"
   },
   "BOL": {
     "tag": "BOL",
-    "name": "Bol",
+    "name": "Bool (Dapitan)",
     "religion": "anitism_religion",
     "culture": "boholano_culture"
   },
   "SML": {
     "tag": "SML",
-    "name": "Sml",
+    "name": "Sanmalan",
     "religion": "hindu",
     "culture": "subanon_culture"
   },
   "ILC": {
     "tag": "ILC",
-    "name": "Ilc",
+    "name": "Ilocos",
     "religion": "anitism_religion",
     "culture": "ilocano_culture"
   },
@@ -8779,13 +8779,13 @@
   },
   "KUK": {
     "tag": "KUK",
-    "name": "Kuk",
+    "name": "new tag, Kuku country",
     "religion": "sunni",
     "culture": "kabyle"
   },
   "AIT": {
     "tag": "AIT",
-    "name": "Ait",
+    "name": "new tag, Ait Babbas",
     "religion": "sunni",
     "culture": "kabyle"
   },
@@ -8803,7 +8803,7 @@
   },
   "DJE": {
     "tag": "DJE",
-    "name": "Dje",
+    "name": "new tag, former Djerid country",
     "religion": "ibadi",
     "culture": "eastern_amazigh"
   },
@@ -9241,7 +9241,7 @@
   },
   "OGK": {
     "tag": "OGK",
-    "name": "Ogk",
+    "name": "old german kingdom for Ruler History",
     "religion": "catholic",
     "culture": "lower_saxon"
   },
@@ -9259,7 +9259,7 @@
   },
   "VUD": {
     "tag": "VUD",
-    "name": "Vud",
+    "name": "Vaud",
     "religion": "catholic",
     "culture": "arpitan"
   },
@@ -11425,877 +11425,877 @@
   },
   "NTC": {
     "tag": "NTC",
-    "name": "Ntc",
+    "name": "Northern Court",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "STC": {
     "tag": "STC",
-    "name": "Stc",
+    "name": "Southern Court",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YMT": {
     "tag": "YMT",
-    "name": "Ymt",
+    "name": "Unified Japanese Imperial Court",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KOU": {
     "tag": "KOU",
-    "name": "Kou",
+    "name": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "HSK": {
     "tag": "HSK",
-    "name": "Hsk",
+    "name": "https://ja.wikipedia.org/wiki/%E7%B4%B0%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "AKM": {
     "tag": "AKM",
-    "name": "Akm",
+    "name": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%9D%BE%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "NKI": {
     "tag": "NKI",
-    "name": "Nki",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BB%81%E6%9C%A8%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KTB": {
     "tag": "KTB",
-    "name": "Ktb",
+    "name": "https://ja.wikipedia.org/wiki/%E5%8C%97%E7%95%A0%E5%AE%B6",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "CJO": {
     "tag": "CJO",
-    "name": "Cjo",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%A1%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "IMG": {
     "tag": "IMG",
-    "name": "Img",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BB%8A%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "ISD": {
     "tag": "ISD",
-    "name": "Isd",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%A1%94%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TKD": {
     "tag": "TKD",
-    "name": "Tkd",
+    "name": "https://ja.wikipedia.org/wiki/%E6%AD%A6%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "SBA": {
     "tag": "SBA",
-    "name": "Sba",
+    "name": "https://ja.wikipedia.org/wiki/%E6%96%AF%E6%B3%A2%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "CBA": {
     "tag": "CBA",
-    "name": "Cba",
+    "name": "https://ja.wikipedia.org/wiki/%E5%8D%83%E8%91%89%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "STK": {
     "tag": "STK",
-    "name": "Stk",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "KGK": {
     "tag": "KGK",
-    "name": "Kgk",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BA%AC%E6%A5%B5%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "TKI": {
     "tag": "TKI",
-    "name": "Tki",
+    "name": "https://ja.wikipedia.org/wiki/%E5%9C%9F%E5%B2%90%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OGS": {
     "tag": "OGS",
-    "name": "Ogs",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E7%AC%A0%E5%8E%9F%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "UES": {
     "tag": "UES",
-    "name": "Ues",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E6%9D%89%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OYM": {
     "tag": "OYM",
-    "name": "Oym",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%B1%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TGS": {
     "tag": "TGS",
-    "name": "Tgs",
+    "name": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%A8%AB%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YSM": {
     "tag": "YSM",
-    "name": "Ysm",
+    "name": "https://ja.wikipedia.org/wiki/%E5%90%89%E8%A6%8B%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MMI": {
     "tag": "MMI",
-    "name": "Mmi",
+    "name": "https://ja.wikipedia.org/wiki/%E6%A1%83%E4%BA%95%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KRA": {
     "tag": "KRA",
-    "name": "Kra",
+    "name": "https://ja.wikipedia.org/wiki/%E5%90%89%E8%89%AF%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YMN": {
     "tag": "YMN",
-    "name": "Ymn",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%90%8D%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "ENY": {
     "tag": "ENY",
-    "name": "Eny",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A1%A9%E5%86%B6%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "UEN": {
     "tag": "UEN",
-    "name": "Uen",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%8A%E9%87%8E%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "MTD": {
     "tag": "MTD",
-    "name": "Mtd",
+    "name": "http://www2.harimaya.com/sengoku/html/b_matuda.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MNM": {
     "tag": "MNM",
-    "name": "Mnm",
+    "name": "http://www2.harimaya.com/sengoku/html/minami.html",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "ASY": {
     "tag": "ASY",
-    "name": "Asy",
+    "name": "http://www2.harimaya.com/sengoku/html/asayama.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "WSZ": {
     "tag": "WSZ",
-    "name": "Wsz",
+    "name": "https://ja.wikipedia.org/wiki/%E9%B7%B2%E9%A0%AD%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KTO": {
     "tag": "KTO",
-    "name": "Kto",
+    "name": "https://ja.wikipedia.org/wiki/%E5%8E%9A%E6%9D%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "HTK": {
     "tag": "HTK",
-    "name": "Htk",
+    "name": "https://ja.wikipedia.org/wiki/%E7%95%A0%E5%B1%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "KNO": {
     "tag": "KNO",
-    "name": "Kno",
+    "name": "https://ja.wikipedia.org/wiki/%E6%B2%B3%E9%87%8E%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "SHN": {
     "tag": "SHN",
-    "name": "Shn",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B0%91%E5%BC%90%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "KII": {
     "tag": "KII",
-    "name": "Kii",
+    "name": "https://ja.wikipedia.org/wiki/%E5%9F%8E%E4%BA%95%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "OTM": {
     "tag": "OTM",
-    "name": "Otm",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%8F%8B%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "SMZ": {
     "tag": "SMZ",
-    "name": "Smz",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B3%B6%E6%B4%A5%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "NBU": {
     "tag": "NBU",
-    "name": "Nbu",
+    "name": "https://ja.wikipedia.org/wiki/%E5%8D%97%E9%83%A8%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "KDO": {
     "tag": "KDO",
-    "name": "Kdo",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B7%A5%E8%97%A4%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "OKI": {
     "tag": "OKI",
-    "name": "Oki",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B4%8E%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "MGM": {
     "tag": "MGM",
-    "name": "Mgm",
+    "name": "https://ja.wikipedia.org/wiki/%E6%9C%80%E4%B8%8A%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "KSI": {
     "tag": "KSI",
-    "name": "Ksi",
+    "name": "https://ja.wikipedia.org/wiki/%E8%91%9B%E8%A5%BF%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "SOM": {
     "tag": "SOM",
-    "name": "Som",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E9%A6%AC%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "DTE": {
     "tag": "DTE",
-    "name": "Dte",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%81%94%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "ASN": {
     "tag": "ASN",
-    "name": "Asn",
+    "name": "https://ja.wikipedia.org/wiki/%E8%98%86%E5%90%8D%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "YUK": {
     "tag": "YUK",
-    "name": "Yuk",
+    "name": "https://ja.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OID": {
     "tag": "OID",
-    "name": "Oid",
+    "name": "https://ja.wikipedia.org/wiki/%E9%87%8C%E8%A6%8B%E6%B0%8F#%E5%A4%A7%E4%BA%95%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OGU": {
     "tag": "OGU",
-    "name": "Ogu",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E5%9B%BD%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "UTN": {
     "tag": "UTN",
-    "name": "Utn",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%8B%E9%87%8E%E5%AE%87%E9%83%BD%E5%AE%AE%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "IIX": {
     "tag": "IIX",
-    "name": "Iix",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BA%95%E4%BC%8A%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "AKJ": {
     "tag": "AKJ",
-    "name": "Akj",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A7%89%E5%B0%8F%E8%B7%AF%E5%AE%B6",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "KSN": {
     "tag": "KSN",
-    "name": "Ksn",
+    "name": "https://ja.wikipedia.org/wiki/%E6%A5%A0%E6%9C%A8%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "ISK": {
     "tag": "ISK",
-    "name": "Isk",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%80%E8%89%B2%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "NAW": {
     "tag": "NAW",
-    "name": "Naw",
+    "name": "https://ja.wikipedia.org/wiki/%E5%90%8D%E5%92%8C%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MSD": {
     "tag": "MSD",
-    "name": "Msd",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9B%8A%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "OUC": {
     "tag": "OUC",
-    "name": "Ouc",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%86%85%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "TKN": {
     "tag": "TKN",
-    "name": "Tkn",
+    "name": "https://kotobank.jp/word/%E5%BE%97%E8%83%BD%E6%B0%8F-104865",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "DOI": {
     "tag": "DOI",
-    "name": "Doi",
+    "name": "http://www.harimaya.com/o_kamon1/buke_keizu/html/doi_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KNT": {
     "tag": "KNT",
-    "name": "Knt",
+    "name": "http://www2.harimaya.com/sengoku/html/kutuna_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "SHJ": {
     "tag": "SHJ",
-    "name": "Shj",
+    "name": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E6%9D%A1%E5%AE%B6",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YSR": {
     "tag": "YSR",
-    "name": "Ysr",
+    "name": "http://www2.harimaya.com/sengoku/html/wat_yama.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "KKC": {
     "tag": "KKC",
-    "name": "Kkc",
+    "name": "https://ja.wikipedia.org/wiki/%E8%8F%8A%E6%B1%A0%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "ASO": {
     "tag": "ASO",
-    "name": "Aso",
+    "name": "https://ja.wikipedia.org/wiki/%E9%98%BF%E8%98%87%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "SGR": {
     "tag": "SGR",
-    "name": "Sgr",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9B%B8%E8%89%AF%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "IJU": {
     "tag": "IJU",
-    "name": "Iju",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E9%9B%86%E9%99%A2%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KMT": {
     "tag": "KMT",
-    "name": "Kmt",
+    "name": "https://ja.wikipedia.org/wiki/%E8%82%9D%E4%BB%98%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "SOU": {
     "tag": "SOU",
-    "name": "Sou",
+    "name": "https://ja.wikipedia.org/wiki/%E5%AE%97%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "NAI": {
     "tag": "NAI",
-    "name": "Nai",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B1%9F%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "HEI": {
     "tag": "HEI",
-    "name": "Hei",
+    "name": "https://ja.wikipedia.org/wiki/%E9%96%89%E4%BC%8A%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "ANM": {
     "tag": "ANM",
-    "name": "Anm",
+    "name": "https://ja.wikipedia.org/wiki/%E9%98%BF%E6%9B%BD%E6%B2%BC%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "TZW": {
     "tag": "TZW",
-    "name": "Tzw",
+    "name": "https://ja.wikipedia.org/wiki/%E6%88%B8%E6%B2%A2%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "WAG": {
     "tag": "WAG",
-    "name": "Wag",
+    "name": "https://ja.wikipedia.org/wiki/%E5%92%8C%E8%B3%80%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "HIE": {
     "tag": "HIE",
-    "name": "Hie",
+    "name": "https://ja.wikipedia.org/wiki/%E7%A8%97%E8%B2%AB%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "SGE": {
     "tag": "SGE",
-    "name": "Sge",
+    "name": "https://ja.wikipedia.org/wiki/%E5%AF%92%E6%B2%B3%E6%B1%9F%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "DHJ": {
     "tag": "DHJ",
-    "name": "Dhj",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%AE%9D%E5%AF%BA%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "NGM": {
     "tag": "NGM",
-    "name": "Ngm",
+    "name": "https://ja.wikipedia.org/wiki/%E9%95%B7%E6%B2%BC%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "NKD": {
     "tag": "NKD",
-    "name": "Nkd",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BA%8C%E9%9A%8E%E5%A0%82%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TMR": {
     "tag": "TMR",
-    "name": "Tmr",
+    "name": "https://ja.wikipedia.org/wiki/%E7%94%B0%E6%9D%91%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "IWS": {
     "tag": "IWS",
-    "name": "Iws",
+    "name": "https://ja.wikipedia.org/wiki/%E7%8C%AA%E8%8B%97%E4%BB%A3%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "ISW": {
     "tag": "ISW",
-    "name": "Isw",
+    "name": "https://ja.wikipedia.org/wiki/%E9%99%B8%E5%A5%A5%E7%9F%B3%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "MIU": {
     "tag": "MIU",
-    "name": "Miu",
+    "name": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%B5%A6%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "SUW": {
     "tag": "SUW",
-    "name": "Suw",
+    "name": "https://ja.wikipedia.org/wiki/%E8%AB%8F%E8%A8%AA%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "RKK": {
     "tag": "RKK",
-    "name": "Rkk",
+    "name": "https://ja.wikipedia.org/wiki/%E5%85%AD%E8%A7%92%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MIY": {
     "tag": "MIY",
-    "name": "Miy",
+    "name": "http://www2.harimaya.com/sengoku/html/miya_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KKW": {
     "tag": "KKW",
-    "name": "Kkw",
+    "name": "https://ja.wikipedia.org/wiki/%E5%90%89%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MKT": {
     "tag": "MKT",
-    "name": "Mkt",
+    "name": "http://www2.harimaya.com/sengoku/html/muna_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "ASA": {
     "tag": "ASA",
-    "name": "Asa",
+    "name": "https://ja.wikipedia.org/wiki/%E6%9C%9D%E5%80%89%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "CSK": {
     "tag": "CSK",
-    "name": "Csk",
+    "name": "https://ja.wikipedia.org/wiki/%E9%95%B7%E5%AE%97%E6%88%91%E9%83%A8%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "ISE": {
     "tag": "ISE",
-    "name": "Ise",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "IKE": {
     "tag": "IKE",
-    "name": "Ike",
+    "name": "https://ja.wikipedia.org/wiki/%E6%B1%A0%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "ITO": {
     "tag": "ITO",
-    "name": "Ito",
+    "name": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E6%9D%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MRI": {
     "tag": "MRI",
-    "name": "Mri",
+    "name": "https://ja.wikipedia.org/wiki/%E6%AF%9B%E5%88%A9%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "ODA": {
     "tag": "ODA",
-    "name": "Oda",
+    "name": "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "AKT": {
     "tag": "AKT",
-    "name": "Akt",
+    "name": "https://ja.wikipedia.org/wiki/%E5%AE%89%E6%9D%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "touhoku_culture"
   },
   "ISA": {
     "tag": "ISA",
-    "name": "Isa",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B8%B8%E9%99%B8%E4%BC%8A%E4%BD%90%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TAK": {
     "tag": "TAK",
-    "name": "Tak",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%9A%E6%B0%97%E6%B0%8F a splint of https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%8E%BE%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "KNB": {
     "tag": "KNB",
-    "name": "Knb",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E9%87%8E%E8%BE%BA%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "HTA": {
     "tag": "HTA",
-    "name": "Hta",
+    "name": "http://www2.harimaya.com/sengoku/html/f_oda.html  Can't be put as Oda due to the clash with the other Oda, so put it as it's parent branch Hatta",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "MKO": {
     "tag": "MKO",
-    "name": "Mko",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9B%8A%E5%AD%90%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TKO": {
     "tag": "TKO",
-    "name": "Tko",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%9A%E5%8A%9F%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "NAS": {
     "tag": "NAS",
-    "name": "Nas",
+    "name": "https://ja.wikipedia.org/wiki/%E9%82%A3%E9%A0%88%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OGO": {
     "tag": "OGO",
-    "name": "Ogo",
+    "name": "http://www2.harimaya.com/sengoku/html/izumi_og.html",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "NIT": {
     "tag": "NIT",
-    "name": "Nit",
+    "name": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "YMG": {
     "tag": "YMG",
-    "name": "Ymg",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%8F%A3%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TOS": {
     "tag": "TOS",
-    "name": "Tos",
+    "name": "https://ja.wikipedia.org/wiki/%E8%B1%8A%E5%B3%B6%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "HNM": {
     "tag": "HNM",
-    "name": "Hnm",
+    "name": "https://ja.wikipedia.org/wiki/%E6%9C%AC%E9%96%93%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "UNN": {
     "tag": "UNN",
-    "name": "Unn",
+    "name": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%87%8E%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "KOK": {
     "tag": "KOK",
-    "name": "Kok",
+    "name": "https://ja.wikipedia.org/wiki/%E9%A6%99%E5%9D%82%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "TOY": {
     "tag": "TOY",
-    "name": "Toy",
+    "name": "https://ja.wikipedia.org/wiki/%E9%81%A0%E5%B1%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "HIG": {
     "tag": "HIG",
-    "name": "Hig",
+    "name": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "EMA": {
     "tag": "EMA",
-    "name": "Ema",
+    "name": "https://ja.wikipedia.org/wiki/%E6%B1%9F%E9%A6%AC%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "NKJ": {
     "tag": "NKJ",
-    "name": "Nkj",
+    "name": "http://www2.harimaya.com/sengoku/html/b_nakasi.html",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "OBA": {
     "tag": "OBA",
-    "name": "Oba",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%BA%AD%E6%B0%8F",
     "religion": "shinto",
     "culture": "tougoku_culture"
   },
   "NGN": {
     "tag": "NGN",
-    "name": "Ngn",
+    "name": "https://ja.wikipedia.org/wiki/%E9%95%B7%E9%87%8E%E5%B7%A5%E8%97%A4%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "TKM": {
     "tag": "TKM",
-    "name": "Tkm",
+    "name": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B3%B6%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "AIS": {
     "tag": "AIS",
-    "name": "Ais",
+    "name": "https://ja.wikipedia.org/wiki/%E6%84%9B%E6%B4%B2%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YUS": {
     "tag": "YUS",
-    "name": "Yus",
+    "name": "http://www2.harimaya.com/sengoku/html/yuasa_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "YAB": {
     "tag": "YAB",
-    "name": "Yab",
+    "name": "https://ja.wikipedia.org/wiki/%E7%9F%A2%E9%83%A8%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "OGA": {
     "tag": "OGA",
-    "name": "Oga",
+    "name": "http://www2.harimaya.com/sengoku/html/ho_ogamo.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "STU": {
     "tag": "STU",
-    "name": "Stu",
+    "name": "https://ja.wikipedia.org/wiki/%E6%9C%AB%E6%AC%A1%E6%B0%8F_(%E5%87%BA%E9%9B%B2%E6%BA%90%E6%B0%8F) Branch of Sasaki",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MZW": {
     "tag": "MZW",
-    "name": "Mzw",
+    "name": "http://www2.harimaya.com/sengoku/html/misawa_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MTY": {
     "tag": "MTY",
-    "name": "Mty",
+    "name": "http://www2.harimaya.com/sengoku/html/mitoya_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "AKN": {
     "tag": "AKN",
-    "name": "Akn",
+    "name": "http://www2.harimaya.com/sengoku/html/akana_kz.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "GTO": {
     "tag": "GTO",
-    "name": "Gto",
+    "name": "http://www.harimaya.com/o_kamon1/seisi/51-60/goto.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "SHO": {
     "tag": "SHO",
-    "name": "Sho",
+    "name": "http://www2.harimaya.com/sengoku/html/mim_syou.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "HRG": {
     "tag": "HRG",
-    "name": "Hrg",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B9%B3%E8%B3%80%E6%B0%8F (The one in Aki)",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KBK": {
     "tag": "KBK",
-    "name": "Kbk",
+    "name": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E6%97%A9%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "WCH": {
     "tag": "WCH",
-    "name": "Wch",
+    "name": "http://www2.harimaya.com/sengoku/html/wati_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MYH": {
     "tag": "MYH",
-    "name": "Myh",
+    "name": "http://www2.harimaya.com/sengoku/html/miyosi_b.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "SUE": {
     "tag": "SUE",
-    "name": "Sue",
+    "name": "https://ja.wikipedia.org/wiki/%E9%99%B6%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "MIG": {
     "tag": "MIG",
-    "name": "Mig",
+    "name": "https://ja.wikipedia.org/wiki/%E5%8F%B3%E7%94%B0%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KAG": {
     "tag": "KAG",
-    "name": "Kag",
+    "name": "https://ja.wikipedia.org/wiki/%E9%A6%99%E5%B7%9D%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KOZ": {
     "tag": "KOZ",
-    "name": "Koz",
+    "name": "http://www2.harimaya.com/sengoku/html/kosai_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "KNE": {
     "tag": "KNE",
-    "name": "Kne",
+    "name": "http://www2.harimaya.com/sengoku/html/h_kaneko.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "AKI": {
     "tag": "AKI",
-    "name": "Aki",
+    "name": "http://www2.harimaya.com/sengoku/html/aki_k.html",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "OHR": {
     "tag": "OHR",
-    "name": "Ohr",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%B9%B3%E6%B0%8F",
     "religion": "shinto",
     "culture": "saigoku_culture"
   },
   "BZG": {
     "tag": "BZG",
-    "name": "Bzg",
+    "name": "http://www2.harimaya.com/sengoku/html/b_nagano.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "AKZ": {
     "tag": "AKZ",
-    "name": "Akz",
+    "name": "https://ja.wikipedia.org/wiki/%E7%A7%8B%E6%9C%88%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "AKU": {
     "tag": "AKU",
-    "name": "Aku",
+    "name": "http://www2.harimaya.com/sengoku/html/hiz_taku.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "AHT": {
     "tag": "AHT",
-    "name": "Aht",
+    "name": "http://www2.harimaya.com/sengoku/html/hata_k.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "ARI": {
     "tag": "ARI",
-    "name": "Ari",
+    "name": "https://ja.wikipedia.org/wiki/%E8%82%A5%E5%89%8D%E6%9C%89%E9%A6%AC%E6%B0%8F",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "OKR": {
     "tag": "OKR",
-    "name": "Okr",
+    "name": "https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%94%B5%E6%B0%8F_(%E8%B1%8A%E5%BE%8C%E5%9B%BD)",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "TMD": {
     "tag": "TMD",
-    "name": "Tmd",
+    "name": "http://www2.harimaya.com/sengoku/html/tutimoti.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "KJK": {
     "tag": "KJK",
-    "name": "Kjk",
+    "name": "http://www2.harimaya.com/sengoku/html/kaziki_k.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
   "HSR": {
     "tag": "HSR",
-    "name": "Hsr",
+    "name": "http://www2.harimaya.com/sengoku/html/hisikari.html",
     "religion": "shinto",
     "culture": "kyushu_culture"
   },
@@ -12325,1129 +12325,1129 @@
   },
   "CHI": {
     "tag": "CHI",
-    "name": "Chi",
+    "name": "China",
     "religion": "tibetan_buddhism",
     "culture": "mongolian_culture"
   },
   "YUA": {
     "tag": "YUA",
-    "name": "Yua",
+    "name": "Yuán",
     "religion": "tibetan_buddhism",
     "culture": "mongolian_culture"
   },
   "MNG": {
     "tag": "MNG",
-    "name": "Mng",
+    "name": "Míng",
     "religion": "sanjiao",
     "culture": "jianghuai_culture"
   },
   "CSO": {
     "tag": "CSO",
-    "name": "Cso",
+    "name": "Song",
     "religion": "sanjiao",
     "culture": "zhongyuan_culture"
   },
   "WUU": {
     "tag": "WUU",
-    "name": "Wuu",
+    "name": "Wú",
     "religion": "sanjiao",
     "culture": "wu_culture"
   },
   "CTW": {
     "tag": "CTW",
-    "name": "Ctw",
+    "name": "Tiānwán",
     "religion": "sanjiao",
     "culture": "chu_culture"
   },
   "CHE": {
     "tag": "CHE",
-    "name": "Che",
+    "name": "Chén",
     "religion": "sanjiao",
     "culture": "chu_culture"
   },
   "CSH": {
     "tag": "CSH",
-    "name": "Csh",
+    "name": "Shùn",
     "religion": "sanjiao",
     "culture": "zhongyuan_culture"
   },
   "CXI": {
     "tag": "CXI",
-    "name": "Cxi",
+    "name": "Xí",
     "religion": "sanjiao",
     "culture": "shu_culture"
   },
   "CTG": {
     "tag": "CTG",
-    "name": "Ctg",
+    "name": "Tûng-nèn",
     "religion": "sanjiao",
     "culture": "kejia_culture"
   },
   "CFN": {
     "tag": "CFN",
-    "name": "Cfn",
+    "name": "Fāng",
     "religion": "sanjiao",
     "culture": "taizhou_wu_culture"
   },
   "CMO": {
     "tag": "CMO",
-    "name": "Cmo",
+    "name": "Māo",
     "religion": "sanjiao",
     "culture": "jiaodong_culture"
   },
   "CGU": {
     "tag": "CGU",
-    "name": "Cgu",
+    "name": "Guō",
     "religion": "sanjiao",
     "culture": "jianghuai_culture"
   },
   "CNP": {
     "tag": "CNP",
-    "name": "Cnp",
+    "name": "Nánpíng",
     "religion": "sanjiao",
     "culture": "fuzhou_culture"
   },
   "CDN": {
     "tag": "CDN",
-    "name": "Cdn",
+    "name": "Dōngguǎn",
     "religion": "sanjiao",
     "culture": "yuehai_culture"
   },
   "CSI": {
     "tag": "CSI",
-    "name": "Csi",
+    "name": "Lǐ",
     "religion": "sanjiao",
     "culture": "qin_culture"
   },
   "CKO": {
     "tag": "CKO",
-    "name": "Cko",
+    "name": "Köke Temür",
     "religion": "tibetan_buddhism",
     "culture": "mongolian_culture"
   },
   "CNA": {
     "tag": "CNA",
-    "name": "Cna",
+    "name": "Naγaču",
     "religion": "tibetan_buddhism",
     "culture": "mongolian_culture"
   },
   "MMA": {
     "tag": "MMA",
-    "name": "Mma",
+    "name": "Mong Mao",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MHK": {
     "tag": "MHK",
-    "name": "Mhk",
+    "name": "Mong Hkeng",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MHN": {
     "tag": "MHN",
-    "name": "Mhn",
+    "name": "Mong Hten",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MTG": {
     "tag": "MTG",
-    "name": "Mtg",
+    "name": "Mong Ting",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MGN": {
     "tag": "MGN",
-    "name": "Mgn",
+    "name": "Mong Ngüm",
     "religion": "satsana_phi",
     "culture": "tai_lu_culture"
   },
   "MHA": {
     "tag": "MHA",
-    "name": "Mha",
+    "name": "Mong Hsa",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "MWO": {
     "tag": "MWO",
-    "name": "Mwo",
+    "name": "Mong Wo",
     "religion": "satsana_phi",
     "culture": "tai_lu_culture"
   },
   "MGK": {
     "tag": "MGK",
-    "name": "Mgk",
+    "name": "Mong Ku",
     "religion": "satsana_phi",
     "culture": "tai_nua_culture"
   },
   "YNJ": {
     "tag": "YNJ",
-    "name": "Ynj",
+    "name": "Yuanjiang",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "NWU": {
     "tag": "NWU",
-    "name": "Nwu",
+    "name": "Niuwu",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "NYZ": {
     "tag": "NYZ",
-    "name": "Nyz",
+    "name": "Ningyuanzhou",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "NLU": {
     "tag": "NLU",
-    "name": "Nlu",
+    "name": "Nalou",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "YJI": {
     "tag": "YJI",
-    "name": "Yji",
+    "name": "Yanjing",
     "religion": "dongba_religion",
     "culture": "nashi_culture"
   },
   "BZH": {
     "tag": "BZH",
-    "name": "Bzh",
+    "name": "Beisheng",
     "religion": "dongba_religion",
     "culture": "nashi_culture"
   },
   "YAN": {
     "tag": "YAN",
-    "name": "Yan",
+    "name": "Yao'an",
     "religion": "mahayana",
     "culture": "bai_culture"
   },
   "HQG": {
     "tag": "HQG",
-    "name": "Hqg",
+    "name": "Heqing",
     "religion": "mahayana",
     "culture": "bai_culture"
   },
   "NNN": {
     "tag": "NNN",
-    "name": "Nnn",
+    "name": "Annan",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "AGN": {
     "tag": "AGN",
-    "name": "Agn",
+    "name": "Aning",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "MLE": {
     "tag": "MLE",
-    "name": "Mle",
+    "name": "Mile",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "JSI": {
     "tag": "JSI",
-    "name": "Jsi",
+    "name": "Jianshui",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "SPG": {
     "tag": "SPG",
-    "name": "Spg",
+    "name": "Shiping",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "NGZ": {
     "tag": "NGZ",
-    "name": "Ngz",
+    "name": "Ningzhou",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "LLS": {
     "tag": "LLS",
-    "name": "Lls",
+    "name": "Luoluosi",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "CGZ": {
     "tag": "CGZ",
-    "name": "Cgz",
+    "name": "Changzhou",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "XLG": {
     "tag": "XLG",
-    "name": "Xlg",
+    "name": "Xianlong",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "WDG": {
     "tag": "WDG",
-    "name": "Wdg",
+    "name": "Wuding",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "RND": {
     "tag": "RND",
-    "name": "Rnd",
+    "name": "Rende",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "DCN": {
     "tag": "DCN",
-    "name": "Dcn",
+    "name": "Dongchuan",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "WNG": {
     "tag": "WNG",
-    "name": "Wng",
+    "name": "Wumeng",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "MHU": {
     "tag": "MHU",
-    "name": "Mhu",
+    "name": "Mahu",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "LBO": {
     "tag": "LBO",
-    "name": "Lbo",
+    "name": "Leibo",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "YNL": {
     "tag": "YNL",
-    "name": "Ynl",
+    "name": "Yunlian",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "ZNX": {
     "tag": "ZNX",
-    "name": "Znx",
+    "name": "Zhenxiong",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "WSA": {
     "tag": "WSA",
-    "name": "Wsa",
+    "name": "Wusa",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "ZYI": {
     "tag": "ZYI",
-    "name": "Zyi",
+    "name": "Zhanyi",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "QJG": {
     "tag": "QJG",
-    "name": "Qjg",
+    "name": "Qujing",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "YZO": {
     "tag": "YZO",
-    "name": "Yzo",
+    "name": "Yizuo",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "MLG": {
     "tag": "MLG",
-    "name": "Mlg",
+    "name": "Malong",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "LLN": {
     "tag": "LLN",
-    "name": "Lln",
+    "name": "Luliang",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "LXG": {
     "tag": "LXG",
-    "name": "Lxg",
+    "name": "Luoxiong",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "GGX": {
     "tag": "GGX",
-    "name": "Ggx",
+    "name": "Guangxi",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "SZG": {
     "tag": "SZG",
-    "name": "Szg",
+    "name": "Shizong",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "SXI": {
     "tag": "SXI",
-    "name": "Sxi",
+    "name": "Shuixi",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "CLE": {
     "tag": "CLE",
-    "name": "Cle",
+    "name": "Chele",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "BZU": {
     "tag": "BZU",
-    "name": "Bzu",
+    "name": "Bozhou",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "NPG": {
     "tag": "NPG",
-    "name": "Npg",
+    "name": "Nanping",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "RNG": {
     "tag": "RNG",
-    "name": "Rng",
+    "name": "Rong",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "GNG": {
     "tag": "GNG",
-    "name": "Gng",
+    "name": "Gong",
     "religion": "satsana_phi",
     "culture": "bo_culture"
   },
   "ZNZ": {
     "tag": "ZNZ",
-    "name": "Znz",
+    "name": "Zhenzhou",
     "religion": "sui_religion",
     "culture": "sui_culture"
   },
   "SZU": {
     "tag": "SZU",
-    "name": "Szu",
+    "name": "Shizu",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "ZGL": {
     "tag": "ZGL",
-    "name": "Zgl",
+    "name": "Zhonglu",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "TGY": {
     "tag": "TGY",
-    "name": "Tgy",
+    "name": "Tangya",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "GLU": {
     "tag": "GLU",
-    "name": "Glu",
+    "name": "Gaoluo",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "RGM": {
     "tag": "RGM",
-    "name": "Rgm",
+    "name": "Rongmei",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "TNP": {
     "tag": "TNP",
-    "name": "Tnp",
+    "name": "Tianping",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "SGZ": {
     "tag": "SGZ",
-    "name": "Sgz",
+    "name": "Sangzhi",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "DWG": {
     "tag": "DWG",
-    "name": "Dwg",
+    "name": "Dawang",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "YGS": {
     "tag": "YGS",
-    "name": "Ygs",
+    "name": "Yongshun",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "BJG": {
     "tag": "BJG",
-    "name": "Bjg",
+    "name": "Baojing",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "YYG": {
     "tag": "YYG",
-    "name": "Yyg",
+    "name": "Youyang",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "PCD": {
     "tag": "PCD",
-    "name": "Pcd",
+    "name": "Pingchadong",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "SZH": {
     "tag": "SZH",
-    "name": "Szh",
+    "name": "Sizhou",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "YNH": {
     "tag": "YNH",
-    "name": "Ynh",
+    "name": "Yanhe",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "TXI": {
     "tag": "TXI",
-    "name": "Txi",
+    "name": "Tixi",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "TGR": {
     "tag": "TGR",
-    "name": "Tgr",
+    "name": "Tongren",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "QGS": {
     "tag": "QGS",
-    "name": "Qgs",
+    "name": "Qiongshui",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "WZH": {
     "tag": "WZH",
-    "name": "Wzh",
+    "name": "Wuzhai",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "PTZ": {
     "tag": "PTZ",
-    "name": "Ptz",
+    "name": "Pingtouzheke",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "LGQ": {
     "tag": "LGQ",
-    "name": "Lgq",
+    "name": "Longquan",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "RGS": {
     "tag": "RGS",
-    "name": "Rgs",
+    "name": "Rongshan",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "BNI": {
     "tag": "BNI",
-    "name": "Bni",
+    "name": "Baini",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "COG": {
     "tag": "COG",
-    "name": "Cog",
+    "name": "Caotang",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "XNL": {
     "tag": "XNL",
-    "name": "Xnl",
+    "name": "Xinlong",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "ALI": {
     "tag": "ALI",
-    "name": "Ali",
+    "name": "Kaili",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "SDG": {
     "tag": "SDG",
-    "name": "Sdg",
+    "name": "Shuidong",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "PYE": {
     "tag": "PYE",
-    "name": "Pye",
+    "name": "Pingyue",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "DZH": {
     "tag": "DZH",
-    "name": "Dzh",
+    "name": "Dizhai",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "XNG": {
     "tag": "XNG",
-    "name": "Xng",
+    "name": "Xianning",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "PDG": {
     "tag": "PDG",
-    "name": "Pdg",
+    "name": "Pingding",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "PDN": {
     "tag": "PDN",
-    "name": "Pdn",
+    "name": "Puding",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "PGB": {
     "tag": "PGB",
-    "name": "Pgb",
+    "name": "Pingba",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "PAN": {
     "tag": "PAN",
-    "name": "Pan",
+    "name": "Pu'an",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "YNN": {
     "tag": "YNN",
-    "name": "Ynn",
+    "name": "Yongning",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "LIN": {
     "tag": "LIN",
-    "name": "Lin",
+    "name": "Lai'an",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "NLG": {
     "tag": "NLG",
-    "name": "Nlg",
+    "name": "Anlong",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "SHG": {
     "tag": "SHG",
-    "name": "Shg",
+    "name": "Shanglin",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "QYN": {
     "tag": "QYN",
-    "name": "Qyn",
+    "name": "Qingyuan",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "NDN": {
     "tag": "NDN",
-    "name": "Ndn",
+    "name": "Nandan",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "DLN": {
     "tag": "DLN",
-    "name": "Dln",
+    "name": "Donglan",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "XCG": {
     "tag": "XCG",
-    "name": "Xcg",
+    "name": "Xingcheng",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "YSN": {
     "tag": "YSN",
-    "name": "Ysn",
+    "name": "Yongshun",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "TNZ": {
     "tag": "TNZ",
-    "name": "Tnz",
+    "name": "Tianzhou",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "ADG": {
     "tag": "ADG",
-    "name": "Adg",
+    "name": "Anding",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "DYG": {
     "tag": "DYG",
-    "name": "Dyg",
+    "name": "Duyang",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "ZNN": {
     "tag": "ZNN",
-    "name": "Znn",
+    "name": "Zhen'an",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "TPG": {
     "tag": "TPG",
-    "name": "Tpg",
+    "name": "Taiping",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "SMG": {
     "tag": "SMG",
-    "name": "Smg",
+    "name": "Siming",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "SGS": {
     "tag": "SGS",
-    "name": "Sgs",
+    "name": "Shangsi",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "GNN": {
     "tag": "GNN",
-    "name": "Gnn",
+    "name": "Guangnan",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "LZO": {
     "tag": "LZO",
-    "name": "Lzo",
+    "name": "Luozuo",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "FZH": {
     "tag": "FZH",
-    "name": "Fzh",
+    "name": "Fuzhou",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "LZI": {
     "tag": "LZI",
-    "name": "Lzi",
+    "name": "Liangzhai",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "SZI": {
     "tag": "SZI",
-    "name": "Szi",
+    "name": "Shezi",
     "religion": "moism",
     "culture": "zhuang_culture"
   },
   "DYN": {
     "tag": "DYN",
-    "name": "Dyn",
+    "name": "Duyun",
     "religion": "sui_religion",
     "culture": "sui_culture"
   },
   "LTU": {
     "tag": "LTU",
-    "name": "Ltu",
+    "name": "Lantu",
     "religion": "sui_religion",
     "culture": "sui_culture"
   },
   "GZH": {
     "tag": "GZH",
-    "name": "Gzh",
+    "name": "Guzhou",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "LPG": {
     "tag": "LPG",
-    "name": "Lpg",
+    "name": "Liping",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "ZLD": {
     "tag": "ZLD",
-    "name": "Zld",
+    "name": "Zhonglindong",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "HZH": {
     "tag": "HZH",
-    "name": "Hzh",
+    "name": "Hongzhou Poli",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "XSY": {
     "tag": "XSY",
-    "name": "Xsy",
+    "name": "Xishanyang",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "LNG": {
     "tag": "LNG",
-    "name": "Lng",
+    "name": "Liang",
     "religion": "tibetan_buddhism",
     "culture": "mongolian_culture"
   },
   "CDL": {
     "tag": "CDL",
-    "name": "Cdl",
+    "name": "Dali",
     "religion": "mahayana",
     "culture": "bai_culture"
   },
   "CHH": {
     "tag": "CHH",
-    "name": "Chh",
+    "name": "Chiang Hung",
     "religion": "satsana_phi",
     "culture": "tai_lu_culture"
   },
   "TIB": {
     "tag": "TIB",
-    "name": "Tib",
+    "name": "Tibet",
     "religion": "tibetan_buddhism",
     "culture": "utsang_culture"
   },
   "GUG": {
     "tag": "GUG",
-    "name": "Gug",
+    "name": "Guge",
     "religion": "tibetan_buddhism",
     "culture": "utsang_culture"
   },
   "PUR": {
     "tag": "PUR",
-    "name": "Pur",
+    "name": "Purang",
     "religion": "hindu",
     "culture": "utsang_culture"
   },
   "MAR": {
     "tag": "MAR",
-    "name": "Mar",
+    "name": "Maryul",
     "religion": "tibetan_buddhism",
     "culture": "ladakh_culture"
   },
   "ZNK": {
     "tag": "ZNK",
-    "name": "Znk",
+    "name": "Zanskar",
     "religion": "tibetan_buddhism",
     "culture": "ladakh_culture"
   },
   "CHG": {
     "tag": "CHG",
-    "name": "Chg",
+    "name": "Chagatai",
     "religion": "tengri",
     "culture": "mongolian_culture"
   },
   "TIM": {
     "tag": "TIM",
-    "name": "Tim",
+    "name": "Timurids",
     "religion": "sunni",
     "culture": "khorezmian_culture"
   },
   "QCH": {
     "tag": "QCH",
-    "name": "Qch",
+    "name": "Qocho",
     "religion": "mahayana",
     "culture": "uyghur_culture"
   },
   "MNL": {
     "tag": "MNL",
-    "name": "Mnl",
+    "name": "Mangalai",
     "religion": "tengri",
     "culture": "khorezmian_culture"
   },
   "MGG": {
     "tag": "MGG",
-    "name": "Mgg",
+    "name": "Mangyül Gungthang",
     "religion": "tibetan_buddhism",
     "culture": "utsang_culture"
   },
   "POO": {
     "tag": "POO",
-    "name": "Poo",
+    "name": "Powo",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "HOR": {
     "tag": "HOR",
-    "name": "Hor",
+    "name": "Hor States",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "LGT": {
     "tag": "LGT",
-    "name": "Lgt",
+    "name": "Lingtsang",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "DRG": {
     "tag": "DRG",
-    "name": "Drg",
+    "name": "Derge",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "NCN": {
     "tag": "NCN",
-    "name": "Ncn",
+    "name": "Nangchen",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "GNJ": {
     "tag": "GNJ",
-    "name": "Gnj",
+    "name": "Gonjo",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "BTG": {
     "tag": "BTG",
-    "name": "Btg",
+    "name": "Batang",
     "religion": "bon",
     "culture": "khampa_culture"
   },
   "NBH": {
     "tag": "NBH",
-    "name": "Nbh",
+    "name": "Nubhor",
     "religion": "bon",
     "culture": "khampa_culture"
   },
   "LTN": {
     "tag": "LTN",
-    "name": "Ltn",
+    "name": "Litang",
     "religion": "bon",
     "culture": "khampa_culture"
   },
   "NYA": {
     "tag": "NYA",
-    "name": "Nya",
+    "name": "Nyarong",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "GYT": {
     "tag": "GYT",
-    "name": "Gyt",
+    "name": "Gyelthang",
     "religion": "tibetan_buddhism",
     "culture": "khampa_culture"
   },
   "YNG": {
     "tag": "YNG",
-    "name": "Yng",
+    "name": "Yongning",
     "religion": "dongba_religion",
     "culture": "nashi_culture"
   },
   "TNQ": {
     "tag": "TNQ",
-    "name": "Tnq",
+    "name": "Tianquan",
     "religion": "bon",
     "culture": "gyalrong_culture"
   },
   "MCI": {
     "tag": "MCI",
-    "name": "Mci",
+    "name": "Muchi",
     "religion": "bon",
     "culture": "gyalrong_culture"
   },
   "WMO": {
     "tag": "WMO",
-    "name": "Wmo",
+    "name": "Weimao",
     "religion": "rmaism",
     "culture": "rma_culture"
   },
   "TSK": {
     "tag": "TSK",
-    "name": "Tsk",
+    "name": "Tsakho",
     "religion": "bon",
     "culture": "gyalrong_culture"
   },
   "SNP": {
     "tag": "SNP",
-    "name": "Snp",
+    "name": "Songpan",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "LGZ": {
     "tag": "LGZ",
-    "name": "Lgz",
+    "name": "Longzhou",
     "religion": "rmaism",
     "culture": "rma_culture"
   },
   "MNZ": {
     "tag": "MNZ",
-    "name": "Mnz",
+    "name": "Minzhou",
     "religion": "tibetan_buddhism",
     "culture": "qin_culture"
   },
   "TAZ": {
     "tag": "TAZ",
-    "name": "Taz",
+    "name": "Taozhou",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "KHG": {
     "tag": "KHG",
-    "name": "Khg",
+    "name": "Khagya",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "HEZ": {
     "tag": "HEZ",
-    "name": "Hez",
+    "name": "Hezhou",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "JIZ": {
     "tag": "JIZ",
-    "name": "Jiz",
+    "name": "Jishizhou",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "BIR": {
     "tag": "BIR",
-    "name": "Bir",
+    "name": "Biri",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "GYE": {
     "tag": "GYE",
-    "name": "Gye",
+    "name": "Gyelrong",
     "religion": "bon",
     "culture": "gyalrong_culture"
   },
   "GOL": {
     "tag": "GOL",
-    "name": "Gol",
+    "name": "Golog",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "CKL": {
     "tag": "CKL",
-    "name": "Ckl",
+    "name": "Minyag",
     "religion": "bon",
     "culture": "gyalrong_culture"
   },
   "AMD": {
     "tag": "AMD",
-    "name": "Amd",
+    "name": "Amdo",
     "religion": "tibetan_buddhism",
     "culture": "amdowa_culture"
   },
   "MSH": {
     "tag": "MSH",
-    "name": "Msh",
+    "name": "Mishmi",
     "religion": "mishmi_religion",
     "culture": "mishmi_culture"
   },
   "TAN": {
     "tag": "TAN",
-    "name": "Tan",
+    "name": "Tani",
     "religion": "donyi_polo_religion",
     "culture": "tani_culture"
   },
   "MNP": {
     "tag": "MNP",
-    "name": "Mnp",
+    "name": "Monpa",
     "religion": "monpa_religion",
     "culture": "monpa_culture"
   },
   "LMN": {
     "tag": "LMN",
-    "name": "Lmn",
+    "name": "Lho Mon",
     "religion": "tibetan_buddhism",
     "culture": "ngalop_culture"
   },
   "LJG": {
     "tag": "LJG",
-    "name": "Ljg",
+    "name": "Lijiang",
     "religion": "dongba_religion",
     "culture": "nashi_culture"
   },
   "SKK": {
     "tag": "SKK",
-    "name": "Skk",
+    "name": "Sikkim",
     "religion": "tibetan_buddhism",
     "culture": "sikkim_culture"
   },
   "DUR": {
     "tag": "DUR",
-    "name": "Dur",
+    "name": "Daur",
     "religion": "tengri",
     "culture": "daur_culture"
   },
   "EVK": {
     "tag": "EVK",
-    "name": "Evk",
+    "name": "Evenk",
     "religion": "tungusic_shamanism",
     "culture": "evenk_culture"
   },
   "NAN": {
     "tag": "NAN",
-    "name": "Nan",
+    "name": "Nanai",
     "religion": "tungusic_shamanism",
     "culture": "nanai_culture"
   },
   "NVK": {
     "tag": "NVK",
-    "name": "Nvk",
+    "name": "Nivkh",
     "religion": "tungusic_shamanism",
     "culture": "nivkh_culture"
   },
   "ORC": {
     "tag": "ORC",
-    "name": "Orc",
+    "name": "Oroch",
     "religion": "tungusic_shamanism",
     "culture": "oroch_culture"
   },
   "ORQ": {
     "tag": "ORQ",
-    "name": "Orq",
+    "name": "Oroqen",
     "religion": "tungusic_shamanism",
     "culture": "oroqen_culture"
   },
   "SIB": {
     "tag": "SIB",
-    "name": "Sib",
+    "name": "Sibe",
     "religion": "tungusic_shamanism",
     "culture": "sibe_culture"
   },
   "SOL": {
     "tag": "SOL",
-    "name": "Sol",
+    "name": "Solon",
     "religion": "tungusic_shamanism",
     "culture": "solon_culture"
   },
   "UDE": {
     "tag": "UDE",
-    "name": "Ude",
+    "name": "Udege",
     "religion": "tungusic_shamanism",
     "culture": "udege_culture"
   },
   "ULC": {
     "tag": "ULC",
-    "name": "Ulc",
+    "name": "Ulch",
     "religion": "tungusic_shamanism",
     "culture": "ulch_culture"
   },
   "WRK": {
     "tag": "WRK",
-    "name": "Wrk",
+    "name": "Warkha",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "HDA": {
     "tag": "HDA",
-    "name": "Hda",
+    "name": "Hada",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "HOI": {
     "tag": "HOI",
-    "name": "Hoi",
+    "name": "Hoifa",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
@@ -13459,127 +13459,127 @@
   },
   "YEH": {
     "tag": "YEH",
-    "name": "Yeh",
+    "name": "Yehe",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "DNG": {
     "tag": "DNG",
-    "name": "Dng",
+    "name": "Donggo",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "HJN": {
     "tag": "HJN",
-    "name": "Hjn",
+    "name": "Holjeon",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "HNE": {
     "tag": "HNE",
-    "name": "Hne",
+    "name": "Hunehe",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "HUL": {
     "tag": "HUL",
-    "name": "Hul",
+    "name": "Huligai",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "JEC": {
     "tag": "JEC",
-    "name": "Jec",
+    "name": "Jecen",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "JUS": {
     "tag": "JUS",
-    "name": "Jus",
+    "name": "Jusheli",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "MAO": {
     "tag": "MAO",
-    "name": "Mao",
+    "name": "Maolian",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "NEY": {
     "tag": "NEY",
-    "name": "Ney",
+    "name": "Neyen",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "ODO": {
     "tag": "ODO",
-    "name": "Odo",
+    "name": "Odoli",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "SSH": {
     "tag": "SSH",
-    "name": "Ssh",
+    "name": "Suksuhu",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "URY": {
     "tag": "URY",
-    "name": "Ury",
+    "name": "Uryangkhad",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "WGG": {
     "tag": "WGG",
-    "name": "Wgg",
+    "name": "Wanggiya",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "YAL": {
     "tag": "YAL",
-    "name": "Yal",
+    "name": "Yalu",
     "religion": "tungusic_shamanism",
     "culture": "jurchen_culture"
   },
   "KAD": {
     "tag": "KAD",
-    "name": "Kad",
+    "name": "Kam",
     "religion": "kam_religion",
     "culture": "kam_culture"
   },
   "TUJ": {
     "tag": "TUJ",
-    "name": "Tuj",
+    "name": "Tujia",
     "religion": "nuo_religion",
     "culture": "tujia_culture"
   },
   "MNE": {
     "tag": "MNE",
-    "name": "Mne",
+    "name": "Mien",
     "religion": "yao_religion",
     "culture": "yao_china_culture"
   },
   "MIO": {
     "tag": "MIO",
-    "name": "Mio",
+    "name": "Miao",
     "religion": "hmongism",
     "culture": "hmong_culture"
   },
   "HQQ": {
     "tag": "HQQ",
-    "name": "Hqq",
+    "name": "Hani",
     "religion": "hani_religion",
     "culture": "hani_culture"
   },
   "YII": {
     "tag": "YII",
-    "name": "Yii",
+    "name": "Yi",
     "religion": "bimoism",
     "culture": "yi_culture"
   },
   "DDI": {
     "tag": "DDI",
-    "name": "Ddi",
+    "name": "Dai",
     "religion": "satsana_phi",
     "culture": "dai_culture"
   }
