@@ -349,7 +349,7 @@ function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
                 ${state.filters.government ? `<span class="filter-tag">Gov: ${prettifyId(state.filters.government)}</span>` : ''}
                 ${state.filters.religion ? `<span class="filter-tag">Religion: ${prettifyId(state.filters.religion)}</span>` : ''}
                 ${state.filters.country ? `<span class="filter-tag">Country: ${state.filters.country}</span>` : ''}
-                ${state.filters.estate ? `<span class="filter-tag">Estate: ${prettifyId(state.filters.estate.replace('_estate', ''))}</span>` : ''}
+                ${state.filters.estate ? `<span class="filter-tag">Estate: ${prettifyId(typeof state.filters.estate === 'string' ? state.filters.estate.replace('_estate', '') : state.filters.estate)}</span>` : ''}
                 ${state.filters.culture ? `<span class="filter-tag">Culture: ${prettifyId(state.filters.culture)}</span>` : ''}
                 ${!hasFilters ? '<span class="no-filters">None - showing all items</span>' : ''}
             </div>
@@ -501,7 +501,7 @@ function renderItemCard(mover, direction) {
         }
     } else if (mover.type === 'privilege') {
         sourceParts.push(`<span class="source-tag source-type">Privilege</span>`);
-        if (mover.estate) {
+        if (mover.estate && typeof mover.estate === 'string') {
             sourceParts.push(`<span class="source-tag source-estate">${prettifyId(mover.estate.replace('_estate', ''))}</span>`);
         }
     } else if (mover.type === 'trait') {
@@ -541,7 +541,9 @@ function renderItemCard(mover, direction) {
 
     // Excluded reforms (blocking conditions)
     if (reqs.excluded_reforms && reqs.excluded_reforms.length > 0) {
-        const excluded = reqs.excluded_reforms.slice(0, 2).map(r => prettifyId(r.replace('government_reform:', '')));
+        const excluded = reqs.excluded_reforms.slice(0, 2).map(r =>
+            prettifyId(typeof r === 'string' ? r.replace('government_reform:', '') : r)
+        );
         sourceParts.push(`<span class="source-tag source-exclude">NOT: ${excluded.join('/')}${reqs.excluded_reforms.length > 2 ? '...' : ''}</span>`);
     }
 
@@ -571,7 +573,9 @@ function renderItemCard(mover, direction) {
     // Prerequisites (requires other reforms/privileges)
     let prereqHtml = '';
     if (reqs.has_reform && reqs.has_reform.length > 0) {
-        prereqHtml += `<div class="prereq">Requires: ${reqs.has_reform.map(r => prettifyId(r.replace('government_reform:', ''))).join(', ')}</div>`;
+        prereqHtml += `<div class="prereq">Requires: ${reqs.has_reform.map(r =>
+            prettifyId(typeof r === 'string' ? r.replace('government_reform:', '') : r)
+        ).join(', ')}</div>`;
     }
     if (reqs.has_privilege && reqs.has_privilege.length > 0) {
         prereqHtml += `<div class="prereq">Requires: ${reqs.has_privilege.map(prettifyId).join(', ')}</div>`;
@@ -670,6 +674,10 @@ function updateValueButtonAvailability() {
 // Utility: Prettify ID string
 function prettifyId(id) {
     if (!id) return '';
+    // Handle non-strings (objects, arrays, etc.)
+    if (typeof id !== 'string') {
+        id = String(id);
+    }
     return id
         .replace(/_/g, ' ')
         .replace(/\b\w/g, c => c.toUpperCase())
