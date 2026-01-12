@@ -2104,7 +2104,13 @@
       }
     ],
     "requirements": {
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "has_advance": [
+        "kouroukan_fouga_advance"
+      ],
+      "country": [
+        "MAL"
+      ]
     },
     "is_major": true,
     "is_unique": true
@@ -2496,7 +2502,13 @@
       }
     ],
     "requirements": {
-      "age": "age_3_discovery"
+      "age": "age_3_discovery",
+      "has_advance": [
+        "voivode_advance"
+      ],
+      "culture_group": [
+        "russian_group"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2758,6 +2770,9 @@
       "age": "age_2_renaissance",
       "country": [
         "BRB"
+      ],
+      "has_advance": [
+        "brb_brabantine_rights"
       ]
     },
     "is_major": false,
@@ -3435,7 +3450,11 @@
     "requirements": {
       "country": [
         "MLC"
-      ]
+      ],
+      "has_advance": [
+        "shahbandar"
+      ],
+      "age": "age_2_renaissance"
     },
     "is_major": false,
     "is_unique": true
@@ -4255,9 +4274,24 @@
     ],
     "requirements": {
       "has_or_condition": true,
+      "has_advance": [
+        "unlock_early_longbowmen_advance",
+        "unlock_longbowmen_advance",
+        "unlock_late_longbowmen_advance"
+      ],
       "government": [
         "monarchy"
-      ]
+      ],
+      "country": [
+        "WLS",
+        "ENG",
+        "GBR"
+      ],
+      "culture": [
+        "welsh",
+        "english"
+      ],
+      "age": "age_1_traditions"
     },
     "estate_preferences": [
       "peasants_estate"
@@ -5821,7 +5855,12 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_advance": [
+        "written_alphabet",
+        "printing_press_advance"
+      ],
+      "has_or_condition": true,
+      "age": "age_1_traditions"
     },
     "estate_preferences": [
       "burghers_estate",
@@ -5944,7 +5983,15 @@
     "requirements": {
       "culture": [
         "culture:portuguese"
-      ]
+      ],
+      "has_advance": [
+        "por_the_bandeirantes"
+      ],
+      "has_or_condition": true,
+      "country": [
+        "POR"
+      ],
+      "age": "age_4_reformation"
     },
     "estate_preferences": [
       "nobles_estate",
@@ -6437,7 +6484,14 @@
     "requirements": {
       "culture": [
         "culture:danish"
-      ]
+      ],
+      "has_advance": [
+        "dan_rentekammer_advance"
+      ],
+      "country": [
+        "DAN"
+      ],
+      "age": "age_3_discovery"
     },
     "estate_preferences": [
       "crown_estate"
@@ -6669,7 +6723,12 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "has_advance": [
+        "manufactories_advance"
+      ],
+      "age": "age_5_absolutism"
+    },
     "estate_preferences": [
       "burghers_estate",
       "peasants_estate"
@@ -7731,7 +7790,14 @@
       "culture": [
         "culture:danish"
       ],
-      "has_or_condition": true
+      "has_advance": [
+        "dan_danish_legislation"
+      ],
+      "has_or_condition": true,
+      "country": [
+        "DAN"
+      ],
+      "age": "age_5_absolutism"
     },
     "estate_preferences": [
       "crown_estate",
@@ -9839,7 +9905,15 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "has_advance": [
+        "kouroukan_fouga_advance"
+      ],
+      "country": [
+        "MAL"
+      ],
+      "age": "age_1_traditions"
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -12328,7 +12402,12 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "has_advance": [
+        "written_alphabet"
+      ],
+      "age": "age_1_traditions"
+    }
   },
   {
     "id": "clergy_strengthen_faith",
@@ -12701,7 +12780,11 @@
       "country": [
         "TUR"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "has_advance": [
+        "ottoman_tax_farming"
+      ],
+      "age": "age_5_absolutism"
     }
   },
   {
@@ -12849,7 +12932,11 @@
     "requirements": {
       "government": [
         "monarchy"
-      ]
+      ],
+      "has_advance": [
+        "noble_knights"
+      ],
+      "age": "age_1_traditions"
     }
   },
   {
@@ -12886,7 +12973,12 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "has_advance": [
+        "castle_advance"
+      ],
+      "age": "age_1_traditions"
+    }
   },
   {
     "id": "banal_lordship",
@@ -16144,9 +16236,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "castle_advance"
+      ],
       "estate": [
         "nobles_estate"
-      ]
+      ],
+      "age": "age_1_traditions"
     }
   },
   {
@@ -16165,9 +16261,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "bastion_advance"
+      ],
       "estate": [
         "nobles_estate"
-      ]
+      ],
+      "age": "age_4_reformation"
     }
   },
   {
@@ -16186,9 +16286,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "star_fort_advance"
+      ],
       "estate": [
         "nobles_estate"
-      ]
+      ],
+      "age": "age_5_absolutism"
     }
   },
   {
@@ -16207,9 +16311,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "fortress_advance"
+      ],
       "estate": [
         "nobles_estate"
-      ]
+      ],
+      "age": "age_6_revolutions"
     }
   },
   {
@@ -16228,10 +16336,14 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "opera_house_advance"
+      ],
       "has_or_condition": true,
       "estate": [
         "nobles_estate"
-      ]
+      ],
+      "age": "age_5_absolutism"
     }
   },
   {
@@ -16272,10 +16384,20 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "confucian_academy_advance"
+      ],
       "has_or_condition": true,
       "estate": [
         "clergy_estate"
-      ]
+      ],
+      "religion": [
+        "sanjiao"
+      ],
+      "culture_group": [
+        "confucian_group"
+      ],
+      "age": "age_2_renaissance"
     }
   },
   {
@@ -16294,9 +16416,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "cathedral_advance"
+      ],
       "estate": [
         "clergy_estate"
-      ]
+      ],
+      "age": "age_1_traditions"
     }
   },
   {
@@ -16362,9 +16488,13 @@
       }
     ],
     "requirements": {
+      "has_advance": [
+        "university_advance"
+      ],
       "estate": [
         "burghers_estate"
-      ]
+      ],
+      "age": "age_2_renaissance"
     }
   },
   {
@@ -18554,5 +18684,2374 @@
       }
     ],
     "requirements": {}
+  },
+  {
+    "id": "flavor_ara.104_a",
+    "name": "Flavor Ara.104 (a)",
+    "type": "event_choice",
+    "source": "flavor_ARA",
+    "event_id": "flavor_ara.104",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "ARA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_ara.203_a",
+    "name": "Flavor Ara.203 (a)",
+    "type": "event_choice",
+    "source": "flavor_ARA",
+    "event_id": "flavor_ara.203",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.38_a",
+    "name": "Flavor Cas.38 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.38",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "CAS",
+        "SPA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.52_a",
+    "name": "Flavor Cas.52 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.52",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "individualism_vs_communalism",
+        "direction": "right",
+        "target": "communalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      },
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "CAS",
+        "SPA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.126_a",
+    "name": "Flavor Cas.126 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.126",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "CAS",
+        "SPA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.134_a",
+    "name": "Flavor Cas.134 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.134",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_advance": [
+        "spa_siglo_de_oro"
+      ],
+      "country": [
+        "CAS",
+        "SPA"
+      ],
+      "age": "age_5_absolutism"
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.1802_a",
+    "name": "Flavor Cas.1802 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.1802",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "left",
+        "target": "aristocracy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "CAS",
+        "SPA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.1803_a",
+    "name": "Flavor Cas.1803 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.1803",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "right",
+        "target": "plutocracy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "CAS"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_cas.2606_a",
+    "name": "Flavor Cas.2606 (a)",
+    "type": "event_choice",
+    "source": "flavor_CAS",
+    "event_id": "flavor_cas.2606",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_eng.38_a",
+    "name": "Flavor Eng.38 (a)",
+    "type": "event_choice",
+    "source": "flavor_ENG",
+    "event_id": "flavor_eng.38",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "ENG",
+        "GBR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_eng.39_a",
+    "name": "Flavor Eng.39 (a)",
+    "type": "event_choice",
+    "source": "flavor_ENG",
+    "event_id": "flavor_eng.39",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "right",
+        "target": "free_trade",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "ENG",
+        "GBR",
+        "SCO"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_eng.41_a",
+    "name": "Flavor Eng.41 (a)",
+    "type": "event_choice",
+    "source": "flavor_ENG",
+    "event_id": "flavor_eng.41",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ],
+      "country": [
+        "ENG",
+        "GBR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_eng.90_a",
+    "name": "Flavor Eng.90 (a)",
+    "type": "event_choice",
+    "source": "flavor_ENG",
+    "event_id": "flavor_eng.90",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "ENG"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_eng.119_a",
+    "name": "Flavor Eng.119 (a)",
+    "type": "event_choice",
+    "source": "flavor_ENG",
+    "event_id": "flavor_eng.119",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_fra.1103_a",
+    "name": "Flavor Fra.1103 (a)",
+    "type": "event_choice",
+    "source": "flavor_FRA",
+    "event_id": "flavor_fra.1103",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.5,
+        "strength_raw": "societal_value_huge_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_reform": [
+        "government_reform:french_feudal_nobility"
+      ],
+      "country": [
+        "FRA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hab.6_a",
+    "name": "Flavor Hab.6 (a)",
+    "type": "event_choice",
+    "source": "flavor_HAB",
+    "event_id": "flavor_hab.6",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HAB"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hab.1801_a",
+    "name": "Flavor Hab.1801 (a)",
+    "type": "event_choice",
+    "source": "flavor_HAB",
+    "event_id": "flavor_hab.1801",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HAB"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hab.1802_a",
+    "name": "Flavor Hab.1802 (a)",
+    "type": "event_choice",
+    "source": "flavor_HAB",
+    "event_id": "flavor_hab.1802",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "right",
+        "target": "traditional_economy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HAB"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hab.2100_a",
+    "name": "Flavor Hab.2100 (a)",
+    "type": "event_choice",
+    "source": "flavor_HAB",
+    "event_id": "flavor_hab.2100",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HAB"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hab.2102_a",
+    "name": "Flavor Hab.2102 (a)",
+    "type": "event_choice",
+    "source": "flavor_HAB",
+    "event_id": "flavor_hab.2102",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      },
+      {
+        "value_pair": "serfdom_vs_free_subjects",
+        "direction": "right",
+        "target": "free_subjects",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HAB"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hun.200_a",
+    "name": "Flavor Hun.200 (a)",
+    "type": "event_choice",
+    "source": "flavor_HUN",
+    "event_id": "flavor_hun.200",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "quality_vs_quantity",
+        "direction": "left",
+        "target": "quality",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      },
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "left",
+        "target": "land",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "HUN"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mal.4_a",
+    "name": "Flavor Mal.4 (a)",
+    "type": "event_choice",
+    "source": "flavor_MAL",
+    "event_id": "flavor_mal.4",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "MAL"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mam.23_a",
+    "name": "Flavor Mam.23 (a)",
+    "type": "event_choice",
+    "source": "flavor_MAM",
+    "event_id": "flavor_mam.23",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "MAM"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mam.60_a",
+    "name": "Flavor Mam.60 (a)",
+    "type": "event_choice",
+    "source": "flavor_MAM",
+    "event_id": "flavor_mam.60",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "MAM"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mam.75_a",
+    "name": "Flavor Mam.75 (a)",
+    "type": "event_choice",
+    "source": "flavor_MAM",
+    "event_id": "flavor_mam.75",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mam.76_a",
+    "name": "Flavor Mam.76 (a)",
+    "type": "event_choice",
+    "source": "flavor_MAM",
+    "event_id": "flavor_mam.76",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_nor.24_a",
+    "name": "Flavor Nor.24 (a)",
+    "type": "event_choice",
+    "source": "flavor_NOR",
+    "event_id": "flavor_nor.24",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "NOR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.17_a",
+    "name": "Flavor Tur.17 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.17",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR",
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.211_a",
+    "name": "Flavor Tur.211 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.211",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.212_a",
+    "name": "Flavor Tur.212 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.212",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.213_a",
+    "name": "Flavor Tur.213 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.213",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      },
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.214_a",
+    "name": "Flavor Tur.214 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.214",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.215_a",
+    "name": "Flavor Tur.215 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.215",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_tur.216_a",
+    "name": "Flavor Tur.216 (a)",
+    "type": "event_choice",
+    "source": "flavor_TUR",
+    "event_id": "flavor_tur.216",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_ven.46_a",
+    "name": "Flavor Ven.46 (a)",
+    "type": "event_choice",
+    "source": "flavor_VEN",
+    "event_id": "flavor_ven.46",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "VEN"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_bng.4_a",
+    "name": "Flavor Bng.4 (a)",
+    "type": "event_choice",
+    "source": "flavor_bng",
+    "event_id": "flavor_bng.4",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_advance": [
+        "bng_rupees"
+      ],
+      "country": [
+        "BNG"
+      ],
+      "age": "age_2_renaissance"
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_brapru.5_a",
+    "name": "Flavor Brapru.5 (a)",
+    "type": "event_choice",
+    "source": "flavor_brapru",
+    "event_id": "flavor_brapru.5",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      },
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "government": [
+        "monarchy"
+      ],
+      "has_advance": [
+        "soldier_king"
+      ],
+      "country": [
+        "BRA",
+        "PRU"
+      ],
+      "age": "age_5_absolutism"
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_brapru.16_a",
+    "name": "Flavor Brapru.16 (a)",
+    "type": "event_choice",
+    "source": "flavor_brapru",
+    "event_id": "flavor_brapru.16",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "right",
+        "target": "humanist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "BRA",
+        "PRU"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_brapru.1301_a",
+    "name": "Flavor Brapru.1301 (a)",
+    "type": "event_choice",
+    "source": "flavor_brapru",
+    "event_id": "flavor_brapru.1301",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_brapru.1900_a",
+    "name": "Flavor Brapru.1900 (a)",
+    "type": "event_choice",
+    "source": "flavor_brapru",
+    "event_id": "flavor_brapru.1900",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "right",
+        "target": "decentralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "BRA",
+        "PRU"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_brapru.1903_a",
+    "name": "Flavor Brapru.1903 (a)",
+    "type": "event_choice",
+    "source": "flavor_brapru",
+    "event_id": "flavor_brapru.1903",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "BRA",
+        "PRU"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_chi_por.3_a",
+    "name": "Flavor Chi Por.3 (a)",
+    "type": "event_choice",
+    "source": "flavor_chi_por",
+    "event_id": "flavor_chi_por.3",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "right",
+        "target": "free_trade",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_flo.1_a",
+    "name": "Flavor Flo.1 (a)",
+    "type": "event_choice",
+    "source": "flavor_flo",
+    "event_id": "flavor_flo.1",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "FLO",
+        "TUS"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_hol.30_a",
+    "name": "Flavor Hol.30 (a)",
+    "type": "event_choice",
+    "source": "flavor_hol",
+    "event_id": "flavor_hol.30",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "right",
+        "target": "humanist",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "spiritualist_vs_humanist"
+      ],
+      "country": [
+        "NED",
+        "HOL"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_kni.4_a",
+    "name": "Flavor Kni.4 (a)",
+    "type": "event_choice",
+    "source": "flavor_kni",
+    "event_id": "flavor_kni.4",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "right",
+        "target": "defensive",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "KNI"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_kni.5_a",
+    "name": "Flavor Kni.5 (a)",
+    "type": "event_choice",
+    "source": "flavor_kni",
+    "event_id": "flavor_kni.5",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "right",
+        "target": "defensive",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "KNI"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_mlo.35_a",
+    "name": "Flavor Mlo.35 (a)",
+    "type": "event_choice",
+    "source": "flavor_mlo",
+    "event_id": "flavor_mlo.35",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_pap.29_a",
+    "name": "Flavor Pap.29 (a)",
+    "type": "event_choice",
+    "source": "flavor_pap",
+    "event_id": "flavor_pap.29",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "PAP"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_pol.39_a",
+    "name": "Flavor Pol.39 (a)",
+    "type": "event_choice",
+    "source": "flavor_pol",
+    "event_id": "flavor_pol.39",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "left",
+        "target": "aristocracy",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_por.33_a",
+    "name": "Flavor Por.33 (a)",
+    "type": "event_choice",
+    "source": "flavor_por",
+    "event_id": "flavor_por.33",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "land_vs_naval",
+        "direction": "right",
+        "target": "naval",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "POR"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "flavor_sca.1_a",
+    "name": "Flavor Sca.1 (a)",
+    "type": "event_choice",
+    "source": "flavor_sca",
+    "event_id": "flavor_sca.1",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "centralization_vs_decentralization",
+        "direction": "left",
+        "target": "centralization",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {
+      "country": [
+        "SCA"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "byzantine_succ_crisis.12_a",
+    "name": "Byzantine Succ Crisis.12 (a)",
+    "type": "event_choice",
+    "source": "byzantine_succession_crisis",
+    "event_id": "byzantine_succ_crisis.12",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "right",
+        "target": "plutocracy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      },
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "left",
+        "target": "mercantilism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "english_civil_war.252_a",
+    "name": "English Civil War.252 (a)",
+    "type": "event_choice",
+    "source": "english_civil_war",
+    "event_id": "english_civil_war.252",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.5,
+        "strength_raw": "societal_value_huge_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "english_civil_war.253_a",
+    "name": "English Civil War.253 (a)",
+    "type": "event_choice",
+    "source": "english_civil_war",
+    "event_id": "english_civil_war.253",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.5,
+        "strength_raw": "societal_value_huge_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "rise_of_the_szlachta.7_a",
+    "name": "Rise of the Szlachta.7 (a)",
+    "type": "event_choice",
+    "source": "rise_of_the_szlachta",
+    "event_id": "rise_of_the_szlachta.7",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "aristocracy_vs_plutocracy",
+        "direction": "right",
+        "target": "plutocracy",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_right"
+      },
+      {
+        "value_pair": "mercantilism_vs_free_trade",
+        "direction": "left",
+        "target": "mercantilism",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "military_order_events.5_a",
+    "name": "Military Order Events.5 (a)",
+    "type": "event_choice",
+    "source": "military_order_events",
+    "event_id": "military_order_events.5",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.2,
+        "strength_raw": "societal_value_large_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "mysticism_vs_jurisprudence.17_a",
+    "name": "Mysticism vs Jurisprudence.17 (a)",
+    "type": "event_choice",
+    "source": "mysticism_vs_jurisprudence",
+    "event_id": "mysticism_vs_jurisprudence.17",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "mysticism_vs_jurisprudence"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "parliaments.9_a",
+    "name": "Parliaments.9 (a)",
+    "type": "event_choice",
+    "source": "parliaments",
+    "event_id": "parliaments.9",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "parliaments.11_a",
+    "name": "Parliaments.11 (a)",
+    "type": "event_choice",
+    "source": "parliaments",
+    "event_id": "parliaments.11",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "parliaments.14_a",
+    "name": "Parliaments.14 (a)",
+    "type": "event_choice",
+    "source": "parliaments",
+    "event_id": "parliaments.14",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "parliaments.25_a",
+    "name": "Parliaments.25 (a)",
+    "type": "event_choice",
+    "source": "parliaments",
+    "event_id": "parliaments.25",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "capital_economy_vs_traditional_economy",
+        "direction": "left",
+        "target": "capital_economy",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "parliaments.28_a",
+    "name": "Parliaments.28 (a)",
+    "type": "event_choice",
+    "source": "parliaments",
+    "event_id": "parliaments.28",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "regency_estate_events.5_a",
+    "name": "Regency Estate Events.5 (a)",
+    "type": "event_choice",
+    "source": "regency_estate_events",
+    "event_id": "regency_estate_events.5",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "left",
+        "target": "belligerent",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "regency_estate_events.6_a",
+    "name": "Regency Estate Events.6 (a)",
+    "type": "event_choice",
+    "source": "regency_estate_events",
+    "event_id": "regency_estate_events.6",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "left",
+        "target": "traditionalist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.300_a",
+    "name": "Societal Values.300 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.300",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "right",
+        "target": "humanist",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.403_a",
+    "name": "Societal Values.403 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.403",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.407_a",
+    "name": "Societal Values.407 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.407",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.409_a",
+    "name": "Societal Values.409 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.409",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.411_a",
+    "name": "Societal Values.411 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.411",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.412_a",
+    "name": "Societal Values.412 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.412",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.413_a",
+    "name": "Societal Values.413 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.413",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.414_a",
+    "name": "Societal Values.414 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.414",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.415_a",
+    "name": "Societal Values.415 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.415",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.416_a",
+    "name": "Societal Values.416 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.416",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.417_a",
+    "name": "Societal Values.417 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.417",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "traditionalist_vs_innovative"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.700_a",
+    "name": "Societal Values.700 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.700",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "offensive_vs_defensive",
+        "direction": "left",
+        "target": "offensive",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "offensive_vs_defensive"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.705_a",
+    "name": "Societal Values.705 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.705",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "quality_vs_quantity",
+        "direction": "right",
+        "target": "quantity",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "offensive_vs_defensive"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.1900_a",
+    "name": "Societal Values.1900 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.1900",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "serfdom_vs_free_subjects"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.1901_a",
+    "name": "Societal Values.1901 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.1901",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_advance": [
+        "codified_laws"
+      ],
+      "related_value": [
+        "serfdom_vs_free_subjects"
+      ],
+      "age": "age_1_traditions"
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.1904_a",
+    "name": "Societal Values.1904 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.1904",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "serfdom_vs_free_subjects"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.1910_a",
+    "name": "Societal Values.1910 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.1910",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "left",
+        "target": "mysticism",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "serfdom_vs_free_subjects"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2029_a",
+    "name": "Societal Values.2029 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2029",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "right",
+        "target": "inward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "outward_vs_inward"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2100_a",
+    "name": "Societal Values.2100 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2100",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2101_a",
+    "name": "Societal Values.2101 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2101",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2102_a",
+    "name": "Societal Values.2102 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2102",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2103_a",
+    "name": "Societal Values.2103 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2103",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2104_a",
+    "name": "Societal Values.2104 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2104",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2200_a",
+    "name": "Societal Values.2200 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2200",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2201_a",
+    "name": "Societal Values.2201 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2201",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2202_a",
+    "name": "Societal Values.2202 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2202",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2203_a",
+    "name": "Societal Values.2203 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2203",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2204_a",
+    "name": "Societal Values.2204 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2204",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "right",
+        "target": "liberalism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_right"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2209_a",
+    "name": "Societal Values.2209 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2209",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "absolutism_vs_liberalism",
+        "direction": "left",
+        "target": "absolutism",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {
+      "has_or_condition": true,
+      "related_value": [
+        "absolutism_vs_liberalism"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2312_a",
+    "name": "Societal Values.2312 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2312",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "sinicized_vs_unsinicized",
+        "direction": "left",
+        "target": "sinicized",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "sinicized_vs_unsinicized"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2315_a",
+    "name": "Societal Values.2315 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2315",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "sinicized_vs_unsinicized",
+        "direction": "left",
+        "target": "sinicized",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "sinicized_vs_unsinicized"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2318_a",
+    "name": "Societal Values.2318 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2318",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "sinicized_vs_unsinicized",
+        "direction": "left",
+        "target": "sinicized",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "sinicized_vs_unsinicized"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "societal_values.2314_a",
+    "name": "Societal Values.2314 (a)",
+    "type": "event_choice",
+    "source": "societal_values",
+    "event_id": "societal_values.2314",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "sinicized_vs_unsinicized",
+        "direction": "right",
+        "target": "unsinicized",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_right"
+      }
+    ],
+    "requirements": {
+      "related_value": [
+        "sinicized_vs_unsinicized"
+      ]
+    },
+    "is_one_time": true
+  },
+  {
+    "id": "muslim_flavor.5_a",
+    "name": "Muslim Flavor.5 (a)",
+    "type": "event_choice",
+    "source": "muslim_flavor",
+    "event_id": "muslim_flavor.5",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "mysticism_vs_jurisprudence",
+        "direction": "right",
+        "target": "jurisprudence",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "columbian_exchange.1_a",
+    "name": "Columbian Exchange.1 (a)",
+    "type": "event_choice",
+    "source": "columbian_exchange",
+    "event_id": "columbian_exchange.1",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.1,
+        "strength_raw": "societal_value_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "great_pestilence.2_a",
+    "name": "Great Pestilence.2 (a)",
+    "type": "event_choice",
+    "source": "great_pestilence",
+    "event_id": "great_pestilence.2",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "spiritualist_vs_humanist",
+        "direction": "left",
+        "target": "spiritualist",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "treaty_of_tordesillas.2_a",
+    "name": "Treaty of Tordesillas.2 (a)",
+    "type": "event_choice",
+    "source": "treaty_of_tordesillas",
+    "event_id": "treaty_of_tordesillas.2",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "outward_vs_inward",
+        "direction": "left",
+        "target": "outward",
+        "strength": 0.05,
+        "strength_raw": "societal_value_minor_move_to_left"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "artist_events.30_a",
+    "name": "Artist Events.30 (a)",
+    "type": "event_choice",
+    "source": "artist_events",
+    "event_id": "artist_events.30",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "traditionalist_vs_innovative",
+        "direction": "right",
+        "target": "innovative",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
+  },
+  {
+    "id": "personality_events.8_a",
+    "name": "Personality Events.8 (a)",
+    "type": "event_choice",
+    "source": "personality_events",
+    "event_id": "personality_events.8",
+    "option": "a",
+    "value_effects": [
+      {
+        "value_pair": "belligerent_vs_conciliatory",
+        "direction": "right",
+        "target": "conciliatory",
+        "strength": 0.02,
+        "strength_raw": "societal_value_tiny_move_to_right"
+      }
+    ],
+    "requirements": {},
+    "is_one_time": true
   }
 ]
