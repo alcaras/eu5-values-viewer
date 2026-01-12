@@ -358,6 +358,7 @@ function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
         <div class="value-info-section">
             <h3>Legend</h3>
             <div class="legend">
+                <div class="legend-row"><span class="legend-bar strength-huge"></span> 0.50/mo (huge)</div>
                 <div class="legend-row"><span class="legend-bar strength-large"></span> 0.20/mo (large)</div>
                 <div class="legend-row"><span class="legend-bar strength-normal"></span> 0.10/mo (normal)</div>
                 <div class="legend-row"><span class="legend-bar strength-minor"></span> 0.05/mo (minor)</div>
@@ -469,6 +470,7 @@ function collapseAll(panelId) {
 // Get strength class for color coding
 function getStrengthClass(strength) {
     if (strength === null) return 'strength-unknown';
+    if (strength >= 0.50) return 'strength-huge';
     if (strength >= 0.20) return 'strength-large';
     if (strength >= 0.10) return 'strength-normal';
     if (strength >= 0.05) return 'strength-minor';
