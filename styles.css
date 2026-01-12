@@ -261,6 +261,10 @@ main { padding: 8px; max-width: 1800px; margin: 0 auto; }
 .item-card.strength-minor .item-strength { color: #8b949e; }
 .item-card.strength-tiny .item-strength { color: #484f58; }
 
+/* One-time effects (parliament agendas) */
+.item-card.one-time { border-left-style: dashed; }
+.item-card.one-time .item-strength { font-style: italic; }
+
 .item-header {
     display: flex;
     justify-content: space-between;

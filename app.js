@@ -481,6 +481,7 @@ function renderItemCard(mover, direction) {
         e.value_pair === state.selectedValue && e.direction === direction
     );
 
+    const isOneTime = mover.is_one_time === true;
     let strengthDisplay = effect.strength !== null ? effect.strength.toFixed(2) : effect.strength_raw;
     const strengthClass = getStrengthClass(effect.strength);
 
@@ -511,7 +512,14 @@ function renderItemCard(mover, direction) {
     } else if (mover.type === 'religious_aspect') {
         sourceParts.push(`<span class="source-tag source-type">Religious Aspect</span>`);
     } else if (mover.type === 'parliament_issue') {
-        sourceParts.push(`<span class="source-tag source-type">Parliament</span>`);
+        sourceParts.push(`<span class="source-tag source-type">Parliament Issue</span>`);
+    } else if (mover.type === 'parliament_agenda') {
+        sourceParts.push(`<span class="source-tag source-type">Parliament Agenda</span>`);
+        if (mover.estate && typeof mover.estate === 'string') {
+            sourceParts.push(`<span class="source-tag source-estate">${prettifyId(mover.estate.replace('_estate', ''))}</span>`);
+        }
+    } else if (mover.type === 'auto_modifier') {
+        sourceParts.push(`<span class="source-tag source-type">Auto Modifier</span>`);
     } else {
         sourceParts.push(`<span class="source-tag source-type">${prettifyId(mover.type)}</span>`);
     }
@@ -582,10 +590,10 @@ function renderItemCard(mover, direction) {
     }
 
     return `
-        <div class="item-card ${strengthClass}">
+        <div class="item-card ${strengthClass}${isOneTime ? ' one-time' : ''}">
             <div class="item-header">
                 <span class="item-name">${mover.name}</span>
-                <span class="item-strength">${strengthDisplay}/mo</span>
+                <span class="item-strength">${strengthDisplay}${isOneTime ? ' (once)' : '/mo'}</span>
             </div>
             <div class="item-source">
                 ${sourceParts.join('')}
