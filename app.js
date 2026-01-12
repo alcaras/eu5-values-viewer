@@ -415,21 +415,24 @@ function renderItems(movers, direction) {
 
         let html = '';
         Object.entries(groups).forEach(([type, items]) => {
-            html += `<div class="item-group">
-                <div class="item-type-header">
+            const groupId = `${direction}-${type}`;
+            html += `<div class="item-group collapsed" data-group="${groupId}">
+                <div class="item-type-header" onclick="toggleGroup('${groupId}')">
+                    <span class="collapse-icon">▶</span>
                     ${prettifyId(type)}s (${items.length})
-                </div>`;
+                </div>
+                <div class="item-group-content">`;
 
             items.forEach(mover => {
                 html += renderItemCard(mover, direction);
             });
 
-            html += '</div>';
+            html += '</div></div>';
         });
 
         return html;
     } else {
-        // Flat list for other sort modes
+        // Flat list for other sort modes - no collapsing
         let html = '<div class="item-group">';
         sorted.forEach(mover => {
             html += renderItemCard(mover, direction);
@@ -437,6 +440,23 @@ function renderItems(movers, direction) {
         html += '</div>';
         return html;
     }
+}
+
+// Toggle group collapse state
+function toggleGroup(groupId) {
+    const group = document.querySelector(`[data-group="${groupId}"]`);
+    if (group) {
+        group.classList.toggle('collapsed');
+    }
+}
+
+// Expand/collapse all groups in a panel
+function expandAll(panelId) {
+    document.querySelectorAll(`#${panelId} .item-group`).forEach(g => g.classList.remove('collapsed'));
+}
+
+function collapseAll(panelId) {
+    document.querySelectorAll(`#${panelId} .item-group`).forEach(g => g.classList.add('collapsed'));
 }
 
 // Get strength class for color coding

@@ -122,6 +122,27 @@ main { padding: 8px; max-width: 1800px; margin: 0 auto; }
     margin-left: auto;
 }
 .right-panel .panel-count { margin-left: 0; margin-right: auto; }
+.panel-controls {
+    display: flex;
+    gap: 2px;
+}
+.panel-controls button {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0;
+}
+.panel-controls button:hover {
+    background: var(--bg);
+    color: var(--text);
+    border-color: var(--text-dim);
+}
 
 .panel-content {
     flex: 1;
@@ -189,19 +210,32 @@ main { padding: 8px; max-width: 1800px; margin: 0 auto; }
 .tag-legend { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
 
 /* Item groups */
-.item-group { margin-bottom: 8px; }
+.item-group { margin-bottom: 4px; }
 .item-type-header {
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: var(--text-muted);
-    padding: 2px 0;
+    padding: 4px 6px;
     border-bottom: 1px solid var(--border);
-    margin-bottom: 4px;
     position: sticky;
     top: 0;
     background: var(--bg-alt);
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
+.item-type-header:hover { color: var(--text-dim); background: var(--bg); }
+.collapse-icon {
+    font-size: 8px;
+    transition: transform 0.15s ease;
+    color: var(--text-muted);
+}
+.item-group:not(.collapsed) .collapse-icon { transform: rotate(90deg); }
+.item-group-content { display: block; }
+.item-group.collapsed .item-group-content { display: none; }
 
 /* Item cards - DENSE */
 .item-card {

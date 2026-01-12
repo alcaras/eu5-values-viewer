@@ -42,6 +42,10 @@
                     <span class="direction-arrow">&larr;</span>
                     <h2 id="left-value-name">Left</h2>
                     <span class="panel-count" id="left-count"></span>
+                    <span class="panel-controls">
+                        <button onclick="expandAll('left-items')" title="Expand all">+</button>
+                        <button onclick="collapseAll('left-items')" title="Collapse all">−</button>
+                    </span>
                 </div>
                 <div class="panel-content" id="left-items"></div>
             </div>
@@ -54,6 +58,10 @@
 
             <div class="panel right-panel">
                 <div class="panel-header">
+                    <span class="panel-controls">
+                        <button onclick="expandAll('right-items')" title="Expand all">+</button>
+                        <button onclick="collapseAll('right-items')" title="Collapse all">−</button>
+                    </span>
                     <span class="panel-count" id="right-count"></span>
                     <h2 id="right-value-name">Right</h2>
                     <span class="direction-arrow">&rarr;</span>
