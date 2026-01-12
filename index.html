@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU5 Values Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EU5 Values Viewer</h1>
+        <p class="subtitle">Find what moves your societal values</p>
+    </header>
+
+    <main>
+        <section class="filters">
+            <div class="filter-group">
+                <label for="age-select">Age</label>
+                <select id="age-select">
+                    <option value="">All Ages</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="government-select">Government</label>
+                <select id="government-select">
+                    <option value="">All Governments</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="religion-select">Religion</label>
+                <select id="religion-select">
+                    <option value="">All Religions</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="search-input">Search</label>
+                <input type="text" id="search-input" placeholder="Filter items...">
+            </div>
+        </section>
+
+        <section class="value-selector">
+            <label>Select Value Pair:</label>
+            <div id="value-buttons" class="value-buttons">
+                <!-- Value buttons will be populated by JS -->
+            </div>
+        </section>
+
+        <section class="panels">
+            <div class="panel left-panel">
+                <div class="panel-header">
+                    <h2 id="left-value-name">Left Value</h2>
+                    <span class="direction-arrow">&larr;</span>
+                </div>
+                <div class="panel-content" id="left-items">
+                    <!-- Items will be populated by JS -->
+                </div>
+            </div>
+
+            <div class="panel center-panel">
+                <div class="panel-header">
+                    <h2>Value Info</h2>
+                </div>
+                <div class="panel-content" id="value-info">
+                    <p class="placeholder">Select a value pair to see what affects it</p>
+                </div>
+            </div>
+
+            <div class="panel right-panel">
+                <div class="panel-header">
+                    <span class="direction-arrow">&rarr;</span>
+                    <h2 id="right-value-name">Right Value</h2>
+                </div>
+                <div class="panel-content" id="right-items">
+                    <!-- Items will be populated by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Data extracted from Europa Universalis V game files. Not affiliated with Paradox Interactive.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

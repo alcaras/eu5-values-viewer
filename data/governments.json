@@ -1,0 +1,27 @@
+{
+  "monarchy": {
+    "id": "monarchy",
+    "name": "Monarchy",
+    "power_type": "legitimacy"
+  },
+  "republic": {
+    "id": "republic",
+    "name": "Republic",
+    "power_type": "republican_tradition"
+  },
+  "theocracy": {
+    "id": "theocracy",
+    "name": "Theocracy",
+    "power_type": "devotion"
+  },
+  "steppe_horde": {
+    "id": "steppe_horde",
+    "name": "Steppe Horde",
+    "power_type": "horde_unity"
+  },
+  "tribe": {
+    "id": "tribe",
+    "name": "Tribe",
+    "power_type": "tribal_cohesion"
+  }
+}

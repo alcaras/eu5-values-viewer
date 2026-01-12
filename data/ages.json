@@ -1,0 +1,32 @@
+{
+  "age_1_traditions": {
+    "id": "age_1_traditions",
+    "name": "Age 1 Traditions",
+    "year": 1
+  },
+  "age_2_renaissance": {
+    "id": "age_2_renaissance",
+    "name": "Age 2 Renaissance",
+    "year": 1342
+  },
+  "age_3_discovery": {
+    "id": "age_3_discovery",
+    "name": "Age 3 Discovery",
+    "year": 1437
+  },
+  "age_4_reformation": {
+    "id": "age_4_reformation",
+    "name": "Age 4 Reformation",
+    "year": 1537
+  },
+  "age_5_absolutism": {
+    "id": "age_5_absolutism",
+    "name": "Age 5 Absolutism",
+    "year": 1637
+  },
+  "age_6_revolutions": {
+    "id": "age_6_revolutions",
+    "name": "Age 6 Revolutions",
+    "year": 1737
+  }
+}

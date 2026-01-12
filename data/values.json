@@ -1,0 +1,210 @@
+{
+  "centralization_vs_decentralization": {
+    "id": "centralization_vs_decentralization",
+    "left": {
+      "id": "centralization",
+      "name": "Centralization"
+    },
+    "right": {
+      "id": "decentralization",
+      "name": "Decentralization"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "traditionalist_vs_innovative": {
+    "id": "traditionalist_vs_innovative",
+    "left": {
+      "id": "traditionalist",
+      "name": "Traditionalist"
+    },
+    "right": {
+      "id": "innovative",
+      "name": "Innovative"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "spiritualist_vs_humanist": {
+    "id": "spiritualist_vs_humanist",
+    "left": {
+      "id": "spiritualist",
+      "name": "Spiritualist"
+    },
+    "right": {
+      "id": "humanist",
+      "name": "Humanist"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "aristocracy_vs_plutocracy": {
+    "id": "aristocracy_vs_plutocracy",
+    "left": {
+      "id": "aristocracy",
+      "name": "Aristocracy"
+    },
+    "right": {
+      "id": "plutocracy",
+      "name": "Plutocracy"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "serfdom_vs_free_subjects": {
+    "id": "serfdom_vs_free_subjects",
+    "left": {
+      "id": "serfdom",
+      "name": "Serfdom"
+    },
+    "right": {
+      "id": "free_subjects",
+      "name": "Free Subjects"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "mercantilism_vs_free_trade": {
+    "id": "mercantilism_vs_free_trade",
+    "left": {
+      "id": "mercantilism",
+      "name": "Mercantilism"
+    },
+    "right": {
+      "id": "free_trade",
+      "name": "Free Trade"
+    },
+    "age_requirement": "age_4_reformation",
+    "conditions": null
+  },
+  "belligerent_vs_conciliatory": {
+    "id": "belligerent_vs_conciliatory",
+    "left": {
+      "id": "belligerent",
+      "name": "Belligerent"
+    },
+    "right": {
+      "id": "conciliatory",
+      "name": "Conciliatory"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "quality_vs_quantity": {
+    "id": "quality_vs_quantity",
+    "left": {
+      "id": "quality",
+      "name": "Quality"
+    },
+    "right": {
+      "id": "quantity",
+      "name": "Quantity"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "offensive_vs_defensive": {
+    "id": "offensive_vs_defensive",
+    "left": {
+      "id": "offensive",
+      "name": "Offensive"
+    },
+    "right": {
+      "id": "defensive",
+      "name": "Defensive"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "land_vs_naval": {
+    "id": "land_vs_naval",
+    "left": {
+      "id": "land",
+      "name": "Land"
+    },
+    "right": {
+      "id": "naval",
+      "name": "Naval"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "capital_economy_vs_traditional_economy": {
+    "id": "capital_economy_vs_traditional_economy",
+    "left": {
+      "id": "capital_economy",
+      "name": "Capital Economy"
+    },
+    "right": {
+      "id": "traditional_economy",
+      "name": "Traditional Economy"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "individualism_vs_communalism": {
+    "id": "individualism_vs_communalism",
+    "left": {
+      "id": "individualism",
+      "name": "Individualism"
+    },
+    "right": {
+      "id": "communalism",
+      "name": "Communalism"
+    },
+    "age_requirement": null,
+    "conditions": null
+  },
+  "outward_vs_inward": {
+    "id": "outward_vs_inward",
+    "left": {
+      "id": "outward",
+      "name": "Outward"
+    },
+    "right": {
+      "id": "inward",
+      "name": "Inward"
+    },
+    "age_requirement": "age_3_discovery",
+    "conditions": null
+  },
+  "sinicized_vs_unsinicized": {
+    "id": "sinicized_vs_unsinicized",
+    "left": {
+      "id": "sinicized",
+      "name": "Sinicized"
+    },
+    "right": {
+      "id": "unsinicized",
+      "name": "Unsinicized"
+    },
+    "age_requirement": null,
+    "conditions": "{'NOT': ['culture', '?=', {'has_culture_group': 'culture_group:chinese_group'}], 'OR': {'is_subject_of': 'c:CHI', 'AND': [{'exists': 'capital', 'capital': {'OR': ['sub_continent', '?=', 'sub_continent:east_asia', 'sub_continent', '?=', 'sub_continent:south_east_asia']}}, {'exists': 'international_organization:middle_kingdom', 'is_member_of_international_organization': 'international_organization:middle_kingdom'}]}}"
+  },
+  "absolutism_vs_liberalism": {
+    "id": "absolutism_vs_liberalism",
+    "left": {
+      "id": "absolutism",
+      "name": "Absolutism"
+    },
+    "right": {
+      "id": "liberalism",
+      "name": "Liberalism"
+    },
+    "age_requirement": "age_5_absolutism",
+    "conditions": null
+  },
+  "mysticism_vs_jurisprudence": {
+    "id": "mysticism_vs_jurisprudence",
+    "left": {
+      "id": "mysticism",
+      "name": "Mysticism"
+    },
+    "right": {
+      "id": "jurisprudence",
+      "name": "Jurisprudence"
+    },
+    "age_requirement": null,
+    "conditions": "{'modifier:allow_mysticism_vs_jurisprudence': True}"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "crown_estate": {
+    "id": "crown_estate",
+    "name": "Crown"
+  },
+  "nobles_estate": {
+    "id": "nobles_estate",
+    "name": "Nobles"
+  },
+  "clergy_estate": {
+    "id": "clergy_estate",
+    "name": "Clergy"
+  },
+  "burghers_estate": {
+    "id": "burghers_estate",
+    "name": "Burghers"
+  },
+  "peasants_estate": {
+    "id": "peasants_estate",
+    "name": "Peasants"
+  },
+  "dhimmi_estate": {
+    "id": "dhimmi_estate",
+    "name": "Dhimmi"
+  },
+  "tribes_estate": {
+    "id": "tribes_estate",
+    "name": "Tribes"
+  },
+  "cossacks_estate": {
+    "id": "cossacks_estate",
+    "name": "Cossacks"
+  }
+}
