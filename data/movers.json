@@ -1440,7 +1440,13 @@
         "monarchy"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ENG"
+      ],
+      "culture": [
+        "culture:english"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -1463,7 +1469,10 @@
       "government": [
         "monarchy"
       ],
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "country": [
+        "SBL"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -1484,10 +1493,14 @@
     ],
     "requirements": {
       "government": [
+        "monarchy",
         "monarchy"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "culture": [
+        "culture:anglo_irish"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -1510,7 +1523,10 @@
       "government": [
         "monarchy"
       ],
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "country": [
+        "WLS"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -1530,12 +1546,7 @@
       }
     ],
     "requirements": {
-      "age": "age_3_discovery",
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
+      "age": "age_3_discovery"
     },
     "is_major": false,
     "is_unique": false
@@ -1555,12 +1566,7 @@
       }
     ],
     "requirements": {
-      "age": "age_4_reformation",
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
+      "age": "age_4_reformation"
     },
     "is_major": false,
     "is_unique": false
@@ -1587,7 +1593,10 @@
       }
     ],
     "requirements": {
-      "age": "age_5_absolutism"
+      "age": "age_5_absolutism",
+      "country": [
+        "PRU"
+      ]
     },
     "is_major": true,
     "is_unique": true
@@ -1627,6 +1636,9 @@
     "requirements": {
       "government": [
         "republic"
+      ],
+      "country": [
+        "GEN"
       ]
     },
     "is_major": true,
@@ -1656,14 +1668,6 @@
     "requirements": {
       "government": [
         "monarchy"
-      ],
-      "culture": [
-        {
-          "has_culture_group": "culture_group:german_group"
-        },
-        {
-          "has_culture_group": "culture_group:german_group"
-        }
       ]
     },
     "is_major": true,
@@ -1685,7 +1689,15 @@
     ],
     "requirements": {
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "culture": [
+        {
+          "has_culture_group": "culture_group:micronesian_group"
+        },
+        {
+          "has_culture_group": "culture_group:polynesian_group"
+        }
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -1727,7 +1739,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "POR"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -1748,11 +1764,6 @@
     "requirements": {
       "government": [
         "monarchy"
-      ],
-      "culture": [
-        {
-          "has_culture_group": "culture_group:iberian_group"
-        }
       ]
     },
     "is_major": false,
@@ -1775,6 +1786,9 @@
     "requirements": {
       "religion": [
         "religion:catholic"
+      ],
+      "government": [
+        "theocracy"
       ]
     },
     "is_major": false,
@@ -1847,7 +1861,14 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "government": [
+        "monarchy"
+      ],
+      "has_or_condition": true,
+      "country": [
+        "SCO",
+        "SBL"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -1873,7 +1894,15 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "FRA",
+        "FRA"
+      ],
+      "government": [
+        "monarchy"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -1891,7 +1920,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "is_major": false,
     "is_unique": false
   },
@@ -1909,7 +1942,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -1927,7 +1964,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
     "is_major": true,
     "is_unique": true
   },
@@ -1945,7 +1986,11 @@
         "strength_raw": "societal_value_large_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    },
     "is_major": true,
     "is_unique": true
   },
@@ -1984,6 +2029,9 @@
     "requirements": {
       "government": [
         "monarchy"
+      ],
+      "country": [
+        "ENG"
       ]
     },
     "is_major": false,
@@ -2004,7 +2052,10 @@
       }
     ],
     "requirements": {
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "country": [
+        "KBO"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -2033,11 +2084,6 @@
     "requirements": {
       "government": [
         "monarchy"
-      ],
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
       ]
     },
     "is_major": false,
@@ -2077,7 +2123,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "RUS"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -2095,7 +2145,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "RUS"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -2114,7 +2168,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ENG",
+        "GBR"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -2134,7 +2192,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "HOL",
+        "NED"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -2183,11 +2245,6 @@
     "requirements": {
       "government": [
         "tribe"
-      ],
-      "culture": [
-        {
-          "has_culture_group": "culture_group:haudenosaunee_group"
-        }
       ]
     },
     "is_major": false,
@@ -2225,7 +2282,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "FRA"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -2255,7 +2316,10 @@
       "has_reform": [
         "government_reform:military_order_reform"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "KNI"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2274,7 +2338,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "JAP"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -2293,11 +2361,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:jurchen_group"
-        }
-      ],
       "excluded_reforms": [
         "government_reform:jianzhou_jurchen_reform"
       ]
@@ -2327,11 +2390,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:jurchen_group"
-        }
-      ],
       "excluded_reforms": [
         "government_reform:haixi_jurchen_reform"
       ]
@@ -2361,11 +2419,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:jurchen_group"
-        }
-      ],
       "excluded_reforms": [
         "government_reform:jianzhou_jurchen_reform"
       ]
@@ -2388,7 +2441,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "MOS",
+        "RUS"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2408,7 +2465,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "MOS",
+        "RUS"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2456,7 +2517,11 @@
     ],
     "requirements": {
       "age": "age_4_reformation",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "MOS",
+        "RUS"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2479,7 +2544,13 @@
       "government": [
         "republic"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "VEN"
+      ],
+      "has_reform": [
+        "government_reform:council_of_forty"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -2588,7 +2659,10 @@
     ],
     "requirements": {
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "MUG"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2608,12 +2682,7 @@
       }
     ],
     "requirements": {
-      "age": "age_1_traditions",
-      "culture": [
-        {
-          "has_culture_group": "culture_group:indian_group"
-        }
-      ]
+      "age": "age_1_traditions"
     },
     "is_major": false,
     "is_unique": false
@@ -2633,7 +2702,10 @@
       }
     ],
     "requirements": {
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "country": [
+        "BYZ"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2660,12 +2732,7 @@
       }
     ],
     "requirements": {
-      "age": "age_6_revolutions",
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
+      "age": "age_6_revolutions"
     },
     "is_major": false,
     "is_unique": false
@@ -2688,7 +2755,10 @@
       "government": [
         "monarchy"
       ],
-      "age": "age_2_renaissance"
+      "age": "age_2_renaissance",
+      "country": [
+        "BRB"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2739,7 +2809,11 @@
     ],
     "requirements": {
       "age": "age_6_revolutions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "MOS",
+        "RUS"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -2759,7 +2833,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ENG",
+        "GBR"
+      ]
     },
     "is_major": false,
     "is_unique": true
@@ -2806,7 +2884,10 @@
         "monarchy"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS"
+      ]
     },
     "is_major": true,
     "is_unique": true
@@ -2830,7 +2911,10 @@
         "monarchy"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ARA"
+      ]
     },
     "is_major": true,
     "is_unique": true
@@ -2859,6 +2943,9 @@
     "requirements": {
       "government": [
         "monarchy"
+      ],
+      "country": [
+        "HAB"
       ]
     },
     "is_major": false,
@@ -2896,7 +2983,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "NED"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -2993,7 +3084,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "ZAN"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -3012,7 +3107,12 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "religion": [
+        "religion:theravada",
+        "religion:mahayana",
+        "religion:satsana_phi"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -3153,7 +3253,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "LIT"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -3171,7 +3275,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "is_major": true,
     "is_unique": true
   },
@@ -3215,7 +3323,10 @@
       "government": [
         "monarchy"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -3245,7 +3356,11 @@
       "government": [
         "monarchy"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -3268,7 +3383,11 @@
       "government": [
         "monarchy"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -3291,7 +3410,10 @@
       "government": [
         "monarchy"
       ],
-      "age": "age_1_traditions"
+      "age": "age_1_traditions",
+      "country": [
+        "SWE"
+      ]
     },
     "is_major": false,
     "is_unique": false
@@ -3310,7 +3432,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "MLC"
+      ]
+    },
     "is_major": false,
     "is_unique": true
   },
@@ -3479,7 +3605,13 @@
       "government": [
         "monarchy"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ARB"
+      ],
+      "has_reform": [
+        "government_reform:judicate_reform"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -3674,7 +3806,13 @@
       "government": [
         "republic"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "DIT"
+      ],
+      "has_reform": [
+        "government_reform:peasant_republic_reform"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -3810,7 +3948,10 @@
         "steppe_horde"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "culture": [
+        "culture:mongolian_culture"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -3894,10 +4035,15 @@
     ],
     "requirements": {
       "government": [
+        "theocracy",
         "theocracy"
       ],
       "age": "age_1_traditions",
-      "has_or_condition": true
+      "has_or_condition": true,
+      "religion": [
+        "religion:catholic",
+        "religion:lutheran"
+      ]
     },
     "is_major": true,
     "is_unique": false
@@ -3925,6 +4071,7 @@
     ],
     "requirements": {
       "government": [
+        "theocracy",
         "theocracy"
       ],
       "age": "age_1_traditions"
@@ -3948,7 +4095,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate",
       "clergy_estate",
@@ -3971,7 +4122,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -3992,7 +4147,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4016,6 +4175,9 @@
     "requirements": {
       "excluded_countries": [
         "MAL"
+      ],
+      "government": [
+        "monarchy"
       ]
     },
     "estate_preferences": [
@@ -4038,7 +4200,14 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "MAL"
+      ],
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4059,7 +4228,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4081,7 +4254,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "government": [
+        "monarchy"
+      ]
     },
     "estate_preferences": [
       "peasants_estate"
@@ -4105,9 +4281,17 @@
     ],
     "requirements": {
       "culture": [
+        "culture:castilian",
         "culture:castilian"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ],
+      "government": [
+        "monarchy"
+      ]
     },
     "estate_preferences": [
       "burghers_estate"
@@ -4129,7 +4313,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4150,7 +4338,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4171,7 +4363,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4193,7 +4389,13 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "country": [
+        "PRU"
+      ],
+      "has_or_condition": true,
+      "government": [
+        "monarchy"
+      ]
     },
     "estate_preferences": [
       "nobles_estate"
@@ -4222,7 +4424,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4467,7 +4673,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4488,7 +4698,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -4509,7 +4723,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "crown_estate"
     ]
@@ -4530,7 +4748,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4551,7 +4773,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -4572,7 +4798,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4593,7 +4823,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4614,7 +4848,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4635,7 +4873,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4656,7 +4898,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -4677,7 +4923,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4698,7 +4948,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4719,7 +4973,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4740,7 +4998,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4761,7 +5023,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -4782,7 +5048,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4803,7 +5073,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate",
       "nobles_estate"
@@ -4825,7 +5099,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -4846,7 +5124,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4867,7 +5149,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "crown_estate"
     ]
@@ -4888,7 +5174,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate",
       "clergy_estate"
@@ -4910,7 +5200,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate",
       "clergy_estate"
@@ -4932,7 +5226,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -4953,7 +5251,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "burghers_estate"
     ]
@@ -4995,7 +5297,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "steppe_horde"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -5040,7 +5346,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "steppe_horde"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -5061,13 +5371,7 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:jurchen_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "nobles_estate",
       "crown_estate"
@@ -5303,7 +5607,11 @@
         "strength_raw": "societal_value_tiny_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "government": [
+        "theocracy"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -5431,7 +5739,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "government": [
+        "theocracy"
+      ]
     },
     "estate_preferences": [
       "clergy_estate"
@@ -5963,7 +6274,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "GEO"
+      ]
+    },
     "estate_preferences": [
       "crown_estate",
       "nobles_estate"
@@ -5985,7 +6300,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "MAJ"
+      ]
+    },
     "estate_preferences": [
       "crown_estate"
     ]
@@ -6027,13 +6346,7 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "crown_estate",
       "peasants_estate"
@@ -6252,7 +6565,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ENG",
+        "GBR"
+      ]
     },
     "estate_preferences": [
       "clergy_estate",
@@ -6352,13 +6669,7 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:german_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "burghers_estate",
       "peasants_estate"
@@ -6423,7 +6734,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "HSA"
+      ]
     },
     "estate_preferences": [
       "burghers_estate"
@@ -6446,7 +6760,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "PRU",
+        "BRA"
+      ]
     },
     "estate_preferences": [
       "clergy_estate"
@@ -6763,7 +7081,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "SER"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -6936,7 +7258,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "ARA"
+      ]
     },
     "estate_preferences": [
       "peasants_estate"
@@ -6959,11 +7284,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -6987,6 +7307,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "PSK"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -7034,7 +7357,12 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "BAV",
+        "UBV",
+        "LBV"
+      ]
     },
     "estate_preferences": [
       "nobles_estate"
@@ -7057,7 +7385,13 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "WLS"
+      ],
+      "culture": [
+        "culture:welsh"
+      ]
     },
     "estate_preferences": [
       "nobles_estate"
@@ -7106,6 +7440,9 @@
       }
     ],
     "requirements": {
+      "government": [
+        "republic"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -7129,6 +7466,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "BOH"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -7286,11 +7626,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -7420,7 +7755,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "culture": [
+        "culture:castilian"
+      ]
     },
     "estate_preferences": [
       "nobles_estate"
@@ -7444,9 +7782,14 @@
     ],
     "requirements": {
       "culture": [
+        "culture:castilian",
         "culture:castilian"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ]
     },
     "estate_preferences": [
       "clergy_estate"
@@ -7469,7 +7812,14 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ],
+      "culture": [
+        "culture:castilian"
+      ]
     },
     "estate_preferences": [
       "nobles_estate"
@@ -7688,7 +8038,12 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "culture": [
+        "culture:kannadiga",
+        "culture:telugu",
+        "culture:tamil"
+      ]
     },
     "estate_preferences": [
       "crown_estate"
@@ -7995,7 +8350,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "religion": [
+        "religion:hussite"
+      ]
     },
     "estate_preferences": [
       "nobles_estate",
@@ -8040,13 +8398,7 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:italian_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "nobles_estate",
       "burghers_estate"
@@ -8119,11 +8471,6 @@
       }
     ],
     "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:british_group"
-        }
-      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -8148,7 +8495,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "PRU",
+        "BRA"
+      ]
     },
     "estate_preferences": [
       "crown_estate",
@@ -8215,13 +8566,7 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "crown_estate",
       "peasants_estate"
@@ -8338,6 +8683,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "PRU"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -8654,6 +9002,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "ARA"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -8677,6 +9028,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "NAV"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -8701,6 +9055,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "ZAN"
+      ],
       "has_or_condition": true
     },
     "estate_preferences": [
@@ -9071,7 +9428,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "NAV"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -9092,7 +9453,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "NAV"
+      ]
+    },
     "estate_preferences": [
       "clergy_estate"
     ]
@@ -9113,7 +9478,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "NAV"
+      ]
+    },
     "estate_preferences": [
       "peasants_estate"
     ]
@@ -9134,7 +9503,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "NAV"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -9270,7 +9643,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "SCO",
+        "SBL"
+      ]
     },
     "estate_preferences": [
       "nobles_estate",
@@ -9294,7 +9671,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "SCO",
+        "SBL"
+      ]
     },
     "estate_preferences": [
       "crown_estate"
@@ -9484,7 +9865,13 @@
         "government_reform:pyrenean_fueros_reform",
         "government_reform:pyrenean_fueros_reform"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "NAV"
+      ],
+      "culture": [
+        "culture:basque"
+      ]
     },
     "estate_preferences": [
       "nobles_estate",
@@ -9514,13 +9901,7 @@
         "strength_raw": "societal_value_tiny_monthly_move"
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
-      ]
-    },
+    "requirements": {},
     "estate_preferences": [
       "nobles_estate",
       "burghers_estate"
@@ -9545,11 +9926,6 @@
     "requirements": {
       "has_reform": [
         "government_reform:speransky_liberalization_reform"
-      ],
-      "culture": [
-        {
-          "has_culture_group": "culture_group:russian_group"
-        }
       ]
     },
     "estate_preferences": [
@@ -9578,7 +9954,14 @@
         "government_reform:crown_castile_reform",
         "government_reform:crown_castile_reform"
       ],
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ],
+      "culture": [
+        "culture:castilian"
+      ]
     },
     "estate_preferences": [
       "crown_estate",
@@ -9601,7 +9984,11 @@
         "strength_raw": "societal_value_tiny_monthly_move"
       }
     ],
-    "requirements": {},
+    "requirements": {
+      "country": [
+        "GEO"
+      ]
+    },
     "estate_preferences": [
       "nobles_estate"
     ]
@@ -11468,7 +11855,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "SCO",
+        "SBL"
+      ]
     }
   },
   {
@@ -11523,7 +11914,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "MLO"
+      ]
+    }
   },
   {
     "id": "florence_guilds",
@@ -11541,7 +11936,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "FLO"
+      ]
+    }
   },
   {
     "id": "kbo_serfdom_economy",
@@ -11559,7 +11958,11 @@
         "strength_raw": "societal_value_large_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "KBO"
+      ]
+    }
   },
   {
     "id": "land_of_commerce",
@@ -11649,7 +12052,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    }
   },
   {
     "id": "dedicated_merchant_courts",
@@ -11667,7 +12074,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    }
   },
   {
     "id": "noble_patronage",
@@ -11685,7 +12096,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    }
   },
   {
     "id": "villes_franches",
@@ -11703,7 +12118,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "FRA"
+      ]
+    }
   },
   {
     "id": "petty_bureaucracy",
@@ -11744,6 +12163,9 @@
     "requirements": {
       "religion": [
         "religion:catholic"
+      ],
+      "government": [
+        "theocracy"
       ]
     }
   },
@@ -11764,7 +12186,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "VEN"
+      ]
     }
   },
   {
@@ -12273,6 +12698,9 @@
       }
     ],
     "requirements": {
+      "country": [
+        "TUR"
+      ],
       "has_or_condition": true
     }
   },
@@ -12418,7 +12846,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    }
   },
   {
     "id": "noble_serfdom_rights",
@@ -12544,7 +12976,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "monarchy"
+      ]
+    }
   },
   {
     "id": "increased_civic_engagement",
@@ -12562,7 +12998,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    }
   },
   {
     "id": "recognized_communes",
@@ -12580,7 +13020,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "government": [
+        "republic"
+      ]
+    }
   },
   {
     "id": "liberum_veto",
@@ -12599,7 +13043,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "POL",
+        "PLC"
+      ]
     }
   },
   {
@@ -12618,7 +13066,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "MLO"
+      ]
+    }
   },
   {
     "id": "general_privilege",
@@ -12643,7 +13095,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "ARA"
+      ]
+    }
   },
   {
     "id": "union_privilege",
@@ -12686,7 +13142,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "MAL"
+      ]
+    }
   },
   {
     "id": "office_of_the_sankar_zouma_privilege",
@@ -12704,7 +13164,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "MAL"
+      ]
+    }
   },
   {
     "id": "golden_liberty",
@@ -12741,7 +13205,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "POL",
+        "PLC"
+      ]
     }
   },
   {
@@ -12761,7 +13229,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "FRA",
+        "KOR"
+      ]
     }
   },
   {
@@ -12780,7 +13252,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "FRA"
+      ]
+    }
   },
   {
     "id": "permanent_residence_in_versailles",
@@ -12798,7 +13274,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "FRA"
+      ]
+    }
   },
   {
     "id": "right_to_inherit",
@@ -12888,7 +13368,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "ENG"
+      ]
+    }
   },
   {
     "id": "autonomous_local_commanders",
@@ -12906,7 +13390,14 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "KNI"
+      ],
+      "government": [
+        "theocracy"
+      ]
+    }
   },
   {
     "id": "bashtinas_and_pronijas_grants",
@@ -12924,7 +13415,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "SER"
+      ]
+    }
   },
   {
     "id": "zupa_districts",
@@ -12942,7 +13437,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "SER"
+      ]
+    }
   },
   {
     "id": "monetary_fiefs",
@@ -13100,7 +13599,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "VEN"
+      ]
     }
   },
   {
@@ -13155,7 +13657,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "RUS"
+      ]
+    }
   },
   {
     "id": "reduced_taxation_for_the_nobles",
@@ -13191,7 +13697,11 @@
         "strength_raw": "societal_value_minor_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "RUS"
+      ]
+    }
   },
   {
     "id": "bavarian_share_of_land",
@@ -13227,7 +13737,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "CAS"
+      ]
+    }
   },
   {
     "id": "formalized_oath",
@@ -13252,7 +13766,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "ARA"
+      ]
+    }
   },
   {
     "id": "ayans_privilege",
@@ -13270,7 +13788,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "TUR"
+      ]
+    }
   },
   {
     "id": "cas_regimiento",
@@ -13289,7 +13811,11 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "country": [
+        "CAS",
+        "SPA"
+      ]
     }
   },
   {
@@ -13326,7 +13852,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "MAM"
+      ]
+    }
   },
   {
     "id": "tur_banned_weaponry_for_peasants",
@@ -13612,7 +14142,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "ENG"
+      ]
+    }
   },
   {
     "id": "ara_sindicat_ara_remenca",
@@ -13656,7 +14190,10 @@
       }
     ],
     "requirements": {
-      "has_or_condition": true
+      "has_or_condition": true,
+      "has_reform": [
+        "government_reform:celtic_traditions_reform"
+      ]
     }
   },
   {
@@ -13772,7 +14309,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "CAS"
+      ]
+    }
   },
   {
     "id": "ukr_kholop_protection",
@@ -13808,7 +14349,11 @@
         "strength_raw": "societal_value_monthly_move"
       }
     ],
-    "requirements": {}
+    "requirements": {
+      "country": [
+        "SWE"
+      ]
+    }
   },
   {
     "id": "tribes_land_rights",
@@ -15496,6 +16041,12 @@
         "religion:calvinist"
       ],
       "has_or_condition": true,
+      "country": [
+        "SCO"
+      ],
+      "culture": [
+        "culture:scottish"
+      ],
       "estate": [
         "clergy_estate"
       ]
@@ -15518,6 +16069,12 @@
     ],
     "requirements": {
       "has_or_condition": true,
+      "country": [
+        "SCO"
+      ],
+      "culture": [
+        "culture:scottish"
+      ],
       "estate": [
         "peasants_estate"
       ]
@@ -15780,6 +16337,9 @@
       }
     ],
     "requirements": {
+      "government": [
+        "theocracy"
+      ],
       "has_or_condition": true,
       "estate": [
         "clergy_estate"
@@ -15887,6 +16447,9 @@
       }
     ],
     "requirements": {
+      "government": [
+        "monarchy"
+      ],
       "has_or_condition": true,
       "estate": [
         "peasants_estate"
@@ -16028,17 +16591,7 @@
         "strength_raw": 0.1
       }
     ],
-    "requirements": {
-      "culture": [
-        {
-          "has_any_culture_group": true,
-          "is_merged_culture_group": false,
-          "any_culture_group": {
-            "is_already_merged": false
-          }
-        }
-      ]
-    }
+    "requirements": {}
   },
   {
     "id": "office_of_new_converts",

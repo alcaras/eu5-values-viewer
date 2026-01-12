@@ -6,6 +6,8 @@ let data = {
     ages: {},
     governments: {},
     religions: {},
+    countries: {},
+    estates: {},
     movers: []
 };
 
@@ -15,6 +17,7 @@ let state = {
         age: '',
         government: '',
         religion: '',
+        country: '',
         search: ''
     }
 };
@@ -32,11 +35,13 @@ const AGE_ORDER = {
 // Load all data
 async function loadData() {
     try {
-        const [values, ages, governments, religions, movers] = await Promise.all([
+        const [values, ages, governments, religions, countries, estates, movers] = await Promise.all([
             fetch('data/values.json').then(r => r.json()),
             fetch('data/ages.json').then(r => r.json()),
             fetch('data/governments.json').then(r => r.json()),
             fetch('data/religions.json').then(r => r.json()),
+            fetch('data/countries.json').then(r => r.json()),
+            fetch('data/estates.json').then(r => r.json()),
             fetch('data/movers.json').then(r => r.json())
         ]);
 
@@ -44,6 +49,8 @@ async function loadData() {
         data.ages = ages;
         data.governments = governments;
         data.religions = religions;
+        data.countries = countries;
+        data.estates = estates;
         data.movers = movers;
 
         initializeUI();
@@ -51,7 +58,7 @@ async function loadData() {
         console.error('Failed to load data:', error);
         document.querySelector('.panels').innerHTML = `
             <div class="loading" style="grid-column: 1/-1;">
-                Failed to load data. Make sure you're running this from a web server.
+                Failed to load data. Make sure you're running this from a web server or GitHub Pages.
             </div>
         `;
     }
@@ -110,6 +117,19 @@ function populateFilters() {
         });
         relSelect.appendChild(optgroup);
     });
+
+    // Country filter - sorted alphabetically
+    const countrySelect = document.getElementById('country-select');
+    const countryList = Object.entries(data.countries)
+        .map(([tag, c]) => ({ tag, name: c.name || tag }))
+        .sort((a, b) => a.tag.localeCompare(b.tag));
+
+    countryList.forEach(c => {
+        const option = document.createElement('option');
+        option.value = c.tag;
+        option.textContent = `${c.tag} - ${c.name}`;
+        countrySelect.appendChild(option);
+    });
 }
 
 // Populate value buttons
@@ -123,7 +143,6 @@ function populateValueButtons() {
         btn.dataset.valueId = id;
         btn.textContent = `${value.left.name} vs ${value.right.name}`;
 
-        // Mark as unavailable if age-restricted and no age selected
         if (value.age_requirement) {
             btn.title = `Available from ${prettifyId(value.age_requirement)}`;
         }
@@ -147,54 +166,56 @@ function selectValue(valueId) {
     document.getElementById('left-value-name').textContent = value.left.name;
     document.getElementById('right-value-name').textContent = value.right.name;
 
-    // Update value info
-    updateValueInfo(value);
-
-    // Update items
+    // Update items and info
     updateItems();
 }
 
-// Update the center info panel
-function updateValueInfo(value) {
-    const container = document.getElementById('value-info');
+// Check if an item passes all filters (should be shown)
+function passesFilters(mover) {
+    const reqs = mover.requirements || {};
 
-    // Count movers for this value
-    const leftMovers = data.movers.filter(m =>
-        m.value_effects.some(e => e.value_pair === state.selectedValue && e.direction === 'left')
-    );
-    const rightMovers = data.movers.filter(m =>
-        m.value_effects.some(e => e.value_pair === state.selectedValue && e.direction === 'right')
-    );
+    // Age check - hide if requires a LATER age than selected
+    if (state.filters.age && reqs.age) {
+        const selectedAgeOrder = AGE_ORDER[state.filters.age] || 0;
+        const requiredAgeOrder = AGE_ORDER[reqs.age] || 0;
+        if (requiredAgeOrder > selectedAgeOrder) {
+            return false;
+        }
+    }
 
-    container.innerHTML = `
-        <div class="value-info-section">
-            <h3>Selected Value</h3>
-            <p><strong>${value.left.name}</strong> vs <strong>${value.right.name}</strong></p>
-            ${value.age_requirement ? `<p style="color: var(--accent-neutral);">Available from ${prettifyId(value.age_requirement)}</p>` : ''}
-            ${value.conditions ? `<p style="color: var(--text-muted); font-size: 0.8rem;">Has special conditions</p>` : ''}
-        </div>
+    // Government check - hide if requires a DIFFERENT government
+    if (state.filters.government && reqs.government && reqs.government.length > 0) {
+        if (!reqs.government.includes(state.filters.government)) {
+            return false;
+        }
+    }
 
-        <div class="value-info-section">
-            <h3>Statistics</h3>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-value" style="color: var(--accent-left);">${leftMovers.length}</div>
-                    <div class="stat-label">Push Left</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value" style="color: var(--accent-right);">${rightMovers.length}</div>
-                    <div class="stat-label">Push Right</div>
-                </div>
-            </div>
-        </div>
+    // Religion check - hide if requires a DIFFERENT religion
+    if (state.filters.religion && reqs.religion && reqs.religion.length > 0) {
+        const selectedRel = data.religions[state.filters.religion];
+        const matchesReligion = reqs.religion.includes(state.filters.religion);
+        const matchesGroup = selectedRel && reqs.religion_group &&
+                             reqs.religion_group.includes(selectedRel.group);
+        if (!matchesReligion && !matchesGroup) {
+            return false;
+        }
+    }
 
-        <div class="value-info-section">
-            <h3>Tips</h3>
-            <p style="font-size: 0.8rem; color: var(--text-secondary);">
-                Grayed items don't match your current filters but are still available under different conditions.
-            </p>
-        </div>
-    `;
+    // Country check - hide if requires a DIFFERENT country
+    if (state.filters.country && reqs.country && reqs.country.length > 0) {
+        if (!reqs.country.includes(state.filters.country)) {
+            return false;
+        }
+    }
+
+    // Check excluded countries
+    if (state.filters.country && reqs.excluded_countries && reqs.excluded_countries.length > 0) {
+        if (reqs.excluded_countries.includes(state.filters.country)) {
+            return false;
+        }
+    }
+
+    return true;
 }
 
 // Update items in left and right panels
@@ -205,40 +226,89 @@ function updateItems() {
     const rightContainer = document.getElementById('right-items');
 
     // Filter movers that affect this value
-    const leftMovers = data.movers.filter(m =>
+    const allLeftMovers = data.movers.filter(m =>
         m.value_effects.some(e => e.value_pair === state.selectedValue && e.direction === 'left')
     );
-    const rightMovers = data.movers.filter(m =>
+    const allRightMovers = data.movers.filter(m =>
         m.value_effects.some(e => e.value_pair === state.selectedValue && e.direction === 'right')
     );
 
+    // Apply filters - only show items that pass
+    let leftMovers = allLeftMovers.filter(passesFilters);
+    let rightMovers = allRightMovers.filter(passesFilters);
+
     // Apply search filter
     const searchTerm = state.filters.search.toLowerCase();
-    const filterBySearch = (movers) => {
-        if (!searchTerm) return movers;
-        return movers.filter(m =>
+    if (searchTerm) {
+        const searchFilter = (m) =>
             m.name.toLowerCase().includes(searchTerm) ||
             m.type.toLowerCase().includes(searchTerm) ||
-            (m.category_name && m.category_name.toLowerCase().includes(searchTerm))
-        );
-    };
+            (m.category_name && m.category_name.toLowerCase().includes(searchTerm)) ||
+            (m.source && m.source.toLowerCase().includes(searchTerm));
+        leftMovers = leftMovers.filter(searchFilter);
+        rightMovers = rightMovers.filter(searchFilter);
+    }
+
+    // Update value info with counts
+    updateValueInfo(leftMovers.length, rightMovers.length, allLeftMovers.length, allRightMovers.length);
 
     // Render panels
-    leftContainer.innerHTML = renderItems(filterBySearch(leftMovers), 'left');
-    rightContainer.innerHTML = renderItems(filterBySearch(rightMovers), 'right');
+    leftContainer.innerHTML = renderItems(leftMovers, 'left');
+    rightContainer.innerHTML = renderItems(rightMovers, 'right');
+}
+
+// Update the center info panel
+function updateValueInfo(leftCount, rightCount, totalLeft, totalRight) {
+    const container = document.getElementById('value-info');
+    const value = data.values[state.selectedValue];
+
+    const hasFilters = state.filters.age || state.filters.government ||
+                       state.filters.religion || state.filters.country;
+
+    container.innerHTML = `
+        <div class="value-info-section">
+            <h3>Selected Value</h3>
+            <p><strong>${value.left.name}</strong> vs <strong>${value.right.name}</strong></p>
+            ${value.age_requirement ? `<p class="age-note">Available from ${prettifyId(value.age_requirement)}</p>` : ''}
+        </div>
+
+        <div class="value-info-section">
+            <h3>Matching Items</h3>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value" style="color: var(--accent-left);">${leftCount}</div>
+                    <div class="stat-label">${value.left.name}</div>
+                    ${hasFilters ? `<div class="stat-total">of ${totalLeft} total</div>` : ''}
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" style="color: var(--accent-right);">${rightCount}</div>
+                    <div class="stat-label">${value.right.name}</div>
+                    ${hasFilters ? `<div class="stat-total">of ${totalRight} total</div>` : ''}
+                </div>
+            </div>
+        </div>
+
+        <div class="value-info-section">
+            <h3>Active Filters</h3>
+            <div class="active-filters">
+                ${state.filters.age ? `<span class="filter-tag">Age: ${prettifyId(state.filters.age)}</span>` : ''}
+                ${state.filters.government ? `<span class="filter-tag">Gov: ${prettifyId(state.filters.government)}</span>` : ''}
+                ${state.filters.religion ? `<span class="filter-tag">Religion: ${prettifyId(state.filters.religion)}</span>` : ''}
+                ${state.filters.country ? `<span class="filter-tag">Country: ${state.filters.country}</span>` : ''}
+                ${!hasFilters ? '<span class="no-filters">None - showing all items</span>' : ''}
+            </div>
+        </div>
+    `;
 }
 
 // Render items for a panel
 function renderItems(movers, direction) {
     if (movers.length === 0) {
-        return '<p class="placeholder">No items found</p>';
+        return '<p class="placeholder">No matching items</p>';
     }
 
-    // Sort by type, then by grayed-out status, then by name
+    // Sort by type, then by name
     const sorted = [...movers].sort((a, b) => {
-        const aGrayed = shouldGrayOut(a);
-        const bGrayed = shouldGrayOut(b);
-        if (aGrayed !== bGrayed) return aGrayed ? 1 : -1;
         if (a.type !== b.type) return a.type.localeCompare(b.type);
         return a.name.localeCompare(b.name);
     });
@@ -254,7 +324,7 @@ function renderItems(movers, direction) {
     let html = '';
     Object.entries(groups).forEach(([type, items]) => {
         html += `<div class="item-group">
-            <div class="item-type-header" style="padding: 0.5rem 0; color: var(--text-secondary); font-size: 0.75rem; text-transform: uppercase; border-bottom: 1px solid var(--border-color); margin-bottom: 0.5rem;">
+            <div class="item-type-header">
                 ${prettifyId(type)}s (${items.length})
             </div>`;
 
@@ -270,40 +340,68 @@ function renderItems(movers, direction) {
 
 // Render a single item card
 function renderItemCard(mover, direction) {
-    const grayed = shouldGrayOut(mover);
     const effect = mover.value_effects.find(e =>
         e.value_pair === state.selectedValue && e.direction === direction
     );
 
-    // Get other effects this item has
-    const otherEffects = mover.value_effects.filter(e =>
-        e.value_pair !== state.selectedValue
-    );
-
     let strengthDisplay = effect.strength !== null ? effect.strength.toFixed(2) : effect.strength_raw;
 
-    let requirementsHtml = '';
+    // Build requirements/source display
     const reqs = mover.requirements || {};
-    const reqParts = [];
+    const sourceParts = [];
 
-    if (reqs.age) reqParts.push(`Age: ${prettifyId(reqs.age)}`);
-    if (reqs.government) reqParts.push(`Gov: ${reqs.government.map(prettifyId).join(', ')}`);
-    if (reqs.religion) reqParts.push(`Religion: ${reqs.religion.slice(0, 3).map(prettifyId).join(', ')}${reqs.religion.length > 3 ? '...' : ''}`);
-    if (mover.estate) reqParts.push(`Estate: ${prettifyId(mover.estate)}`);
-    if (mover.category_name) reqParts.push(`Law: ${mover.category_name}`);
-
-    if (reqParts.length > 0) {
-        requirementsHtml = `<div class="item-requirements">${reqParts.join(' | ')}</div>`;
+    // Type-specific source
+    if (mover.type === 'reform') {
+        sourceParts.push(`<span class="source-tag source-type">Reform</span>`);
+        if (reqs.government && reqs.government.length > 0) {
+            sourceParts.push(`<span class="source-tag source-gov">${reqs.government.map(prettifyId).join('/')}</span>`);
+        }
+    } else if (mover.type === 'law') {
+        sourceParts.push(`<span class="source-tag source-type">Law</span>`);
+        if (mover.category_name) {
+            sourceParts.push(`<span class="source-tag source-category">${mover.category_name}</span>`);
+        }
+    } else if (mover.type === 'privilege') {
+        sourceParts.push(`<span class="source-tag source-type">Privilege</span>`);
+        if (mover.estate) {
+            sourceParts.push(`<span class="source-tag source-estate">${prettifyId(mover.estate.replace('_estate', ''))}</span>`);
+        }
+    } else if (mover.type === 'trait') {
+        sourceParts.push(`<span class="source-tag source-type">Ruler Trait</span>`);
+    } else if (mover.type === 'building') {
+        sourceParts.push(`<span class="source-tag source-type">Building</span>`);
+    } else if (mover.type === 'religious_aspect') {
+        sourceParts.push(`<span class="source-tag source-type">Religious Aspect</span>`);
+        if (reqs.religion && reqs.religion.length > 0) {
+            const relNames = reqs.religion.slice(0, 3).map(prettifyId).join(', ');
+            sourceParts.push(`<span class="source-tag source-religion">${relNames}${reqs.religion.length > 3 ? '...' : ''}</span>`);
+        }
+    } else if (mover.type === 'parliament_issue') {
+        sourceParts.push(`<span class="source-tag source-type">Parliament</span>`);
+    } else {
+        sourceParts.push(`<span class="source-tag source-type">${prettifyId(mover.type)}</span>`);
     }
 
-    // Other effects indicator
+    // Age requirement
+    if (reqs.age) {
+        sourceParts.push(`<span class="source-tag source-age">${prettifyId(reqs.age)}</span>`);
+    }
+
+    // Country requirement
+    if (reqs.country && reqs.country.length > 0) {
+        const tags = [...new Set(reqs.country)].slice(0, 3);
+        sourceParts.push(`<span class="source-tag source-country">${tags.join('/')}${reqs.country.length > 3 ? '...' : ''}</span>`);
+    }
+
+    // Other effects this item has
+    const otherEffects = mover.value_effects.filter(e => e.value_pair !== state.selectedValue);
     let otherEffectsHtml = '';
     if (otherEffects.length > 0) {
-        otherEffectsHtml = '<div class="multi-effect">';
+        otherEffectsHtml = '<div class="other-effects">';
         otherEffects.slice(0, 3).forEach(e => {
-            const valueName = data.values[e.value_pair];
-            if (valueName) {
-                const targetName = e.direction === 'left' ? valueName.left.name : valueName.right.name;
+            const valueDef = data.values[e.value_pair];
+            if (valueDef) {
+                const targetName = e.direction === 'left' ? valueDef.left.name : valueDef.right.name;
                 otherEffectsHtml += `<span class="effect-tag ${e.direction}">+${targetName}</span>`;
             }
         });
@@ -313,57 +411,28 @@ function renderItemCard(mover, direction) {
         otherEffectsHtml += '</div>';
     }
 
+    // Prerequisites (requires other reforms/privileges)
+    let prereqHtml = '';
+    if (reqs.has_reform && reqs.has_reform.length > 0) {
+        prereqHtml += `<div class="prereq">Requires: ${reqs.has_reform.map(r => prettifyId(r.replace('government_reform:', ''))).join(', ')}</div>`;
+    }
+    if (reqs.has_privilege && reqs.has_privilege.length > 0) {
+        prereqHtml += `<div class="prereq">Requires: ${reqs.has_privilege.map(prettifyId).join(', ')}</div>`;
+    }
+
     return `
-        <div class="item-card ${grayed ? 'grayed-out' : ''}">
+        <div class="item-card">
             <div class="item-header">
                 <span class="item-name">${mover.name}</span>
                 <span class="item-strength">${strengthDisplay}/mo</span>
             </div>
-            <div class="item-meta">
-                <span class="item-type ${mover.type}">${prettifyId(mover.type)}</span>
+            <div class="item-source">
+                ${sourceParts.join('')}
             </div>
             ${otherEffectsHtml}
-            ${requirementsHtml}
+            ${prereqHtml}
         </div>
     `;
-}
-
-// Check if an item should be grayed out based on filters
-function shouldGrayOut(mover) {
-    const reqs = mover.requirements || {};
-
-    // Age check
-    if (state.filters.age && reqs.age) {
-        const selectedAgeOrder = AGE_ORDER[state.filters.age] || 0;
-        const requiredAgeOrder = AGE_ORDER[reqs.age] || 0;
-        if (requiredAgeOrder > selectedAgeOrder) {
-            return true;
-        }
-    }
-
-    // Government check
-    if (state.filters.government && reqs.government) {
-        if (!reqs.government.includes(state.filters.government)) {
-            return true;
-        }
-    }
-
-    // Religion check
-    if (state.filters.religion && reqs.religion) {
-        if (!reqs.religion.includes(state.filters.religion)) {
-            // Also check religion group
-            const selectedRel = data.religions[state.filters.religion];
-            if (selectedRel && reqs.religion_group) {
-                if (!reqs.religion_group.includes(selectedRel.group)) {
-                    return true;
-                }
-            } else {
-                return true;
-            }
-        }
-    }
-
-    return false;
 }
 
 // Setup event listeners
@@ -382,6 +451,19 @@ function setupEventListeners() {
 
     document.getElementById('religion-select').addEventListener('change', (e) => {
         state.filters.religion = e.target.value;
+        updateItems();
+    });
+
+    document.getElementById('country-select').addEventListener('change', (e) => {
+        state.filters.country = e.target.value;
+        // Auto-set religion based on country if not already set
+        if (e.target.value && !state.filters.religion) {
+            const country = data.countries[e.target.value];
+            if (country && country.religion) {
+                document.getElementById('religion-select').value = country.religion;
+                state.filters.religion = country.religion;
+            }
+        }
         updateItems();
     });
 
@@ -422,7 +504,10 @@ function prettifyId(id) {
         .replace(/ Of /g, ' of ')
         .replace(/ The /g, ' the ')
         .replace(/ And /g, ' and ')
-        .replace(/^Age (\d)/, 'Age $1:');
+        .replace(/^Age (\d)/, 'Age $1:')
+        .replace(/Government Type:?/gi, '')
+        .replace(/Estate Type:?/gi, '')
+        .trim();
 }
 
 // Initialize on load
