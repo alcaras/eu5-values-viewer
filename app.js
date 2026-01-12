@@ -38,14 +38,20 @@ const AGE_ORDER = {
 // Load all data
 async function loadData() {
     try {
+        const fetchJson = async (url) => {
+            const r = await fetch(url);
+            if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
+            return r.json();
+        };
+
         const [values, ages, governments, religions, countries, estates, movers] = await Promise.all([
-            fetch('data/values.json').then(r => r.json()),
-            fetch('data/ages.json').then(r => r.json()),
-            fetch('data/governments.json').then(r => r.json()),
-            fetch('data/religions.json').then(r => r.json()),
-            fetch('data/countries.json').then(r => r.json()),
-            fetch('data/estates.json').then(r => r.json()),
-            fetch('data/movers.json').then(r => r.json())
+            fetchJson('data/values.json'),
+            fetchJson('data/ages.json'),
+            fetchJson('data/governments.json'),
+            fetchJson('data/religions.json'),
+            fetchJson('data/countries.json'),
+            fetchJson('data/estates.json'),
+            fetchJson('data/movers.json')
         ]);
 
         data.values = values;
@@ -61,7 +67,8 @@ async function loadData() {
         console.error('Failed to load data:', error);
         document.querySelector('.panels').innerHTML = `
             <div class="loading" style="grid-column: 1/-1;">
-                Failed to load data. Make sure you're running this from a web server or GitHub Pages.
+                Failed to load data: ${error.message}<br>
+                <small>Check browser console for details. Try hard refresh (Ctrl+Shift+R).</small>
             </div>
         `;
     }
